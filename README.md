@@ -20,7 +20,7 @@ A machine-readable code index of the curated **Blockchains** forks. It is built 
 
 ## Use
 ```bash
-sqlite3 index.sqlite "select slug,path,name from components_fts where components_fts match 'paymaster' limit 10"
+sqlite3 index.sqlite "select slug,path,name from components where components match 'paymaster' limit 10"
 pip install -r requirements.txt
 BL_INDEX=. python3 indexer/compose.py plan "gasless NFT membership with a paymaster" --json plan.json
 BL_INDEX=. python3 indexer/compose.py fetch plan.json out/
