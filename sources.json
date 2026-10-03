@@ -7,11 +7,13 @@
   "category": "clients-nodes",
   "license_note": "LGPL-3.0 (library) / GPL-3.0 (binaries)",
   "license_spdx": "LGPL-3.0",
-  "stars": 51385,
+  "stars": 51384,
   "description": "Go implementation of the Ethereum protocol",
   "wave": "wave0-curated",
   "topics": [],
-  "status": "synced-tracking-branch"
+  "status": "synced-tracking-branch",
+  "archived": false,
+  "pushed_at": "2026-09-30T21:07:39Z"
  },
  {
   "slug": "reth",
@@ -25,7 +27,9 @@
   "description": "Modular, contributor-friendly and blazing-fast implementation of the Ethereum protocol, in Rust",
   "wave": "wave0-curated",
   "topics": [],
-  "status": "forked"
+  "status": "forked",
+  "archived": false,
+  "pushed_at": "2026-10-03T18:32:27Z"
  },
  {
   "slug": "bitcoin",
@@ -39,7 +43,9 @@
   "description": "Bitcoin Core integration/staging tree",
   "wave": "wave0-curated",
   "topics": [],
-  "status": "forked"
+  "status": "forked",
+  "archived": false,
+  "pushed_at": "2026-10-03T10:10:51Z"
  },
  {
   "slug": "agave",
@@ -53,7 +59,9 @@
   "description": "Web-Scale Blockchain for fast, secure, scalable, decentralized apps and marketplaces.",
   "wave": "wave0-curated",
   "topics": [],
-  "status": "forked"
+  "status": "forked",
+  "archived": false,
+  "pushed_at": "2026-10-03T11:07:29Z"
  },
  {
   "slug": "openzeppelin-contracts",
@@ -67,7 +75,9 @@
   "description": "OpenZeppelin Contracts is a library for secure smart contract development.",
   "wave": "wave0-curated",
   "topics": [],
-  "status": "forked"
+  "status": "forked",
+  "archived": false,
+  "pushed_at": "2026-10-01T13:14:16Z"
  },
  {
   "slug": "solady",
@@ -81,7 +91,9 @@
   "description": "Optimized Solidity snippets.",
   "wave": "wave0-curated",
   "topics": [],
-  "status": "forked"
+  "status": "forked",
+  "archived": false,
+  "pushed_at": "2026-09-02T10:47:33Z"
  },
  {
   "slug": "safe-smart-account",
@@ -95,7 +107,9 @@
   "description": "Safe allows secure management of blockchain assets. ",
   "wave": "wave0-curated",
   "topics": [],
-  "status": "forked"
+  "status": "forked",
+  "archived": false,
+  "pushed_at": "2026-09-24T04:50:13Z"
  },
  {
   "slug": "solidity",
@@ -109,7 +123,9 @@
   "description": "Solidity, the Smart Contract Programming Language",
   "wave": "wave0-curated",
   "topics": [],
-  "status": "forked"
+  "status": "forked",
+  "archived": false,
+  "pushed_at": "2026-10-02T21:23:57Z"
  },
  {
   "slug": "foundry",
@@ -123,7 +139,9 @@
   "description": "Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.",
   "wave": "wave0-curated",
   "topics": [],
-  "status": "forked"
+  "status": "forked",
+  "archived": false,
+  "pushed_at": "2026-10-03T18:29:49Z"
  },
  {
   "slug": "buidler",
@@ -137,7 +155,9 @@
   "description": "Hardhat is a development environment to compile, deploy, test, and debug your Ethereum software. ",
   "wave": "wave0-curated",
   "topics": [],
-  "status": "synced-tracking-branch"
+  "status": "synced-tracking-branch",
+  "archived": false,
+  "pushed_at": "2026-10-02T20:28:34Z"
  },
  {
   "slug": "viem",
@@ -151,7 +171,9 @@
   "description": "TypeScript Interface for Ethereum",
   "wave": "wave0-curated",
   "topics": [],
-  "status": "forked"
+  "status": "forked",
+  "archived": false,
+  "pushed_at": "2026-10-02T08:19:07Z"
  },
  {
   "slug": "ethers-js",
@@ -165,7 +187,9 @@
   "description": "Complete Ethereum library and wallet implementation in JavaScript.",
   "wave": "wave0-curated",
   "topics": [],
-  "status": "forked"
+  "status": "forked",
+  "archived": false,
+  "pushed_at": "2026-06-18T05:08:13Z"
  },
  {
   "slug": "wagmi",
@@ -179,7 +203,9 @@
   "description": "Reactive primitives for Ethereum apps",
   "wave": "wave0-curated",
   "topics": [],
-  "status": "forked"
+  "status": "forked",
+  "archived": false,
+  "pushed_at": "2026-10-01T18:05:04Z"
  },
  {
   "slug": "scaffold-eth-2",
@@ -193,7 +219,9 @@
   "description": "Open source forkable Ethereum dev stack",
   "wave": "wave0-curated",
   "topics": [],
-  "status": "forked"
+  "status": "forked",
+  "archived": false,
+  "pushed_at": "2026-08-27T06:08:22Z"
  },
  {
   "slug": "v4-core",
@@ -207,7 +235,9 @@
   "description": "\ud83e\udd84 \ud83e\udd84 \ud83e\udd84 \ud83e\udd84 Core smart contracts of Uniswap v4",
   "wave": "wave0-curated",
   "topics": [],
-  "status": "forked"
+  "status": "forked",
+  "archived": false,
+  "pushed_at": "2026-04-24T19:50:04Z"
  },
  {
   "slug": "v4-periphery",
@@ -221,7 +251,9 @@
   "description": "\ud83e\udd84 \ud83e\udd84 \ud83e\udd84 \ud83e\udd84 Peripheral smart contracts for interacting with Uniswap v4",
   "wave": "wave0-curated",
   "topics": [],
-  "status": "forked"
+  "status": "forked",
+  "archived": false,
+  "pushed_at": "2026-10-01T20:49:11Z"
  },
  {
   "slug": "v4-template",
@@ -235,7 +267,9 @@
   "description": "Template repository for writing Uniswap v4 Hooks",
   "wave": "wave0-curated",
   "topics": [],
-  "status": "forked"
+  "status": "forked",
+  "archived": false,
+  "pushed_at": "2025-10-28T13:28:32Z"
  },
  {
   "slug": "v3-core",
@@ -249,7 +283,9 @@
   "description": "\ud83e\udd84 \ud83e\udd84 \ud83e\udd84 Core smart contracts of Uniswap v3",
   "wave": "wave0-curated",
   "topics": [],
-  "status": "forked"
+  "status": "forked",
+  "archived": false,
+  "pushed_at": "2026-07-30T19:37:39Z"
  },
  {
   "slug": "chainlink",
@@ -263,7 +299,9 @@
   "description": "node of the decentralized oracle network, bridging on and off-chain computation",
   "wave": "wave0-curated",
   "topics": [],
-  "status": "synced-tracking-branch"
+  "status": "synced-tracking-branch",
+  "archived": false,
+  "pushed_at": "2026-10-03T17:59:06Z"
  },
  {
   "slug": "optimism",
@@ -277,7 +315,9 @@
   "description": "Optimism is Ethereum, scaled.",
   "wave": "wave0-curated",
   "topics": [],
-  "status": "forked"
+  "status": "forked",
+  "archived": false,
+  "pushed_at": "2026-10-02T22:52:07Z"
  },
  {
   "slug": "zksync-era",
@@ -291,7 +331,9 @@
   "description": "zkSync era",
   "wave": "wave0-curated",
   "topics": [],
-  "status": "forked"
+  "status": "forked",
+  "archived": false,
+  "pushed_at": "2026-09-24T23:32:27Z"
  },
  {
   "slug": "stylus-sdk-rs",
@@ -305,7 +347,9 @@
   "description": "Rust Smart Contracts on Arbitrum",
   "wave": "wave0-curated",
   "topics": [],
-  "status": "forked"
+  "status": "forked",
+  "archived": false,
+  "pushed_at": "2026-10-02T23:25:47Z"
  },
  {
   "slug": "circom",
@@ -319,7 +363,9 @@
   "description": "zkSnark circuit compiler",
   "wave": "wave0-curated",
   "topics": [],
-  "status": "forked"
+  "status": "forked",
+  "archived": false,
+  "pushed_at": "2026-10-02T13:33:48Z"
  },
  {
   "slug": "snarkjs",
@@ -333,7 +379,9 @@
   "description": "zkSNARK implementation in JavaScript & WASM",
   "wave": "wave0-curated",
   "topics": [],
-  "status": "forked"
+  "status": "forked",
+  "archived": false,
+  "pushed_at": "2026-10-01T19:42:37Z"
  },
  {
   "slug": "noir",
@@ -347,7 +395,9 @@
   "description": "Noir is a domain specific language for zero knowledge proofs",
   "wave": "wave0-curated",
   "topics": [],
-  "status": "forked"
+  "status": "forked",
+  "archived": false,
+  "pushed_at": "2026-10-03T02:21:14Z"
  },
  {
   "slug": "risc0",
@@ -361,7 +411,9 @@
   "description": "RISC Zero is a zero-knowledge verifiable general computing platform based on zk-STARKs and the RISC-V microarchitecture.",
   "wave": "wave0-curated",
   "topics": [],
-  "status": "forked"
+  "status": "forked",
+  "archived": false,
+  "pushed_at": "2026-08-28T05:30:55Z"
  },
  {
   "slug": "sp1",
@@ -375,7 +427,9 @@
   "description": "SP1 is a zero\u2011knowledge virtual machine that proves the correct execution of programs compiled for the RISC-V architecture.",
   "wave": "wave0-curated",
   "topics": [],
-  "status": "forked"
+  "status": "forked",
+  "archived": false,
+  "pushed_at": "2026-10-03T08:11:28Z"
  },
  {
   "slug": "hiero-sdk-js",
@@ -389,7 +443,9 @@
   "description": "A JavaScript/TypeScript SDK for Hiero: A Javascript toolkit for creating, updating, and interacting with on-ledger assets and smart contracts on Hedera and other Hiero networks",
   "wave": "wave0-curated",
   "topics": [],
-  "status": "forked"
+  "status": "forked",
+  "archived": false,
+  "pushed_at": "2026-10-02T13:19:01Z"
  },
  {
   "slug": "hedera-smart-contracts",
@@ -403,7 +459,9 @@
   "description": "Contains Hedera Smart Contract Service supporting files",
   "wave": "wave0-curated",
   "topics": [],
-  "status": "forked"
+  "status": "forked",
+  "archived": false,
+  "pushed_at": "2026-09-28T14:37:29Z"
  },
  {
   "slug": "hiero-consensus-node",
@@ -417,7 +475,9 @@
   "description": "Crypto, token, consensus, file, and smart contract services for a Hiero based network",
   "wave": "wave0-curated",
   "topics": [],
-  "status": "forked"
+  "status": "forked",
+  "archived": false,
+  "pushed_at": "2026-10-03T06:42:51Z"
  },
  {
   "slug": "account-abstraction",
@@ -431,7 +491,9 @@
   "description": null,
   "wave": "wave0-curated",
   "topics": [],
-  "status": "forked"
+  "status": "forked",
+  "archived": false,
+  "pushed_at": "2026-01-25T19:41:37Z"
  },
  {
   "slug": "permissionless-js",
@@ -445,7 +507,9 @@
   "description": "TypeScript utilities built on viem for ERC-4337: Account Abstraction",
   "wave": "wave0-curated",
   "topics": [],
-  "status": "forked"
+  "status": "forked",
+  "archived": false,
+  "pushed_at": "2026-09-10T14:44:16Z"
  },
  {
   "slug": "graph-node",
@@ -459,7 +523,9 @@
   "description": "Graph Node indexes data from blockchains such as Ethereum and serves it over GraphQL",
   "wave": "wave0-curated",
   "topics": [],
-  "status": "forked"
+  "status": "forked",
+  "archived": false,
+  "pushed_at": "2026-08-25T16:04:07Z"
  },
  {
   "slug": "graph-tooling",
@@ -473,7 +539,9 @@
   "description": "Monorepo for various tools used by subgraph developers.",
   "wave": "wave0-curated",
   "topics": [],
-  "status": "forked"
+  "status": "forked",
+  "archived": false,
+  "pushed_at": "2026-10-03T13:51:47Z"
  },
  {
   "slug": "rainbowkit",
@@ -487,7 +555,9 @@
   "description": "The best way to connect a wallet \ud83c\udf08 \ud83e\uddf0",
   "wave": "wave0-curated",
   "topics": [],
-  "status": "forked"
+  "status": "forked",
+  "archived": false,
+  "pushed_at": "2026-10-01T05:19:06Z"
  },
  {
   "slug": "cosmos-sdk",
@@ -501,7 +571,9 @@
   "description": "Framework for building performant, customizable blockchains with native interoperability",
   "wave": "wave0-curated",
   "topics": [],
-  "status": "forked"
+  "status": "forked",
+  "archived": false,
+  "pushed_at": "2026-10-02T11:05:24Z"
  },
  {
   "slug": "sui",
@@ -515,7 +587,9 @@
   "description": " Sui, a next-generation smart contract platform with high throughput, low latency, and an asset-oriented programming model powered by the Move programming language",
   "wave": "wave0-curated",
   "topics": [],
-  "status": "forked"
+  "status": "forked",
+  "archived": false,
+  "pushed_at": "2026-10-03T14:34:33Z"
  },
  {
   "slug": "anchor",
@@ -529,7 +603,9 @@
   "description": "\u2693 Solana Program Framework",
   "wave": "wave0-curated",
   "topics": [],
-  "status": "forked"
+  "status": "forked",
+  "archived": false,
+  "pushed_at": "2026-10-02T18:00:18Z"
  },
  {
   "slug": "lnd",
@@ -543,7 +619,9 @@
   "description": "Lightning Network Daemon \u26a1\ufe0f",
   "wave": "wave0-curated",
   "topics": [],
-  "status": "forked"
+  "status": "forked",
+  "archived": false,
+  "pushed_at": "2026-10-01T20:56:31Z"
  },
  {
   "slug": "bdk",
@@ -557,7 +635,9 @@
   "description": "A modern, lightweight, descriptor-based wallet library written in Rust!",
   "wave": "wave0-curated",
   "topics": [],
-  "status": "forked"
+  "status": "forked",
+  "archived": false,
+  "pushed_at": "2026-09-30T15:21:05Z"
  },
  {
   "slug": "polkadot-sdk",
@@ -571,7 +651,9 @@
   "description": "The Parity Polkadot Blockchain SDK",
   "wave": "wave0-curated",
   "topics": [],
-  "status": "forked"
+  "status": "forked",
+  "archived": false,
+  "pushed_at": "2026-10-03T18:44:15Z"
  },
  {
   "slug": "chainlink-evm",
@@ -585,7 +667,9 @@
   "description": null,
   "wave": "wave1",
   "topics": [],
-  "status": "forked"
+  "status": "forked",
+  "archived": false,
+  "pushed_at": "2026-10-02T20:26:40Z"
  },
  {
   "slug": "circomlib",
@@ -599,7 +683,9 @@
   "description": "Library of basic circuits for circom",
   "wave": "wave1",
   "topics": [],
-  "status": "forked"
+  "status": "forked",
+  "archived": false,
+  "pushed_at": "2026-09-29T20:08:33Z"
  },
  {
   "slug": "forge-std",
@@ -613,7 +699,9 @@
   "description": "A collection of helpful contracts and libraries for use with Forge and Foundry",
   "wave": "wave1",
   "topics": [],
-  "status": "forked"
+  "status": "forked",
+  "archived": false,
+  "pushed_at": "2026-10-01T12:43:43Z"
  },
  {
   "slug": "linera-protocol",
@@ -627,7 +715,9 @@
   "description": "Main repository for the Linera protocol",
   "wave": "wave1",
   "topics": [],
-  "status": "forked"
+  "status": "forked",
+  "archived": false,
+  "pushed_at": "2026-09-18T03:02:33Z"
  },
  {
   "slug": "fabric",
@@ -641,7 +731,9 @@
   "description": "Hyperledger Fabric is an enterprise-grade permissioned distributed ledger framework for developing solutions and applications. Its modular and versatile design satisfies a broad range of industry use cases. It offers a unique approach to consensus that enables performance at scale while preserving privacy.",
   "wave": "wave1",
   "topics": [],
-  "status": "forked"
+  "status": "forked",
+  "archived": false,
+  "pushed_at": "2026-10-02T20:39:08Z"
  },
  {
   "slug": "dogecoin",
@@ -655,7 +747,9 @@
   "description": "very currency",
   "wave": "wave1",
   "topics": [],
-  "status": "forked"
+  "status": "forked",
+  "archived": false,
+  "pushed_at": "2026-09-10T19:10:05Z"
  },
  {
   "slug": "chia-blockchain",
@@ -669,7 +763,9 @@
   "description": "Chia blockchain python implementation (full node, farmer, harvester, timelord, and wallet)",
   "wave": "wave1",
   "topics": [],
-  "status": "forked"
+  "status": "forked",
+  "archived": false,
+  "pushed_at": "2026-10-02T16:46:55Z"
  },
  {
   "slug": "chains",
@@ -683,7 +779,9 @@
   "description": "provides metadata for chains",
   "wave": "wave1",
   "topics": [],
-  "status": "forked"
+  "status": "forked",
+  "archived": false,
+  "pushed_at": "2026-10-02T13:48:24Z"
  },
  {
   "slug": "electrum",
@@ -697,7 +795,9 @@
   "description": "Electrum Bitcoin Wallet",
   "wave": "wave1",
   "topics": [],
-  "status": "forked"
+  "status": "forked",
+  "archived": false,
+  "pushed_at": "2026-10-01T11:37:54Z"
  },
  {
   "slug": "btcpayserver",
@@ -711,7 +811,9 @@
   "description": "Accept Bitcoin payments. Free, open-source & self-hosted, Bitcoin payment processor. ",
   "wave": "wave1",
   "topics": [],
-  "status": "forked"
+  "status": "forked",
+  "archived": false,
+  "pushed_at": "2026-10-03T04:16:38Z"
  },
  {
   "slug": "defihacklabs",
@@ -725,7 +827,9 @@
   "description": "Reproduce DeFi hacked incidents using Foundry.",
   "wave": "wave1",
   "topics": [],
-  "status": "forked"
+  "status": "forked",
+  "archived": false,
+  "pushed_at": "2026-10-03T03:01:52Z"
  },
  {
   "slug": "btcd",
@@ -739,7 +843,9 @@
   "description": "An alternative full node bitcoin implementation written in Go (golang)",
   "wave": "wave1",
   "topics": [],
-  "status": "forked"
+  "status": "forked",
+  "archived": false,
+  "pushed_at": "2026-09-16T19:23:07Z"
  },
  {
   "slug": "slither",
@@ -753,7 +859,9 @@
   "description": "Static Analyzer for Solidity and Vyper",
   "wave": "wave1",
   "topics": [],
-  "status": "forked"
+  "status": "forked",
+  "archived": false,
+  "pushed_at": "2026-09-23T22:54:56Z"
  },
  {
   "slug": "dmm-dao-web-app",
@@ -767,7 +875,9 @@
   "description": "\ud83e\udd84 Open source interfaces for the Uniswap protocol",
   "wave": "wave1",
   "topics": [],
-  "status": "synced-tracking-branch"
+  "status": "synced-tracking-branch",
+  "archived": false,
+  "pushed_at": "2026-10-02T20:01:46Z"
  },
  {
   "slug": "bitcoinj",
@@ -781,7 +891,9 @@
   "description": "A library for working with Bitcoin",
   "wave": "wave1",
   "topics": [],
-  "status": "forked"
+  "status": "forked",
+  "archived": false,
+  "pushed_at": "2026-09-28T13:45:13Z"
  },
  {
   "slug": "rippled",
@@ -795,7 +907,9 @@
   "description": "Decentralized cryptocurrency blockchain daemon implementing the XRP Ledger protocol in C++",
   "wave": "wave1",
   "topics": [],
-  "status": "forked"
+  "status": "forked",
+  "archived": false,
+  "pushed_at": "2026-10-03T18:32:11Z"
  },
  {
   "slug": "bisq",
@@ -809,7 +923,9 @@
   "description": "A decentralized bitcoin exchange network",
   "wave": "wave1",
   "topics": [],
-  "status": "forked"
+  "status": "forked",
+  "archived": false,
+  "pushed_at": "2026-10-01T20:17:22Z"
  },
  {
   "slug": "grin",
@@ -823,7 +939,9 @@
   "description": "Minimal implementation of the Mimblewimble protocol.",
   "wave": "wave1",
   "topics": [],
-  "status": "forked"
+  "status": "forked",
+  "archived": false,
+  "pushed_at": "2026-09-24T10:01:12Z"
  },
  {
   "slug": "snarkos",
@@ -837,7 +955,9 @@
   "description": "A Decentralized Operating System for ZK Applications",
   "wave": "wave1",
   "topics": [],
-  "status": "forked"
+  "status": "forked",
+  "archived": false,
+  "pushed_at": "2026-10-03T10:46:55Z"
  },
  {
   "slug": "rainbow",
@@ -851,7 +971,9 @@
   "description": "\ud83c\udf08\u2012 the Ethereum wallet that lives in your pocket ",
   "wave": "wave1",
   "topics": [],
-  "status": "synced"
+  "status": "synced",
+  "archived": false,
+  "pushed_at": "2026-10-03T17:52:38Z"
  },
  {
   "slug": "rotki",
@@ -865,7 +987,9 @@
   "description": "A portfolio tracking, analytics, accounting and management application that protects your privacy",
   "wave": "wave1",
   "topics": [],
-  "status": "forked"
+  "status": "forked",
+  "archived": false,
+  "pushed_at": "2026-10-02T16:12:36Z"
  },
  {
   "slug": "wallet",
@@ -879,7 +1003,9 @@
   "description": "Bitpay Wallet (formerly Copay) is a secure Bitcoin and other crypto currencies wallet platform for both desktop and mobile devices.",
   "wave": "wave1",
   "topics": [],
-  "status": "forked"
+  "status": "forked",
+  "archived": false,
+  "pushed_at": "2026-09-01T10:53:22Z"
  },
  {
   "slug": "prysm",
@@ -893,7 +1019,9 @@
   "description": "Go implementation of Ethereum proof of stake",
   "wave": "wave1",
   "topics": [],
-  "status": "forked"
+  "status": "forked",
+  "archived": false,
+  "pushed_at": "2026-10-03T16:44:39Z"
  },
  {
   "slug": "erigon",
@@ -907,7 +1035,9 @@
   "description": "Ethereum implementation on the efficiency frontier ",
   "wave": "wave1",
   "topics": [],
-  "status": "forked"
+  "status": "forked",
+  "archived": false,
+  "pushed_at": "2026-10-03T17:59:45Z"
  },
  {
   "slug": "wallet-core",
@@ -921,7 +1051,9 @@
   "description": "Cross-platform, cross-blockchain wallet library.",
   "wave": "wave1",
   "topics": [],
-  "status": "forked"
+  "status": "forked",
+  "archived": false,
+  "pushed_at": "2026-10-01T16:58:39Z"
  },
  {
   "slug": "neo",
@@ -935,6 +1067,8 @@
   "description": "NEO Smart Economy",
   "wave": "wave1",
   "topics": [],
-  "status": "forked"
+  "status": "forked",
+  "archived": false,
+  "pushed_at": "2026-10-01T19:32:48Z"
  }
 ]

@@ -57,10 +57,10 @@
  },
  "foundry": {
   "status": "ok",
-  "commit": "55b64de6982e2185f0ee9716f6d309ae79aed817",
+  "commit": "60255eee79332caef99f0c885f55589769f8f0c0",
   "files": 2086,
   "contracts": 12,
-  "secs": 5.1
+  "secs": 3.9
  },
  "buidler": {
   "status": "ok",
@@ -334,5 +334,138 @@
   "files": 1317,
   "contracts": 0,
   "secs": 3.8
+ },
+ "chains": {
+  "status": "ok",
+  "commit": "f0b92030ef34641d618c7ec51ddc1664d1badafb",
+  "files": 4711,
+  "contracts": 0,
+  "secs": 14.5
+ },
+ "electrum": {
+  "status": "ok",
+  "commit": "4cb03ef4f1f2baaf66519342b933ee731333b1fd",
+  "files": 953,
+  "contracts": 0,
+  "secs": 1.8
+ },
+ "btcpayserver": {
+  "status": "ok",
+  "commit": "973fb804191cfcc08cfc2136fea202360075d2ee",
+  "files": 2228,
+  "contracts": 0,
+  "secs": 4.5
+ },
+ "defihacklabs": {
+  "status": "ok",
+  "commit": "2ee728d4e1fe3f860593897a82a9b9595a2cba76",
+  "files": 1009,
+  "contracts": 1,
+  "secs": 1.5
+ },
+ "btcd": {
+  "status": "ok",
+  "commit": "b48125d0a3565b1441522ee10422f7815db03216",
+  "files": 3454,
+  "contracts": 0,
+  "secs": 4.5
+ },
+ "slither": {
+  "status": "ok",
+  "commit": "eef5df948b8992eff85786b6b0bb4a193933e2c9",
+  "files": 15926,
+  "contracts": 5,
+  "secs": 1.8
+ },
+ "dmm-dao-web-app": {
+  "status": "ok",
+  "commit": "47a07f1932d95565f5445c1e62046df69e7994dc",
+  "files": 11775,
+  "contracts": 0,
+  "secs": 20.6
+ },
+ "bitcoinj": {
+  "status": "ok",
+  "commit": "80f3920a0f422a387278f827d97b70ca5a053176",
+  "files": 534,
+  "contracts": 0,
+  "secs": 2.2
+ },
+ "rippled": {
+  "status": "ok",
+  "commit": "651bb207b4fd876e60c361c0b9639bb805a2e948",
+  "files": 2198,
+  "contracts": 0,
+  "secs": 1.6
+ },
+ "bisq": {
+  "status": "ok",
+  "commit": "1696b1ac08e22bb3449abdfc6f039b0909661866",
+  "files": 4244,
+  "contracts": 0,
+  "secs": 165.5
+ },
+ "grin": {
+  "status": "ok",
+  "commit": "d5f32350ab548736c17c1db7ff51457917fe4e96",
+  "files": 391,
+  "contracts": 0,
+  "secs": 2.2
+ },
+ "snarkos": {
+  "status": "ok",
+  "commit": "18aba8c62c0adc2e820e7cb173578c9a593c75cc",
+  "files": 326,
+  "contracts": 0,
+  "secs": 1.1
+ },
+ "rainbow": {
+  "status": "ok",
+  "commit": "9d718934e9f008cd3a5277bcfa69df153a542969",
+  "files": 5357,
+  "contracts": 0,
+  "secs": 18.3
+ },
+ "rotki": {
+  "status": "ok",
+  "commit": "a0fc8a5a0e41c02fa6559e0386155201b1f08cb9",
+  "files": 7071,
+  "contracts": 0,
+  "secs": 31.8
+ },
+ "wallet": {
+  "status": "ok",
+  "commit": "ff2e9d05b8157e2931824a20daa6d61c9425d02d",
+  "files": 1633,
+  "contracts": 0,
+  "secs": 7.0
+ },
+ "prysm": {
+  "status": "ok",
+  "commit": "fea24b41265542905352ab45fe2291d8eea010cc",
+  "files": 4874,
+  "contracts": 3,
+  "secs": 7.8
+ },
+ "erigon": {
+  "status": "ok",
+  "commit": "e393829ca9748bda6196f1f36839888d4715b90c",
+  "files": 5008,
+  "contracts": 30,
+  "secs": 15.1
+ },
+ "wallet-core": {
+  "status": "ok",
+  "commit": "d40d24a63d92619167903369308bf0e2f7eb3a59",
+  "files": 3947,
+  "contracts": 0,
+  "secs": 1.9
+ },
+ "neo": {
+  "status": "ok",
+  "commit": "268175a8e1bba39c11a81723796bef1c9d11e1bd",
+  "files": 687,
+  "contracts": 0,
+  "secs": 0.7
  }
 }

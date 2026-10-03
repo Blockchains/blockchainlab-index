@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-03T18:38:55Z",
+ "generated_at": "2026-10-03T18:53:57Z",
  "owner": "Blockchains",
- "repo_count": 48,
- "component_count": 5674,
+ "repo_count": 67,
+ "component_count": 6247,
  "embedding": {
   "model": "BAAI/bge-small-en-v1.5",
   "dim": 384,
@@ -310,6 +310,43 @@
    "wave": "wave0-curated"
   },
   {
+   "slug": "bisq",
+   "name": "bisq",
+   "fork": "Blockchains/bisq",
+   "fork_url": "https://github.com/Blockchains/bisq",
+   "upstream": "bisq-network/bisq",
+   "upstream_url": "https://github.com/bisq-network/bisq",
+   "branch": "master",
+   "commit": "1696b1ac08e22bb3449abdfc6f039b0909661866",
+   "indexed_at": "2026-10-03T18:50:09Z",
+   "category": "defi",
+   "license": "AGPL-3.0",
+   "license_class": "strong-copyleft",
+   "license_spdx_github": "AGPL-3.0",
+   "stars": 5139,
+   "description": "A decentralized bitcoin exchange network",
+   "readme_summary": "Bisq is a safe, private and decentralized way to exchange bitcoin for national currencies and other digital assets. Bisq uses peer-to-peer networking and multi-signature escrow to facilitate trading without a third party. Bisq is non-custodial and incorporates a human arbitration system to resolve disputes. To learn more, see the doc and video at https://bisq.network/intro. Follow the step-by-step instructions at https://bisq.network/get-started.",
+   "install_commands": [],
+   "languages_bytes": {
+    "Java": 17083833,
+    "JavaScript": 3223114,
+    "Kotlin": 80455,
+    "Python": 843
+   },
+   "file_count": 4244,
+   "tags": [
+    "Bitcoin"
+   ],
+   "component_count": 0,
+   "capabilities": {},
+   "packages": [],
+   "raw_base": "https://raw.githubusercontent.com/Blockchains/bisq/master/",
+   "index_url": "repos/bisq/index.json",
+   "components_url": "components/bisq.json",
+   "tree_url": "repos/bisq/tree.json",
+   "wave": "wave1"
+  },
+  {
    "slug": "bitcoin",
    "name": "bitcoin",
    "fork": "Blockchains/bitcoin",
@@ -350,6 +387,125 @@
    "components_url": "components/bitcoin.json",
    "tree_url": "repos/bitcoin/tree.json",
    "wave": "wave0-curated"
+  },
+  {
+   "slug": "bitcoinj",
+   "name": "bitcoinj",
+   "fork": "Blockchains/bitcoinj",
+   "fork_url": "https://github.com/Blockchains/bitcoinj",
+   "upstream": "bitcoinj/bitcoinj",
+   "upstream_url": "https://github.com/bitcoinj/bitcoinj",
+   "branch": "master",
+   "commit": "80f3920a0f422a387278f827d97b70ca5a053176",
+   "indexed_at": "2026-10-03T18:47:24Z",
+   "category": "bitcoin-lightning",
+   "license": "Apache-2.0",
+   "license_class": "permissive",
+   "license_spdx_github": "Apache-2.0",
+   "stars": 5234,
+   "description": "A library for working with Bitcoin",
+   "readme_summary": "image:https://github.com/bitcoinj/bitcoinj/workflows/Java%20CI/badge.svg[GitHub Build Status,link=https://github.com/bitcoinj/bitcoinj/actions] image:https://gitlab.com/bitcoinj/bitcoinj/badges/master/pipeline.svg[GitLab Build Status,link=https://gitlab.com/bitcoinj/bitcoinj/-/pipelines] image:https://coveralls.io/repos/bitcoinj/bitcoinj/badge.png?branch=master[Coverage Status,link=https://coveralls.io/r/bitcoinj/bitcoinj?branch=master] image::https://img.shields.io/badge/chat-Join%20bitcoinj--users%20on%20Matrix-blue[Join the bitcoinj-users Matrix room, link=https://matrix.to/#/#bitcoinj-users:matrix.org] The bitcoinj library is a Java implementation of the Bitcoin protocol, which allows it to maintain a wallet and send/receive transactions without needing a local copy of Bitcoin Core. It comes with full documentation and some example apps showing how to use it.",
+   "install_commands": [],
+   "languages_bytes": {
+    "Java": 4092331,
+    "Kotlin": 8774
+   },
+   "file_count": 534,
+   "tags": [],
+   "component_count": 0,
+   "capabilities": {},
+   "packages": [],
+   "raw_base": "https://raw.githubusercontent.com/Blockchains/bitcoinj/master/",
+   "index_url": "repos/bitcoinj/index.json",
+   "components_url": "components/bitcoinj.json",
+   "tree_url": "repos/bitcoinj/tree.json",
+   "wave": "wave1"
+  },
+  {
+   "slug": "btcd",
+   "name": "btcd",
+   "fork": "Blockchains/btcd",
+   "fork_url": "https://github.com/Blockchains/btcd",
+   "upstream": "btcsuite/btcd",
+   "upstream_url": "https://github.com/btcsuite/btcd",
+   "branch": "master",
+   "commit": "b48125d0a3565b1441522ee10422f7815db03216",
+   "indexed_at": "2026-10-03T18:47:25Z",
+   "category": "clients-nodes",
+   "license": "ISC",
+   "license_class": "permissive",
+   "license_spdx_github": "ISC",
+   "stars": 6712,
+   "description": "An alternative full node bitcoin implementation written in Go (golang)",
+   "readme_summary": "btcd is an alternative full node bitcoin implementation written in Go (golang). This project is currently under active development and is in a Beta state. It is extremely stable and has been in production use since October 2013. It properly downloads, validates, and serves the block chain using the exact rules (including consensus bugs) for block acceptance as Bitcoin Core. We have taken great care to avoid btcd causing a fork to the block chain. It includes a full block validation testing framework which contains all of the 'official' block acceptance tests (and some additional ones) that is run on every pull request to help ensure it properly follows consensus. Also, it passes all of the JSON test data in the Bitcoin Core code.",
+   "install_commands": [
+    "go version",
+    "go env GOROOT GOPATH",
+    "go install -v . ./cmd/..."
+   ],
+   "languages_bytes": {
+    "Go": 6379852,
+    "Python": 2577
+   },
+   "file_count": 3454,
+   "tags": [
+    "Go-module"
+   ],
+   "component_count": 57,
+   "capabilities": {
+    "indexer": 1,
+    "math-lib": 1
+   },
+   "packages": [
+    "github.com/btcsuite/btcd/address/v2",
+    "github.com/btcsuite/btcd/btcec/v2",
+    "github.com/btcsuite/btcd/btcutil/v2",
+    "github.com/btcsuite/btcd/chaincfg/v2",
+    "github.com/btcsuite/btcd/chainhash/v2",
+    "github.com/btcsuite/btcd",
+    "github.com/btcsuite/btcd/psbt/v2",
+    "github.com/btcsuite/btcd/txscript/v2",
+    "github.com/btcsuite/btcd/v2transport",
+    "github.com/btcsuite/btcd/wire/v2"
+   ],
+   "raw_base": "https://raw.githubusercontent.com/Blockchains/btcd/master/",
+   "index_url": "repos/btcd/index.json",
+   "components_url": "components/btcd.json",
+   "tree_url": "repos/btcd/tree.json",
+   "wave": "wave1"
+  },
+  {
+   "slug": "btcpayserver",
+   "name": "btcpayserver",
+   "fork": "Blockchains/btcpayserver",
+   "fork_url": "https://github.com/Blockchains/btcpayserver",
+   "upstream": "btcpayserver/btcpayserver",
+   "upstream_url": "https://github.com/btcpayserver/btcpayserver",
+   "branch": "master",
+   "commit": "973fb804191cfcc08cfc2136fea202360075d2ee",
+   "indexed_at": "2026-10-03T18:47:24Z",
+   "category": "payments",
+   "license": "MIT",
+   "license_class": "permissive",
+   "license_spdx_github": "MIT",
+   "stars": 7783,
+   "description": "Accept Bitcoin payments. Free, open-source & self-hosted, Bitcoin payment processor. ",
+   "readme_summary": "BTCPay Server is a free and open-source, self-hosted Bitcoin payment processor. It lets merchants accept Bitcoin directly, without fees or intermediaries. - **Users:** Use BTCPay Server - **Operators:** Deploy and operate BTCPay Server - **Developers:** Build integrations and plugins - **Maintainers:** Maintain this repository See the documentation gateway for more audience-specific resources. Website | Documentation | Greenfield API | Demo | Issues | Discussions | Community chat Security vulnerabilities must be reported through the process in SECURITY.md, not as public issues.",
+   "install_commands": [],
+   "languages_bytes": {
+    "C#": 6715329,
+    "JavaScript": 274015
+   },
+   "file_count": 2228,
+   "tags": [],
+   "component_count": 0,
+   "capabilities": {},
+   "packages": [],
+   "raw_base": "https://raw.githubusercontent.com/Blockchains/btcpayserver/master/",
+   "index_url": "repos/btcpayserver/index.json",
+   "components_url": "components/btcpayserver.json",
+   "tree_url": "repos/btcpayserver/tree.json",
+   "wave": "wave1"
   },
   {
    "slug": "buidler",
@@ -589,6 +745,45 @@
    "wave": "wave0-curated"
   },
   {
+   "slug": "chains",
+   "name": "chains",
+   "fork": "Blockchains/chains",
+   "fork_url": "https://github.com/Blockchains/chains",
+   "upstream": "ethereum-lists/chains",
+   "upstream_url": "https://github.com/ethereum-lists/chains",
+   "branch": "master",
+   "commit": "f0b92030ef34641d618c7ec51ddc1664d1badafb",
+   "indexed_at": "2026-10-03T18:47:34Z",
+   "category": "data-registries",
+   "license": "MIT",
+   "license_class": "permissive",
+   "license_spdx_github": "MIT",
+   "stars": 9829,
+   "description": "provides metadata for chains",
+   "readme_summary": "The source data is in _data/chains. Each chain has its own file with the filename being the CAIP-2 representation as name and `.json` as extension. When an icon is used in either the network or an explorer, there must be a JSON in _data/icons with the name used. (e.g. in the above example there must be a `ethereum.json` and a `etherscan.json` in there) - The icon JSON files look like this: where: * The URL MUST be publicly resolvable through IPFS * width and height MUST be positive integers * format is either \"png\", \"jpg\" or \"svg\" * size MUST be less than 250kb If the chain is an L2 or a shard of another chain you can link it to the parent chain like this: where you need to specify the type and the reference to an existing parent. The field about bridges is optional.",
+   "install_commands": [
+    "npx prettier --write _data/*/*.json"
+   ],
+   "languages_bytes": {
+    "Kotlin": 35446,
+    "JavaScript": 2000
+   },
+   "file_count": 4711,
+   "tags": [
+    "npm"
+   ],
+   "component_count": 1,
+   "capabilities": {},
+   "packages": [
+    "@ethereum-lists/chains"
+   ],
+   "raw_base": "https://raw.githubusercontent.com/Blockchains/chains/master/",
+   "index_url": "repos/chains/index.json",
+   "components_url": "components/chains.json",
+   "tree_url": "repos/chains/tree.json",
+   "wave": "wave1"
+  },
+  {
    "slug": "chia-blockchain",
    "name": "chia-blockchain",
    "fork": "Blockchains/chia-blockchain",
@@ -785,6 +980,118 @@
    "wave": "wave0-curated"
   },
   {
+   "slug": "defihacklabs",
+   "name": "DeFiHackLabs",
+   "fork": "Blockchains/DeFiHackLabs",
+   "fork_url": "https://github.com/Blockchains/DeFiHackLabs",
+   "upstream": "SunWeb3Sec/DeFiHackLabs",
+   "upstream_url": "https://github.com/SunWeb3Sec/DeFiHackLabs",
+   "branch": "main",
+   "commit": "2ee728d4e1fe3f860593897a82a9b9595a2cba76",
+   "indexed_at": "2026-10-03T18:47:22Z",
+   "category": "security",
+   "license": "Apache-2.0",
+   "license_class": "permissive",
+   "license_spdx_github": "Apache-2.0",
+   "stars": 6803,
+   "description": "Reproduce DeFi hacked incidents using Foundry.",
+   "readme_summary": "Notion: 101 root cause analysis of past DeFi hacked incidents **Disclaimer:** This content serves solely as a proof of concept showcasing past DeFi hacking incidents. It is strictly intended for educational purposes and should not be interpreted as encouraging or endorsing any form of illegal activities or actual hacking attempts. The provided information is for informational and learning purposes only, and any actions taken based on this content are solely the responsibility of the individual. The usage of this information should adhere to applicable laws, regulations, and ethical standards. - Clone and install dependencies:`git submodule update --init --recursive` - Contributing Guidelines - Lesson 1: Tools ( English | \u4e2d\u6587 | Vietnamese | Korean | Spanish | \u65e5\u672c\u8a9e ) - Lesson 2: Warm up ( English | \u4e2d\u6587 | Korean | Spanish | \u65e5\u672c\u8a9e ) - Lesson 3: Write Your Own PoC (Price Oracle Manipulation) ( Eng",
+   "install_commands": [
+    "forge test --contracts src/test/2026-10/FlashLoopAdapter_exp.sol --evm-version cancun -vvv",
+    "forge test --contracts src/test/2026-09/SKYDAO_exp.sol --evm-version cancun -vvv",
+    "forge test --contracts src/test/2026-09/PositionManager_exp.sol -vvv",
+    "forge test --contracts src/test/2026-09/MUS_exp.sol -vvv",
+    "forge test --contracts src/test/2026-09/LPBonus_exp.sol -vvv",
+    "forge test --contracts src/test/2026-09/DAOstack_exp.sol -vvv",
+    "forge test --contracts src/test/2026-09/DoinGud_exp.sol -vvv",
+    "forge test --contracts src/test/2026-09/GaslessReservoirEnabler_exp.sol -vvv",
+    "forge test --contracts src/test/2026-09/InternetToken_exp.sol -vvv",
+    "forge test --contracts src/test/2026-09/Startale_exp.sol -vvv",
+    "forge test --contracts src/test/2026-09/Flamincome_exp.sol -vvv",
+    "forge test --contracts src/test/2026-09/PrimeFinance_exp.sol -vvv"
+   ],
+   "languages_bytes": {
+    "Solidity": 5521737,
+    "Python": 91326
+   },
+   "file_count": 1009,
+   "tags": [
+    "Chainlink-Feeds",
+    "ERC-1155",
+    "ERC-165",
+    "ERC-20",
+    "ERC-2612",
+    "ERC-4337",
+    "ERC-4626",
+    "ERC-721",
+    "EVM",
+    "Foundry",
+    "Proxy/Upgradeable"
+   ],
+   "component_count": 1,
+   "capabilities": {},
+   "packages": [],
+   "raw_base": "https://raw.githubusercontent.com/Blockchains/DeFiHackLabs/main/",
+   "index_url": "repos/defihacklabs/index.json",
+   "components_url": "components/defihacklabs.json",
+   "tree_url": "repos/defihacklabs/tree.json",
+   "wave": "wave1"
+  },
+  {
+   "slug": "dmm-dao-web-app",
+   "name": "dmm-dao-web-app",
+   "fork": "Blockchains/dmm-dao-web-app",
+   "fork_url": "https://github.com/Blockchains/dmm-dao-web-app",
+   "upstream": "Uniswap/interface",
+   "upstream_url": "https://github.com/Uniswap/interface",
+   "branch": "upstream-main",
+   "commit": "47a07f1932d95565f5445c1e62046df69e7994dc",
+   "indexed_at": "2026-10-03T18:47:42Z",
+   "category": "defi",
+   "license": "GPL-3.0",
+   "license_class": "strong-copyleft",
+   "license_spdx_github": "GPL-3.0",
+   "stars": 5533,
+   "description": "\ud83e\udd84 Open source interfaces for the Uniswap protocol",
+   "readme_summary": "This is the **public** repository for Uniswap Labs\u2019 front-end interfaces, including the Web App, Wallet Mobile App, and Wallet Extension. Uniswap is a protocol for decentralized exchange of Ethereum-based assets. - Web: app.uniswap.org - Wallet (mobile + extension): wallet.uniswap.org For instructions per application or package, see the README published for each application: For instructions on the best way to contribute, please review our Contributing guide! - X (Formerly Twitter): @Uniswap - Reddit: /r/Uniswap - Email: contact@uniswap.org - Discord: Uniswap - LinkedIn: Uniswap Labs Uniswap Labs develops all front-end interfaces in a private repository. At the end of each development cycle: 1. We publish the latest production-ready code to this public repository.",
+   "install_commands": [
+    "git clone git@github.com:Uniswap/interface.git",
+    "bun install",
+    "bun web start"
+   ],
+   "languages_bytes": {
+    "TypeScript": 40250297,
+    "Swift": 211829,
+    "Kotlin": 166802,
+    "JavaScript": 143245,
+    "C++": 46836,
+    "Python": 7486,
+    "C/C++ header": 4778,
+    "Ruby": 2031
+   },
+   "file_count": 11775,
+   "tags": [
+    "EVM",
+    "SVM",
+    "Substrate",
+    "npm"
+   ],
+   "component_count": 5,
+   "capabilities": {},
+   "packages": [
+    "src",
+    "@universe/web",
+    "datadog-dashboards-universe",
+    "datadog-cloud-universe",
+    "@universe/hashcash-native"
+   ],
+   "raw_base": "https://raw.githubusercontent.com/Blockchains/dmm-dao-web-app/upstream-main/",
+   "index_url": "repos/dmm-dao-web-app/index.json",
+   "components_url": "components/dmm-dao-web-app.json",
+   "tree_url": "repos/dmm-dao-web-app/tree.json",
+   "wave": "wave1"
+  },
+  {
    "slug": "dogecoin",
    "name": "dogecoin",
    "fork": "Blockchains/dogecoin",
@@ -818,6 +1125,100 @@
    "index_url": "repos/dogecoin/index.json",
    "components_url": "components/dogecoin.json",
    "tree_url": "repos/dogecoin/tree.json",
+   "wave": "wave1"
+  },
+  {
+   "slug": "electrum",
+   "name": "electrum",
+   "fork": "Blockchains/electrum",
+   "fork_url": "https://github.com/Blockchains/electrum",
+   "upstream": "spesmilo/electrum",
+   "upstream_url": "https://github.com/spesmilo/electrum",
+   "branch": "master",
+   "commit": "4cb03ef4f1f2baaf66519342b933ee731333b1fd",
+   "indexed_at": "2026-10-03T18:47:22Z",
+   "category": "wallets",
+   "license": "MIT",
+   "license_class": "permissive",
+   "license_spdx_github": "MIT",
+   "stars": 8609,
+   "description": "Electrum Bitcoin Wallet",
+   "readme_summary": "_(If you've come here looking to simply run Electrum, you may download it here.)_ Electrum itself is pure Python, and so are most of the required dependencies, but not everything. The following sections describe how to run from source, but here is a TL;DR: If you want to use the Qt interface, install the Qt dependencies: For elliptic curve operations, libsecp256k1 is a required dependency. If you \"pip install\" Electrum, by default libsecp will get compiled locally, as part of the `electrum-ecc` dependency. This can be opted-out of, by setting the `ELECTRUM_ECC_DONT_COMPILE=1` environment variable. For the compilation to work, besides a C compiler, you need at least: If you opt out of the compilation, you need to provide libsecp in another way, e.g.:",
+   "install_commands": [
+    "git clone https://github.com/spesmilo/electrum.git"
+   ],
+   "languages_bytes": {
+    "Python": 7048822,
+    "Java": 18372
+   },
+   "file_count": 953,
+   "tags": [],
+   "component_count": 0,
+   "capabilities": {},
+   "packages": [],
+   "raw_base": "https://raw.githubusercontent.com/Blockchains/electrum/master/",
+   "index_url": "repos/electrum/index.json",
+   "components_url": "components/electrum.json",
+   "tree_url": "repos/electrum/tree.json",
+   "wave": "wave1"
+  },
+  {
+   "slug": "erigon",
+   "name": "erigon",
+   "fork": "Blockchains/erigon",
+   "fork_url": "https://github.com/Blockchains/erigon",
+   "upstream": "erigontech/erigon",
+   "upstream_url": "https://github.com/erigontech/erigon",
+   "branch": "main",
+   "commit": "e393829ca9748bda6196f1f36839888d4715b90c",
+   "indexed_at": "2026-10-03T18:47:49Z",
+   "category": "clients-nodes",
+   "license": "LGPL-3.0",
+   "license_class": "weak-copyleft",
+   "license_spdx_github": "LGPL-3.0",
+   "stars": 3585,
+   "description": "Ethereum implementation on the efficiency frontier ",
+   "readme_summary": "Erigon is an implementation of Ethereum (execution layer with embeddable consensus layer), on the efficiency frontier. This README is for people working on the repository. Everything about operating a node \u2014 install methods, flags, pruning modes, ports, monitoring, staking \u2014 is on the documentation site. The Erigon documentation answers most questions. Useful starting points: * Installation \u2014 binaries, Docker, Linux/macOS, Windows, ARM * Hardware requirements \u2014 disk, RAM, CPU, bandwidth * Pruning modes \u2014 `archive`, `full`, `blocks`, `minimal` * CLI reference \u2014 every flag, config files, env vars * Default ports and Security * Interacting with Erigon \u2014 JSON-RPC, GraphQL, gRPC namespaces * Creating a dashboard \u2014 Prometheus and Grafana * Upgrading \u2014 versions and snapshot formats",
+   "install_commands": [
+    "git clone https://github.com/erigontech/erigon.git",
+    "make erigon",
+    "make test-short           # fast unit tests",
+    "make test-all             # full test suite",
+    "make test-fixtures-cl     # consensus-spec fixtures (also: test-fixtures-eest, test-fixtures-zkevm)",
+    "make lint                 # run before opening or updating a PR",
+    "go get github.com/erigontech/erigon@main",
+    "go mod tidy",
+    "make DIST=/opt/erigon install"
+   ],
+   "languages_bytes": {
+    "Go": 32720921,
+    "Python": 340031,
+    "JavaScript": 54309,
+    "TypeScript": 50388,
+    "Solidity": 34500
+   },
+   "file_count": 5008,
+   "tags": [
+    "EVM",
+    "Go-module",
+    "ZK",
+    "npm"
+   ],
+   "component_count": 183,
+   "capabilities": {
+    "upgradeability": 2,
+    "access-control": 2,
+    "math-lib": 1
+   },
+   "packages": [
+    "testgenerator",
+    "github.com/erigontech/erigon",
+    "github.com/erigontech/interfaces"
+   ],
+   "raw_base": "https://raw.githubusercontent.com/Blockchains/erigon/main/",
+   "index_url": "repos/erigon/index.json",
+   "components_url": "components/erigon.json",
+   "tree_url": "repos/erigon/tree.json",
    "wave": "wave1"
   },
   {
@@ -963,8 +1364,8 @@
    "upstream": "foundry-rs/foundry",
    "upstream_url": "https://github.com/foundry-rs/foundry",
    "branch": "master",
-   "commit": "55b64de6982e2185f0ee9716f6d309ae79aed817",
-   "indexed_at": "2026-10-03T18:22:32Z",
+   "commit": "60255eee79332caef99f0c885f55589769f8f0c0",
+   "indexed_at": "2026-10-03T18:47:22Z",
    "category": "dev-tooling",
    "license": "Apache-2.0 OR MIT",
    "license_class": "permissive",
@@ -983,7 +1384,7 @@
     "anvil --fork-url https://eth.merkle.io"
    ],
    "languages_bytes": {
-    "Rust": 19654556,
+    "Rust": 19655943,
     "Python": 81870,
     "Solidity": 22435,
     "TypeScript": 20004,
@@ -1052,7 +1453,7 @@
    "license": "LGPL-3.0 (library) / GPL-3.0 (binaries)",
    "license_class": "strong-copyleft",
    "license_spdx_github": "LGPL-3.0",
-   "stars": 51385,
+   "stars": 51384,
    "description": "Go implementation of the Ethereum protocol",
    "readme_summary": "Golang execution layer implementation of the Ethereum protocol. Automated builds are available for stable releases and the unstable master branch. Binary archives are published at https://geth.ethereum.org/downloads/. For prerequisites and detailed build instructions please read the Installation Instructions. Building `geth` requires both a Go (version 1.25 or later) and a C compiler. You can install them using your favourite package manager. Once the dependencies are installed, run The go-ethereum project comes with several wrappers/executables found in the `cmd` directory. Going through all the possible command line flags is out of scope here (please consult our CLI Wiki page), but we've enumerated a few common parameter combos to get you up to speed quickly on how you can run your own `geth` instance.",
    "install_commands": [
@@ -1192,6 +1593,52 @@
    "components_url": "components/graph-tooling.json",
    "tree_url": "repos/graph-tooling/tree.json",
    "wave": "wave0-curated"
+  },
+  {
+   "slug": "grin",
+   "name": "grin",
+   "fork": "Blockchains/grin",
+   "fork_url": "https://github.com/Blockchains/grin",
+   "upstream": "mimblewimble/grin",
+   "upstream_url": "https://github.com/mimblewimble/grin",
+   "branch": "master",
+   "commit": "d5f32350ab548736c17c1db7ff51457917fe4e96",
+   "indexed_at": "2026-10-03T18:47:27Z",
+   "category": "clients-nodes",
+   "license": "Apache-2.0",
+   "license_class": "permissive",
+   "license_spdx_github": "Apache-2.0",
+   "stars": 5102,
+   "description": "Minimal implementation of the Mimblewimble protocol.",
+   "readme_summary": "Grin is an in-progress implementation of the Mimblewimble protocol. Many characteristics are still undefined but the following constitutes a first set of choices: * Clean and minimal implementation, and aiming to stay as such. * Follows the Mimblewimble protocol, which provides hidden amounts and scaling advantages. * Cuckoo Cycle proof of work in two variants named Cuckaroo (ASIC-resistant) and Cuckatoo (ASIC-targeted). * Relatively fast block time: one minute. * Fixed block reward over time with a decreasing dilution. * Transaction fees are based on the number of Outputs created/destroyed and total transaction size. * Smooth curve for difficulty adjustments. To learn more, read our introduction to Mimblewimble and Grin.",
+   "install_commands": [],
+   "languages_bytes": {
+    "Rust": 2037522
+   },
+   "file_count": 391,
+   "tags": [
+    "Rust-crates"
+   ],
+   "component_count": 11,
+   "capabilities": {},
+   "packages": [
+    "grin",
+    "grin_api",
+    "grin_chain",
+    "grin_config",
+    "grin_core",
+    "grin_keychain",
+    "grin_p2p",
+    "grin_pool",
+    "grin_servers",
+    "grin_store",
+    "grin_util"
+   ],
+   "raw_base": "https://raw.githubusercontent.com/Blockchains/grin/master/",
+   "index_url": "repos/grin/index.json",
+   "components_url": "components/grin.json",
+   "tree_url": "repos/grin/tree.json",
+   "wave": "wave1"
   },
   {
    "slug": "hedera-smart-contracts",
@@ -1504,6 +1951,38 @@
    "components_url": "components/lnd.json",
    "tree_url": "repos/lnd/tree.json",
    "wave": "wave0-curated"
+  },
+  {
+   "slug": "neo",
+   "name": "neo",
+   "fork": "Blockchains/neo",
+   "fork_url": "https://github.com/Blockchains/neo",
+   "upstream": "neo-project/neo",
+   "upstream_url": "https://github.com/neo-project/neo",
+   "branch": "master-n3",
+   "commit": "268175a8e1bba39c11a81723796bef1c9d11e1bd",
+   "indexed_at": "2026-10-03T18:47:43Z",
+   "category": "clients-nodes",
+   "license": "MIT",
+   "license_class": "permissive",
+   "license_spdx_github": "MIT",
+   "stars": 3536,
+   "description": "NEO Smart Economy",
+   "readme_summary": "A modern distributed network for the Smart Economy. Documentation \u00bb \u00b7 developers.neo.org Neo \u00b7 Neo Modules \u00b7 Neo DevPack &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; It is **not** the program that starts a node. Neo-CLI lives in neo-project/neo-node. The virtual machine lives in neo-project/neo-vm. Official N3 developer hub: developers.neo.org. (The older docs.neo.org tutorials still exist; prefer developers.neo.org for current N3 APIs.) Beginner-friendly guides in this repository (covers **neo**, **neo-node**, and **neo-vm**): * neo: The core libraries for NEO. Guide: docs/neo-core.md. * neo-node: Neo-CLI and plugins (DBFT, RpcServer, Oracle, ApplicationLogs, storage engines, etc.). Guide: docs/neo-node.md. How to run: docs/how-to/run-a-node.md. * neo-vm: The Neo Virtual Machine. Guide: docs/neo-vm.md. * neo-express: A private net optimized for development scenarios. * neo-devpack-d",
+   "install_commands": [],
+   "languages_bytes": {
+    "C#": 3479186
+   },
+   "file_count": 687,
+   "tags": [],
+   "component_count": 0,
+   "capabilities": {},
+   "packages": [],
+   "raw_base": "https://raw.githubusercontent.com/Blockchains/neo/master-n3/",
+   "index_url": "repos/neo/index.json",
+   "components_url": "components/neo.json",
+   "tree_url": "repos/neo/tree.json",
+   "wave": "wave1"
   },
   {
    "slug": "noir",
@@ -1893,6 +2372,99 @@
    "wave": "wave0-curated"
   },
   {
+   "slug": "prysm",
+   "name": "prysm",
+   "fork": "Blockchains/prysm",
+   "fork_url": "https://github.com/Blockchains/prysm",
+   "upstream": "OffchainLabs/prysm",
+   "upstream_url": "https://github.com/OffchainLabs/prysm",
+   "branch": "develop",
+   "commit": "fea24b41265542905352ab45fe2291d8eea010cc",
+   "indexed_at": "2026-10-03T18:47:41Z",
+   "category": "clients-nodes",
+   "license": "GPL-3.0",
+   "license_class": "strong-copyleft",
+   "license_spdx_github": "GPL-3.0",
+   "stars": 3788,
+   "description": "Go implementation of Ethereum proof of stake",
+   "readme_summary": "This is the core repository for Prysm, a Golang implementation of the Ethereum Consensus specification, developed by Offchain Labs. See the Changelog for details of the latest releases and upcoming breaking changes. A detailed set of installation and usage instructions as well as breakdowns of each individual component are available in the **official documentation portal**. \ud83d\udcac **Need help?** Join our **Discord Community** for support (this invite link never expires). To participate in staking, you can join the **official Ethereum launchpad**. The launchpad is the **only recommended** way to become a validator on mainnet. - **`master`** - This points to the latest stable release. It is ideal for most users. - **`develop`** - This is used for development and contains the latest PRs. Developers should base their PRs on this branch.",
+   "install_commands": [],
+   "languages_bytes": {
+    "Go": 33870045,
+    "Solidity": 9464,
+    "C++": 13
+   },
+   "file_count": 4874,
+   "tags": [
+    "ERC-165",
+    "EVM",
+    "Go-module",
+    "ZK"
+   ],
+   "component_count": 154,
+   "capabilities": {
+    "identity": 2,
+    "math-lib": 1,
+    "upgradeability": 1
+   },
+   "packages": [
+    "github.com/OffchainLabs/prysm/v7"
+   ],
+   "raw_base": "https://raw.githubusercontent.com/Blockchains/prysm/develop/",
+   "index_url": "repos/prysm/index.json",
+   "components_url": "components/prysm.json",
+   "tree_url": "repos/prysm/tree.json",
+   "wave": "wave1"
+  },
+  {
+   "slug": "rainbow",
+   "name": "rainbow",
+   "fork": "Blockchains/rainbow",
+   "fork_url": "https://github.com/Blockchains/rainbow",
+   "upstream": "rainbow-me/rainbow",
+   "upstream_url": "https://github.com/rainbow-me/rainbow",
+   "branch": "develop",
+   "commit": "9d718934e9f008cd3a5277bcfa69df153a542969",
+   "indexed_at": "2026-10-03T18:47:43Z",
+   "category": "wallets",
+   "license": "GPL-3.0",
+   "license_class": "strong-copyleft",
+   "license_spdx_github": "GPL-3.0",
+   "stars": 4396,
+   "description": "\ud83c\udf08\u2012 the Ethereum wallet that lives in your pocket ",
+   "readme_summary": "\ud83d\udcbb Browser extension available on, Chrome, Brave, Edge, FireFox, and Arc. > [!TIP] > **Internal developers** can also use the `rainbow-me/rainbow-setup` > script to install all dependencies and configure the project in one step. 1. Install mise: `curl https://mise.run | sh`. See the installation docs for shell activation (required so tool versions auto-switch when you `cd` into the repo). 2. From the repo root: `mise install`. This installs all pinned tools. 3. Enable yarn: `corepack enable` Set up these **before** running `yarn install`, as the postinstall script reads `.env` and `rainbow-scripts` to generate build configs and run prebuild hooks. 1. Authenticate the GitHub CLI (`gh auth login`), or export a `GITHUB_TOKEN` with access to our private repos. 2. Run `yarn update-env` to install `.env` (overwrites any existing local `.env`). 3. Clone `rainbow-me/rainbow-scripts` into the proj",
+   "install_commands": [
+    "brew install xcodesorg/made/xcodes",
+    "yarn install-bundle && yarn install-pods",
+    "brew install --cask zulu@17",
+    "yarn start"
+   ],
+   "languages_bytes": {
+    "TypeScript": 9906444,
+    "JavaScript": 1483356,
+    "Swift": 101323,
+    "Java": 30835,
+    "Kotlin": 9883,
+    "C/C++ header": 8116
+   },
+   "file_count": 5357,
+   "tags": [
+    "EVM",
+    "ZK",
+    "npm"
+   ],
+   "component_count": 1,
+   "capabilities": {},
+   "packages": [
+    "@rainbow-me/internals"
+   ],
+   "raw_base": "https://raw.githubusercontent.com/Blockchains/rainbow/develop/",
+   "index_url": "repos/rainbow/index.json",
+   "components_url": "components/rainbow.json",
+   "tree_url": "repos/rainbow/tree.json",
+   "wave": "wave1"
+  },
+  {
    "slug": "rainbowkit",
    "name": "rainbowkit",
    "fork": "Blockchains/rainbowkit",
@@ -2035,6 +2607,47 @@
    "wave": "wave0-curated"
   },
   {
+   "slug": "rippled",
+   "name": "rippled",
+   "fork": "Blockchains/rippled",
+   "fork_url": "https://github.com/Blockchains/rippled",
+   "upstream": "XRPLF/rippled",
+   "upstream_url": "https://github.com/XRPLF/rippled",
+   "branch": "develop",
+   "commit": "651bb207b4fd876e60c361c0b9639bb805a2e948",
+   "indexed_at": "2026-10-03T18:47:25Z",
+   "category": "clients-nodes",
+   "license": "ISC",
+   "license_class": "permissive",
+   "license_spdx_github": "ISC",
+   "stars": 5218,
+   "description": "Decentralized cryptocurrency blockchain daemon implementing the XRP Ledger protocol in C++",
+   "readme_summary": "The XRP Ledger is a decentralized cryptographic ledger powered by a network of peer-to-peer nodes. The XRP Ledger uses a novel Byzantine Fault Tolerant consensus algorithm to settle and record transactions in a secure distributed database without a central operator. XRP is a public, counterparty-free crypto-asset native to the XRP Ledger, and is designed as a gas token for network services and to bridge different currencies. XRP is traded on the open-market and is available for anyone to access. The XRP Ledger was created in 2012 with a finite supply of 100 billion units of XRP. The server software that powers the XRP Ledger is called `xrpld` and is available in this repository under the permissive ISC open-source license. The `xrpld` server software is written primarily in C++ and runs on a variety of platforms. The `xrpld` server software can run in several modes depending on its confi",
+   "install_commands": [],
+   "languages_bytes": {
+    "C++": 17511500,
+    "C/C++ header": 4803868,
+    "Python": 156235,
+    "Rust": 1935
+   },
+   "file_count": 2198,
+   "tags": [
+    "Rust-crates"
+   ],
+   "component_count": 3,
+   "capabilities": {},
+   "packages": [
+    "rs-hello_world",
+    "echo_macro",
+    "test_macro"
+   ],
+   "raw_base": "https://raw.githubusercontent.com/Blockchains/rippled/develop/",
+   "index_url": "repos/rippled/index.json",
+   "components_url": "components/rippled.json",
+   "tree_url": "repos/rippled/tree.json",
+   "wave": "wave1"
+  },
+  {
    "slug": "risc0",
    "name": "risc0",
    "fork": "Blockchains/risc0",
@@ -2117,6 +2730,58 @@
    "components_url": "components/risc0.json",
    "tree_url": "repos/risc0/tree.json",
    "wave": "wave0-curated"
+  },
+  {
+   "slug": "rotki",
+   "name": "rotki",
+   "fork": "Blockchains/rotki",
+   "fork_url": "https://github.com/Blockchains/rotki",
+   "upstream": "rotki/rotki",
+   "upstream_url": "https://github.com/rotki/rotki",
+   "branch": "develop",
+   "commit": "a0fc8a5a0e41c02fa6559e0386155201b1f08cb9",
+   "indexed_at": "2026-10-03T18:47:57Z",
+   "category": "analytics",
+   "license": "AGPL-3.0",
+   "license_class": "strong-copyleft",
+   "license_spdx_github": "AGPL-3.0",
+   "stars": 4039,
+   "description": "A portfolio tracking, analytics, accounting and management application that protects your privacy",
+   "readme_summary": "A privacy-focused portfolio manager, accounting, and analytics tool. \ud83d\udd39 **Why choose rotki?** - **Open-source & Transparent** \ud83d\udcd6 - **Self-hosted** \ud83c\udfe0 - **Privacy-Focused** \ud83d\udd12 - **Multi-Platform Support** \ud83d\udda5 - **Powerful Analytics & Reporting** \ud83d\udcca For **advanced features**, check out the Pro Version or explore the Integrations Page. \ud83d\udccc **Required Software**: - `Node.js` - `npm` (Node Package Manager) - `Python 3.14` - `uv` (Python Package Manager) - `Docker` \ud83d\udccc **Recommended Installation Method**: - Download Pre-Packaged Binaries \ud83d\udccc **Advanced Installation** (for developers): - Build from Source \ud83d\udccc **Quick Start**: - Follow the usage guide. - Configure settings & import your addresses. - Start managing and analyzing your portfolio! \ud83d\ude80",
+   "install_commands": [],
+   "languages_bytes": {
+    "Python": 21145531,
+    "TypeScript": 12983120,
+    "Rust": 881758,
+    "JavaScript": 74018
+   },
+   "file_count": 7071,
+   "tags": [
+    "EVM",
+    "Rust-crates",
+    "npm"
+   ],
+   "component_count": 10,
+   "capabilities": {
+    "upgradeability": 2
+   },
+   "packages": [
+    "colibri",
+    "starling-core",
+    "starling-proxy",
+    "starling",
+    "rotki",
+    "@rotki/common",
+    "@rotki/dev-proxy",
+    "rotki-workspace",
+    "rotkehlchen",
+    "find-duplicate-constants"
+   ],
+   "raw_base": "https://raw.githubusercontent.com/Blockchains/rotki/develop/",
+   "index_url": "repos/rotki/index.json",
+   "components_url": "components/rotki.json",
+   "tree_url": "repos/rotki/tree.json",
+   "wave": "wave1"
   },
   {
    "slug": "safe-smart-account",
@@ -2230,6 +2895,63 @@
    "wave": "wave0-curated"
   },
   {
+   "slug": "slither",
+   "name": "slither",
+   "fork": "Blockchains/slither",
+   "fork_url": "https://github.com/Blockchains/slither",
+   "upstream": "crytic/slither",
+   "upstream_url": "https://github.com/crytic/slither",
+   "branch": "master",
+   "commit": "eef5df948b8992eff85786b6b0bb4a193933e2c9",
+   "indexed_at": "2026-10-03T18:47:23Z",
+   "category": "security",
+   "license": "AGPL-3.0",
+   "license_class": "strong-copyleft",
+   "license_spdx_github": "AGPL-3.0",
+   "stars": 6375,
+   "description": "Static Analyzer for Solidity and Vyper",
+   "readme_summary": "> Join the Empire Hacking Slack > > > > _- Discussions and Support_ **Slither** is a Solidity & Vyper static analysis framework written in Python3. It runs a suite of vulnerability detectors, prints visual information about contract details, and provides an API to easily write custom analyses. Slither enables developers to find vulnerabilities, enhance their code comprehension, and quickly prototype custom analyses. * Features * Usage * How to install * Using uv (Recommended) * Using Pip * Using Git * Using Docker * Integration * Detectors * Printers * Quick Review Printers * In-Depth Review Printers * Tools * API Documentation * Getting Help * FAQ * License * Publications * Trail of Bits publication * External publications",
+   "install_commands": [
+    "uv tool install slither-analyzer",
+    "uv tool upgrade slither-analyzer",
+    "brew install slither-analyzer",
+    "git clone https://github.com/crytic/slither.git && cd slither",
+    "uv tool install -e .",
+    "uv run slither <target>",
+    "docker pull trailofbits/eth-security-toolbox",
+    "docker run -it -v /home/share:/share trailofbits/eth-security-toolbox"
+   ],
+   "languages_bytes": {
+    "Python": 3042421,
+    "Solidity": 827781,
+    "Vyper": 6908,
+    "JavaScript": 187
+   },
+   "file_count": 15926,
+   "tags": [
+    "Chainlink-Feeds",
+    "ERC-165",
+    "ERC-20",
+    "ERC-2612",
+    "ERC-721",
+    "EVM",
+    "Foundry",
+    "Hardhat",
+    "Proxy/Upgradeable"
+   ],
+   "component_count": 7,
+   "capabilities": {},
+   "packages": [
+    "slither-my-plugin",
+    "slither-analyzer"
+   ],
+   "raw_base": "https://raw.githubusercontent.com/Blockchains/slither/master/",
+   "index_url": "repos/slither/index.json",
+   "components_url": "components/slither.json",
+   "tree_url": "repos/slither/tree.json",
+   "wave": "wave1"
+  },
+  {
    "slug": "snarkjs",
    "name": "snarkjs",
    "fork": "Blockchains/snarkjs",
@@ -2282,6 +3004,76 @@
    "components_url": "components/snarkjs.json",
    "tree_url": "repos/snarkjs/tree.json",
    "wave": "wave0-curated"
+  },
+  {
+   "slug": "snarkos",
+   "name": "snarkOS",
+   "fork": "Blockchains/snarkOS",
+   "fork_url": "https://github.com/Blockchains/snarkOS",
+   "upstream": "ProvableHQ/snarkOS",
+   "upstream_url": "https://github.com/ProvableHQ/snarkOS",
+   "branch": "staging",
+   "commit": "18aba8c62c0adc2e820e7cb173578c9a593c75cc",
+   "indexed_at": "2026-10-03T18:47:26Z",
+   "category": "zk",
+   "license": "Apache-2.0",
+   "license_class": "permissive",
+   "license_spdx_github": "Apache-2.0",
+   "stars": 4528,
+   "description": "A Decentralized Operating System for ZK Applications",
+   "readme_summary": "* 1. Overview * 2. Build Guide * 2.1 Requirements * 2.2 Installation * 3. Run an Aleo Node * 3.1 Run an Aleo Client * 3.2 Run an Aleo Validator * 3.3 Run an Aleo Prover * 4. FAQs * 5. Command Line Interface * 6. Development Guide * 6.1 Quick Start * 6.2 Operations * 6.3 Local Devnet * 6.4 Feature Flags * 6.5 Local Backups * 7. Contributors * 8. License [comment]: <> (* [4. JSON-RPC Interface]&#40;#4-json-rpc-interface&#41;) [comment]: <> (* [5. Additional Information]&#40;#5-additional-information&#41;) __snarkOS__ is a decentralized operating system for zero-knowledge applications. This code forms the backbone of Aleo network, which verifies transactions and stores the encrypted state applications in a publicly-verifiable manner.",
+   "install_commands": [
+    "git clone --branch mainnet --single-branch https://github.com/ProvableHQ/snarkOS.git",
+    "cargo install --locked --path .",
+    "cargo install --locked --path . --features cuda",
+    "cargo run --release -- start --nodisplay --dev 0 --validator",
+    "cargo run --release -- start --nodisplay --dev 1 --validator",
+    "cargo run --release -- start --nodisplay --dev 2 --validator",
+    "cargo run --release -- start --nodisplay --dev 3 --validator",
+    "cargo run --release -- start --nodisplay --dev <NODE_ID> --validator",
+    "cargo run --release -- start --nodisplay --dev <NODE_ID> --prover",
+    "cargo run --release -- start --nodisplay --dev <NODE_ID> --client",
+    "cargo run --release -- start --nodisplay --dev <NODE_ID>",
+    "brew install tmux"
+   ],
+   "languages_bytes": {
+    "Rust": 2713228,
+    "Python": 4988
+   },
+   "file_count": 326,
+   "tags": [
+    "Rust-crates"
+   ],
+   "component_count": 21,
+   "capabilities": {},
+   "packages": [
+    "snarkos",
+    "snarkos-account",
+    "snarkos-cli",
+    "snarkos-display",
+    "snarkos-node",
+    "snarkos-node-bft",
+    "snarkos-node-bft-events",
+    "snarkos-node-bft-ledger-service",
+    "snarkos-node-bft-storage-service",
+    "snarkos-node-cdn",
+    "snarkos-node-consensus",
+    "snarkos-node-metrics",
+    "snarkos-node-network",
+    "snarkos-node-rest",
+    "snarkos-node-router",
+    "snarkos-node-router-messages",
+    "snarkos-node-sync",
+    "snarkos-node-sync-communication-service",
+    "snarkos-node-sync-locators",
+    "snarkos-node-tcp",
+    "snarkos-utilities"
+   ],
+   "raw_base": "https://raw.githubusercontent.com/Blockchains/snarkOS/staging/",
+   "index_url": "repos/snarkos/index.json",
+   "components_url": "components/snarkos.json",
+   "tree_url": "repos/snarkos/tree.json",
+   "wave": "wave1"
   },
   {
    "slug": "solady",
@@ -2907,6 +3699,139 @@
    "components_url": "components/wagmi.json",
    "tree_url": "repos/wagmi/tree.json",
    "wave": "wave0-curated"
+  },
+  {
+   "slug": "wallet-core",
+   "name": "wallet-core",
+   "fork": "Blockchains/wallet-core",
+   "fork_url": "https://github.com/Blockchains/wallet-core",
+   "upstream": "trustwallet/wallet-core",
+   "upstream_url": "https://github.com/trustwallet/wallet-core",
+   "branch": "master",
+   "commit": "d40d24a63d92619167903369308bf0e2f7eb3a59",
+   "indexed_at": "2026-10-03T18:47:43Z",
+   "category": "wallets",
+   "license": "Apache-2.0",
+   "license_class": "permissive",
+   "license_spdx_github": "Apache-2.0",
+   "stars": 3571,
+   "description": "Cross-platform, cross-blockchain wallet library.",
+   "readme_summary": "Trust Wallet Core is an open-source, cross-platform, mobile-focused library implementing low-level cryptographic wallet functionality for a high number of blockchains. It is a core part of the popular Trust Wallet, and some other projects. Most of the code is C++ with a set of strict C interfaces, and idiomatic interfaces for supported languages: Swift for iOS and Java (Kotlin) for Android. For comprehensive documentation, see developer.trustwallet.com. Wallet Core supports more than **130** blockchains: Bitcoin, Ethereum, BNB, Cosmos, Solana, and most major blockchain platforms. The full list is here. For build instructions, see developer.trustwallet.com/wallet-core/building. If you want to use wallet core in your project follow these instructions.",
+   "install_commands": [
+    "npm install @trustwallet/wallet-core"
+   ],
+   "languages_bytes": {
+    "C++": 4518305,
+    "Rust": 4237945,
+    "Go": 1780008,
+    "C/C++ header": 1175108,
+    "C": 1156520,
+    "Swift": 834823,
+    "Kotlin": 653227,
+    "TypeScript": 120738
+   },
+   "file_count": 3947,
+   "tags": [
+    "Bitcoin",
+    "Go-module",
+    "Rust-crates",
+    "Starknet",
+    "Substrate",
+    "npm"
+   ],
+   "component_count": 118,
+   "capabilities": {
+    "amm-dex": 1,
+    "hedera-hts": 1,
+    "storage-ipfs": 1
+   },
+   "packages": [
+    "codegen-v2",
+    "tw_aptos",
+    "tw_binance",
+    "tw_bitcoin",
+    "tw_bitcoincash",
+    "tw_cosmos",
+    "tw_decred",
+    "tw_ethereum",
+    "tw_greenfield",
+    "tw_groestlcoin",
+    "tw_internet_computer",
+    "tw_komodo",
+    "tw_native_evmos",
+    "tw_native_injective",
+    "tw_pactus",
+    "tw_polkadot",
+    "tw_polymesh",
+    "tw_ripple",
+    "tw_ronin",
+    "tw_solana",
+    "tw_sui",
+    "tw_thorchain",
+    "tw_ton",
+    "tw_zcash",
+    "tw_substrate",
+    "tw_ton_sdk",
+    "tw_utxo",
+    "tw_any_coin",
+    "tw_base58_address",
+    "tw_bech32_address"
+   ],
+   "raw_base": "https://raw.githubusercontent.com/Blockchains/wallet-core/master/",
+   "index_url": "repos/wallet-core/index.json",
+   "components_url": "components/wallet-core.json",
+   "tree_url": "repos/wallet-core/tree.json",
+   "wave": "wave1"
+  },
+  {
+   "slug": "wallet",
+   "name": "wallet",
+   "fork": "Blockchains/wallet",
+   "fork_url": "https://github.com/Blockchains/wallet",
+   "upstream": "bitpay/wallet",
+   "upstream_url": "https://github.com/bitpay/wallet",
+   "branch": "master",
+   "commit": "ff2e9d05b8157e2931824a20daa6d61c9425d02d",
+   "indexed_at": "2026-10-03T18:47:34Z",
+   "category": "wallets",
+   "license": "MIT",
+   "license_class": "permissive",
+   "license_spdx_github": "MIT",
+   "stars": 3942,
+   "description": "Bitpay Wallet (formerly Copay) is a secure Bitcoin and other crypto currencies wallet platform for both desktop and mobile devices.",
+   "readme_summary": "> This repository and wallet versions <=12 are *no longer actively being maintained*. Check out the new BitPay wallet at https://github.com/bitpay/bitpay-app. **PLEASE NOTE WE HAVE DETECTED SOME FAKE COPAY WALLETS ON THE GOOGLE PLAY STORE FOR ANDROID, PLEASE BE SURE TO INSTALL \"BITPAY WALLET\" ONLY FROM THE APP STORES. APP's DEVELOPER SHOULD BE \"BITPAY INC\" ONLY** Bitpay Wallet (formerly Copay) is a Bitcoin, Bitcoin Cash, Ethereum and ERC20 wallet platform for both desktop and mobile devices. Bitpay Wallet uses Bitcore Wallet Service (BWS) for peer synchronization and network interfacing. Binary versions of Bitpay Wallet are available for download at: https://bitpay.com/wallet/ This project was created by BitPay Inc, and it is maintained by BitPay and hundreds of contributors.",
+   "install_commands": [
+    "git clone https://github.com/bitpay/wallet.git",
+    "npm install",
+    "npm run apply:bitpay",
+    "npm run start",
+    "npm run test",
+    "npm run prepare:bitpay",
+    "npm run start:android",
+    "npm run start:ios",
+    "npm run apply:wallet",
+    "npm run start:desktop",
+    "npm run clean-all",
+    "npm run final:android"
+   ],
+   "languages_bytes": {
+    "TypeScript": 2270582,
+    "JavaScript": 39687
+   },
+   "file_count": 1633,
+   "tags": [
+    "npm"
+   ],
+   "component_count": 1,
+   "capabilities": {},
+   "packages": [
+    "copay"
+   ],
+   "raw_base": "https://raw.githubusercontent.com/Blockchains/wallet/master/",
+   "index_url": "repos/wallet/index.json",
+   "components_url": "components/wallet.json",
+   "tree_url": "repos/wallet/tree.json",
+   "wave": "wave1"
   },
   {
    "slug": "zksync-era",
