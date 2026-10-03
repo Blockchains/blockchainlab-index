@@ -1,0 +1,338 @@
+{
+ "openzeppelin-contracts": {
+  "status": "ok",
+  "commit": "40a51f7e78852e48d0b128d4ee3d620cbc7d35d8",
+  "files": 961,
+  "contracts": 276,
+  "secs": 3.1
+ },
+ "go-ethereum": {
+  "status": "ok",
+  "commit": "c9a2bc73c847319a8faa57de59e42c0efc420682",
+  "files": 2401,
+  "contracts": 13,
+  "secs": 12.9
+ },
+ "reth": {
+  "status": "ok",
+  "commit": "10bcf4615d197a01a7c4c33e6be40711553aff5a",
+  "files": 1878,
+  "contracts": 0,
+  "secs": 6.5
+ },
+ "bitcoin": {
+  "status": "ok",
+  "commit": "66776840beb558f7e84451c2c55457f0e06242f0",
+  "files": 3045,
+  "contracts": 0,
+  "secs": 6.0
+ },
+ "agave": {
+  "status": "ok",
+  "commit": "5770743629fb9e4d5c2e9ef0009c155f7787b57f",
+  "files": 1844,
+  "contracts": 0,
+  "secs": 2.8
+ },
+ "solady": {
+  "status": "ok",
+  "commit": "2afba69bf67b78dd4abeadcc696052b3a6f71499",
+  "files": 418,
+  "contracts": 148,
+  "secs": 2.2
+ },
+ "safe-smart-account": {
+  "status": "ok",
+  "commit": "f8fc2f2e75b650d63276aaa12cd3a455a5f5a990",
+  "files": 236,
+  "contracts": 66,
+  "secs": 5.0
+ },
+ "solidity": {
+  "status": "ok",
+  "commit": "1a7bdaa64d22976e2a60c56cefe5e18b84f945d3",
+  "files": 11687,
+  "contracts": 0,
+  "secs": 2.2
+ },
+ "foundry": {
+  "status": "ok",
+  "commit": "55b64de6982e2185f0ee9716f6d309ae79aed817",
+  "files": 2086,
+  "contracts": 12,
+  "secs": 5.1
+ },
+ "buidler": {
+  "status": "ok",
+  "commit": "f9d8fde2b2789a4827914c8072529bb705ea9b5e",
+  "files": 2716,
+  "contracts": 35,
+  "secs": 5.1
+ },
+ "viem": {
+  "status": "ok",
+  "commit": "26d5bd227ba532ceff83bd76e807ea605c703e8b",
+  "files": 3153,
+  "contracts": 18,
+  "secs": 14.0
+ },
+ "ethers-js": {
+  "status": "ok",
+  "commit": "3ea4c226dd0b3a074abf90748de9d11192027f4f",
+  "files": 1775,
+  "contracts": 0,
+  "secs": 7.1
+ },
+ "wagmi": {
+  "status": "ok",
+  "commit": "c458d201b0218a9e371de9fdd9a35b6b475fb1b2",
+  "files": 1912,
+  "contracts": 4,
+  "secs": 1.3
+ },
+ "scaffold-eth-2": {
+  "status": "ok",
+  "commit": "6cdf354a4a02aded39c92d5e0d83cd24e4628239",
+  "files": 144,
+  "contracts": 1,
+  "secs": 1.5
+ },
+ "v4-core": {
+  "status": "ok",
+  "commit": "46c6834698c48bc4a463a86d8420f4eb1d7f3b75",
+  "files": 203,
+  "contracts": 44,
+  "secs": 3.9
+ },
+ "v4-periphery": {
+  "status": "ok",
+  "commit": "9969eec44cfdf07e24b41de47f40276a58401976",
+  "files": 230,
+  "contracts": 69,
+  "secs": 1.8
+ },
+ "v4-template": {
+  "status": "ok",
+  "commit": "1fbf95547791f0821a170b88c750cb2e04e6818b",
+  "files": 22,
+  "contracts": 1,
+  "secs": 0.6
+ },
+ "v3-core": {
+  "status": "ok",
+  "commit": "d0831dc6b8a318df3872b6d68f6de135c9f3ec29",
+  "files": 130,
+  "contracts": 36,
+  "secs": 2.3
+ },
+ "chainlink": {
+  "status": "ok",
+  "commit": "6a0ea40a466a7597fcd2fdfecfb81ab9f9bbfe58",
+  "files": 4769,
+  "contracts": 0,
+  "secs": 7.9
+ },
+ "optimism": {
+  "status": "ok",
+  "commit": "c8e4ba855d79ca56463909ef5a2c5830a1189401",
+  "files": 5837,
+  "contracts": 263,
+  "secs": 25.1
+ },
+ "zksync-era": {
+  "status": "ok",
+  "commit": "ff5f519b11cff863edcfa0f75af10fea113806b0",
+  "files": 4690,
+  "contracts": 62,
+  "secs": 9.1
+ },
+ "stylus-sdk-rs": {
+  "status": "ok",
+  "commit": "76f8b055ec0bf421edd542b164dc2917c9e4e0bd",
+  "files": 593,
+  "contracts": 13,
+  "secs": 0.7
+ },
+ "circom": {
+  "status": "ok",
+  "commit": "a100faedb1c62d4d3e1463f8a3f88342d82351cd",
+  "files": 275,
+  "contracts": 0,
+  "secs": 0.8
+ },
+ "snarkjs": {
+  "status": "ok",
+  "commit": "22003fbcde78608be902520661832db7933d279e",
+  "files": 159,
+  "contracts": 0,
+  "secs": 5.1
+ },
+ "noir": {
+  "status": "ok",
+  "commit": "3049e7e4878fadda7a5e2b0690231c7846e67bf3",
+  "files": 7402,
+  "contracts": 141,
+  "secs": 8.6
+ },
+ "risc0": {
+  "status": "ok",
+  "commit": "3bbcd44d6459b9ef6ac0df3846dc9215514934e8",
+  "files": 2147,
+  "contracts": 18,
+  "secs": 22.0
+ },
+ "sp1": {
+  "status": "ok",
+  "commit": "edc07b68c92c17e4fc8658c39a2ef8d9ea5d95dc",
+  "files": 2166,
+  "contracts": 0,
+  "secs": 16.2
+ },
+ "hiero-sdk-js": {
+  "status": "ok",
+  "commit": "96467fd12bb796f7280b1b76e79ffaa884c946af",
+  "files": 1266,
+  "contracts": 0,
+  "secs": 2.0
+ },
+ "hedera-smart-contracts": {
+  "status": "ok",
+  "commit": "43854b5c927e467b53f36316a5097f2b0815c75b",
+  "files": 533,
+  "contracts": 161,
+  "secs": 2.8
+ },
+ "hiero-consensus-node": {
+  "status": "ok",
+  "commit": "c2cd3bd80de7b79655d4719f20ce33313f3e7d4c",
+  "files": 10383,
+  "contracts": 428,
+  "secs": 17.9
+ },
+ "account-abstraction": {
+  "status": "ok",
+  "commit": "1c6b669d0eea734e09a87e095ba15e076151718a",
+  "files": 128,
+  "contracts": 30,
+  "secs": 3.1
+ },
+ "permissionless-js": {
+  "status": "ok",
+  "commit": "5fa8bbc1e5c13253178462838a768b964432620a",
+  "files": 316,
+  "contracts": 0,
+  "secs": 0.7
+ },
+ "graph-node": {
+  "status": "ok",
+  "commit": "6838f4e3cf3607c5bc32ef705dd05aec1eb057ab",
+  "files": 1454,
+  "contracts": 0,
+  "secs": 1.5
+ },
+ "graph-tooling": {
+  "status": "ok",
+  "commit": "7fe67ac310e5f4f17dbdaabb0cb0ee0812e4101a",
+  "files": 565,
+  "contracts": 0,
+  "secs": 1.6
+ },
+ "rainbowkit": {
+  "status": "ok",
+  "commit": "03360ee924cfa6af13ff1d623b356bf5a170348e",
+  "files": 2688,
+  "contracts": 0,
+  "secs": 7.3
+ },
+ "cosmos-sdk": {
+  "status": "ok",
+  "commit": "72a2df8cdbe5a4d21e4407ad9608300c19e74aaf",
+  "files": 4268,
+  "contracts": 0,
+  "secs": 13.5
+ },
+ "sui": {
+  "status": "ok",
+  "commit": "3ae8aecf7c175a83aa97da01d491e053a6090a8c",
+  "files": 19065,
+  "contracts": 344,
+  "secs": 28.5
+ },
+ "anchor": {
+  "status": "ok",
+  "commit": "541295db1958e7809cbb56e08615d2fb9bb7cea1",
+  "files": 1830,
+  "contracts": 18,
+  "secs": 19.7
+ },
+ "lnd": {
+  "status": "ok",
+  "commit": "f3a8f4e8ae8237ff2b40e4724de45085170df962",
+  "files": 2338,
+  "contracts": 0,
+  "secs": 3.8
+ },
+ "bdk": {
+  "status": "ok",
+  "commit": "0790f0400b108974b538e44d6498dc6fe1157548",
+  "files": 123,
+  "contracts": 0,
+  "secs": 0.6
+ },
+ "polkadot-sdk": {
+  "status": "ok",
+  "commit": "18311d6fa3f6649ba3e0622ad2928ed0789bfbb9",
+  "files": 9705,
+  "contracts": 5,
+  "secs": 33.8
+ },
+ "chainlink-evm": {
+  "status": "ok",
+  "commit": "d1ee27b0b5875adb8eca1e0da05926f7eb1f6e1f",
+  "files": 1802,
+  "contracts": 278,
+  "secs": 2.0
+ },
+ "circomlib": {
+  "status": "ok",
+  "commit": "35e54ea21da3e8762557234298dbb553c175ea8d",
+  "files": 148,
+  "contracts": 108,
+  "secs": 1.7
+ },
+ "forge-std": {
+  "status": "ok",
+  "commit": "c6fa5d82a3a287c4ff23f26c8f7e2958aafd32d9",
+  "files": 72,
+  "contracts": 45,
+  "secs": 1.1
+ },
+ "linera-protocol": {
+  "status": "ok",
+  "commit": "672d97bb2fce3127db351069df72f1d225d8f263",
+  "files": 1618,
+  "contracts": 14,
+  "secs": 3.7
+ },
+ "fabric": {
+  "status": "ok",
+  "commit": "9e0dd098f12ef8c32b553738d66219c95af16b6c",
+  "files": 6409,
+  "contracts": 0,
+  "secs": 12.8
+ },
+ "dogecoin": {
+  "status": "ok",
+  "commit": "47a303a449999314abcf83bd1fc7e77dd4540fcd",
+  "files": 1594,
+  "contracts": 0,
+  "secs": 5.8
+ },
+ "chia-blockchain": {
+  "status": "ok",
+  "commit": "2a1c9335e3d3408f24cb082d73932cec39e78343",
+  "files": 1317,
+  "contracts": 0,
+  "secs": 3.8
+ }
+}

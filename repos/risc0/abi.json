@@ -1,0 +1,1 @@
+{"groth16_proof/groth16/verifier.sol:Groth16Verifier":[{"type":"function","name":"verifyProof","inputs":[{"type":"uint256[2]","name":"_pA"},{"type":"uint256[2][2]","name":"_pB"},{"type":"uint256[2]","name":"_pC"},{"type":"uint256[5]","name":"_pubSignals"}],"outputs":[{"type":"bool","name":""}],"stateMutability":"view"}]}

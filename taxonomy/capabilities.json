@@ -1,0 +1,1315 @@
+{
+ "version": "2026-10-03",
+ "description": "Blockchain Lab capability taxonomy. Maps plain-language ideas to required capabilities, and capabilities to components in the Blockchains fork index. 'match' rules are applied to indexed components (name/base/function/path); 'synonyms' drive idea parsing; 'preferred' lists default components as <slug>:<path>.",
+ "vm_preference": [
+  "EVM",
+  "Hedera",
+  "SVM",
+  "Move",
+  "Cosmos",
+  "Substrate",
+  "Bitcoin",
+  "ZK"
+ ],
+ "license_policy": {
+  "permissive": [
+   "MIT",
+   "Apache-2.0",
+   "BSD-2-Clause",
+   "BSD-3-Clause",
+   "ISC",
+   "Unlicense",
+   "0BSD",
+   "MIT OR Apache-2.0"
+  ],
+  "weak_copyleft": [
+   "LGPL-2.1",
+   "LGPL-3.0",
+   "MPL-2.0"
+  ],
+  "strong_copyleft": [
+   "GPL-2.0",
+   "GPL-2.0-or-later",
+   "GPL-3.0",
+   "AGPL-3.0"
+  ],
+  "source_available_blocked": [
+   "BUSL-1.1",
+   "LicenseRef-*",
+   "UNLICENSED"
+  ],
+  "rules": [
+   "Prefer permissive components when two candidates score within 10%.",
+   "Copying any GPL-3.0/AGPL-3.0 file makes the whole generated repo GPL-3.0/AGPL-3.0: warn and set LICENSE accordingly.",
+   "LGPL files may be linked/imported unmodified; keep their headers and ship LGPL text in NOTICE.",
+   "Never copy BUSL-1.1 or non-OSI files; reference them only as external dependencies with a warning.",
+   "Always keep SPDX headers and add a NOTICE entry per source repo + commit."
+  ]
+ },
+ "capabilities": [
+  {
+   "id": "fungible-token",
+   "label": "Fungible token",
+   "group": "assets",
+   "description": "Transferable, divisible token with balances and allowances.",
+   "match": {
+    "name_regex": "(?i)^(ERC20|.*Token)$",
+    "function_any": [
+     "transfer",
+     "approve",
+     "balanceOf",
+     "totalSupply"
+    ],
+    "base_any": [
+     "ERC20",
+     "IERC20"
+    ],
+    "path_regex": "(?i)token/ERC20/"
+   },
+   "synonyms": [
+    "token",
+    "coin",
+    "erc20",
+    "currency",
+    "points",
+    "loyalty points",
+    "stablecoin token",
+    "governance token",
+    "utility token"
+   ],
+   "standards": [
+    "ERC-20"
+   ],
+   "vm": [
+    "EVM"
+   ],
+   "preferred": [
+    "openzeppelin-contracts:contracts/token/ERC20/ERC20.sol",
+    "solady:src/tokens/ERC20.sol"
+   ]
+  },
+  {
+   "id": "token-permit",
+   "label": "Gasless approvals (permit)",
+   "group": "assets",
+   "description": "EIP-2612 signed approvals so users approve without gas.",
+   "match": {
+    "name_regex": "(?i)permit",
+    "function_any": [
+     "permit",
+     "nonces",
+     "DOMAIN_SEPARATOR"
+    ],
+    "base_any": [
+     "ERC20Permit",
+     "IERC20Permit"
+    ],
+    "path_regex": "(?i)permit"
+   },
+   "synonyms": [
+    "permit",
+    "gasless approval",
+    "signature approval",
+    "eip-2612"
+   ],
+   "standards": [
+    "ERC-2612",
+    "EIP-712"
+   ],
+   "vm": [
+    "EVM"
+   ],
+   "preferred": [
+    "openzeppelin-contracts:contracts/token/ERC20/extensions/ERC20Permit.sol"
+   ]
+  },
+  {
+   "id": "nft",
+   "label": "Non-fungible token (NFT)",
+   "group": "assets",
+   "description": "Unique tokens with owners and metadata URIs.",
+   "match": {
+    "name_regex": "(?i)^(ERC721.*|.*NFT.*)$",
+    "function_any": [
+     "ownerOf",
+     "safeTransferFrom",
+     "tokenURI"
+    ],
+    "base_any": [
+     "ERC721",
+     "IERC721"
+    ],
+    "path_regex": "(?i)ERC721"
+   },
+   "synonyms": [
+    "nft",
+    "collectible",
+    "membership pass",
+    "ticket",
+    "certificate",
+    "badge",
+    "deed",
+    "art"
+   ],
+   "standards": [
+    "ERC-721"
+   ],
+   "vm": [
+    "EVM"
+   ],
+   "preferred": [
+    "openzeppelin-contracts:contracts/token/ERC721/ERC721.sol",
+    "openzeppelin-contracts:contracts/token/ERC721/extensions/ERC721URIStorage.sol"
+   ]
+  },
+  {
+   "id": "multi-token",
+   "label": "Multi-token (ERC-1155)",
+   "group": "assets",
+   "description": "Many fungible/non-fungible token ids in one contract.",
+   "match": {
+    "name_regex": "(?i)ERC1155",
+    "function_any": [
+     "safeBatchTransferFrom",
+     "balanceOfBatch"
+    ],
+    "base_any": [
+     "ERC1155"
+    ],
+    "path_regex": "(?i)ERC1155"
+   },
+   "synonyms": [
+    "game items",
+    "editions",
+    "semi-fungible",
+    "1155"
+   ],
+   "standards": [
+    "ERC-1155"
+   ],
+   "vm": [
+    "EVM"
+   ],
+   "preferred": [
+    "openzeppelin-contracts:contracts/token/ERC1155/ERC1155.sol"
+   ]
+  },
+  {
+   "id": "royalties",
+   "label": "Royalties",
+   "group": "assets",
+   "description": "ERC-2981 royalty info for NFTs.",
+   "match": {
+    "name_regex": "(?i)royalt|2981",
+    "function_any": [
+     "royaltyInfo"
+    ],
+    "base_any": [
+     "ERC2981"
+    ],
+    "path_regex": "(?i)2981"
+   },
+   "synonyms": [
+    "royalty",
+    "creator fee"
+   ],
+   "standards": [
+    "ERC-2981"
+   ],
+   "vm": [
+    "EVM"
+   ],
+   "preferred": [
+    "openzeppelin-contracts:contracts/token/common/ERC2981.sol"
+   ]
+  },
+  {
+   "id": "vault",
+   "label": "Tokenised vault (ERC-4626)",
+   "group": "defi",
+   "description": "Deposit assets, receive shares; yield-bearing vault standard.",
+   "match": {
+    "name_regex": "(?i)vault|4626",
+    "function_any": [
+     "convertToShares",
+     "previewDeposit",
+     "deposit",
+     "redeem"
+    ],
+    "base_any": [
+     "ERC4626",
+     "IERC4626"
+    ],
+    "path_regex": "(?i)4626|vault"
+   },
+   "synonyms": [
+    "vault",
+    "savings",
+    "yield",
+    "staking pool",
+    "fund",
+    "treasury shares"
+   ],
+   "standards": [
+    "ERC-4626"
+   ],
+   "vm": [
+    "EVM"
+   ],
+   "preferred": [
+    "openzeppelin-contracts:contracts/token/ERC20/extensions/ERC4626.sol"
+   ]
+  },
+  {
+   "id": "amm-dex",
+   "label": "AMM / DEX",
+   "group": "defi",
+   "description": "Automated market maker pools and swaps.",
+   "match": {
+    "name_regex": "(?i)pool|pair|swap|router|amm",
+    "function_any": [
+     "swap",
+     "addLiquidity",
+     "mint",
+     "burn",
+     "initialize"
+    ],
+    "base_any": [
+     "IUniswapV3Pool",
+     "IPoolManager",
+     "IUniswapV2Pair"
+    ],
+    "path_regex": "(?i)(v4-core|v3-core|v2-core|uniswap|swap)"
+   },
+   "synonyms": [
+    "dex",
+    "amm",
+    "swap",
+    "exchange",
+    "liquidity pool",
+    "market maker",
+    "trading pair"
+   ],
+   "standards": [],
+   "vm": [
+    "EVM"
+   ],
+   "preferred": [
+    "v4-core:src/PoolManager.sol",
+    "v2-core:contracts/UniswapV2Pair.sol"
+   ]
+  },
+  {
+   "id": "dex-hook",
+   "label": "DEX hook (Uniswap v4)",
+   "group": "defi",
+   "description": "Custom logic around Uniswap v4 swaps and liquidity.",
+   "match": {
+    "name_regex": "(?i)hook",
+    "function_any": [
+     "beforeSwap",
+     "afterSwap",
+     "getHookPermissions"
+    ],
+    "base_any": [
+     "BaseHook",
+     "IHooks"
+    ],
+    "path_regex": "(?i)hook"
+   },
+   "synonyms": [
+    "afterswap",
+    "beforeswap",
+    "custom pool logic",
+    "dynamic fee",
+    "hook",
+    "limit order",
+    "uniswap v4 hook",
+    "v4 hook"
+   ],
+   "standards": [],
+   "vm": [
+    "EVM"
+   ],
+   "preferred": [
+    "uniswap-hooks:src/base/BaseHook.sol",
+    "v4-core:src/interfaces/IHooks.sol",
+    "v4-core:src/libraries/LPFeeLibrary.sol",
+    "v4-core:src/interfaces/IPoolManager.sol"
+   ],
+   "subsumes": [
+    "amm-dex"
+   ]
+  },
+  {
+   "id": "lending",
+   "label": "Lending / borrowing",
+   "group": "defi",
+   "description": "Collateralised lending markets.",
+   "match": {
+    "name_regex": "(?i)lend|borrow|market|comptroller|morpho",
+    "function_any": [
+     "borrow",
+     "repay",
+     "supply",
+     "liquidate"
+    ],
+    "base_any": [],
+    "path_regex": "(?i)lend|borrow"
+   },
+   "synonyms": [
+    "lending",
+    "borrow",
+    "loan",
+    "credit",
+    "collateral",
+    "money market"
+   ],
+   "standards": [],
+   "vm": [
+    "EVM"
+   ],
+   "preferred": [
+    "morpho-blue:src/Morpho.sol"
+   ]
+  },
+  {
+   "id": "price-oracle",
+   "label": "Price oracle",
+   "group": "oracles",
+   "description": "Off-chain price data on-chain (Chainlink Data Feeds).",
+   "match": {
+    "name_regex": "(?i)aggregator|oracle|pricefeed",
+    "function_any": [
+     "latestRoundData",
+     "getRoundData"
+    ],
+    "base_any": [
+     "AggregatorV3Interface"
+    ],
+    "path_regex": "(?i)oracle|feed|aggregator"
+   },
+   "synonyms": [
+    "price",
+    "oracle",
+    "price feed",
+    "exchange rate",
+    "usd value",
+    "market data"
+   ],
+   "standards": [
+    "Chainlink-Feeds"
+   ],
+   "vm": [
+    "EVM"
+   ],
+   "preferred": [
+    "chainlink-evm:contracts/src/v0.8/shared/interfaces/AggregatorV3Interface.sol"
+   ]
+  },
+  {
+   "id": "randomness",
+   "label": "Verifiable randomness",
+   "group": "oracles",
+   "description": "VRF randomness for games and raffles.",
+   "match": {
+    "name_regex": "(?i)vrf|random",
+    "function_any": [
+     "requestRandomWords",
+     "fulfillRandomWords"
+    ],
+    "base_any": [
+     "VRFConsumerBaseV2Plus"
+    ],
+    "path_regex": "(?i)vrf"
+   },
+   "synonyms": [
+    "random",
+    "lottery",
+    "raffle",
+    "dice",
+    "loot"
+   ],
+   "standards": [],
+   "vm": [
+    "EVM"
+   ],
+   "preferred": []
+  },
+  {
+   "id": "automation",
+   "label": "Automation / keepers",
+   "group": "oracles",
+   "description": "Scheduled or condition-triggered on-chain execution.",
+   "match": {
+    "name_regex": "(?i)automation|keeper|upkeep",
+    "function_any": [
+     "checkUpkeep",
+     "performUpkeep"
+    ],
+    "base_any": [
+     "AutomationCompatibleInterface"
+    ],
+    "path_regex": "(?i)automation"
+   },
+   "synonyms": [
+    "cron",
+    "scheduled",
+    "keeper",
+    "recurring",
+    "subscription billing"
+   ],
+   "standards": [],
+   "vm": [
+    "EVM"
+   ],
+   "preferred": []
+  },
+  {
+   "id": "cross-chain",
+   "label": "Cross-chain messaging / bridge",
+   "group": "interop",
+   "description": "Move messages or tokens between chains.",
+   "match": {
+    "name_regex": "(?i)bridge|ccip|wormhole|portal|messenger|ibc",
+    "function_any": [
+     "ccipSend",
+     "publishMessage",
+     "sendMessage"
+    ],
+    "base_any": [],
+    "path_regex": "(?i)bridge|ccip|wormhole|ibc|interchain"
+   },
+   "synonyms": [
+    "bridge",
+    "cross-chain",
+    "multichain",
+    "interoperability",
+    "omnichain",
+    "ibc"
+   ],
+   "standards": [],
+   "vm": [
+    "EVM",
+    "Cosmos",
+    "SVM"
+   ],
+   "preferred": []
+  },
+  {
+   "id": "account-abstraction",
+   "label": "Smart accounts (ERC-4337)",
+   "group": "accounts",
+   "description": "Smart contract wallets, paymasters and bundler-compatible user operations.",
+   "match": {
+    "name_regex": "(?i)account|paymaster|entrypoint",
+    "function_any": [
+     "validateUserOp",
+     "handleOps",
+     "validatePaymasterUserOp"
+    ],
+    "base_any": [
+     "BaseAccount",
+     "IAccount",
+     "IEntryPoint",
+     "BasePaymaster"
+    ],
+    "path_regex": "(?i)account-abstraction|erc4337|paymaster"
+   },
+   "synonyms": [
+    "smart account",
+    "account abstraction",
+    "gasless",
+    "paymaster",
+    "sponsored gas",
+    "social login wallet",
+    "4337"
+   ],
+   "standards": [
+    "ERC-4337"
+   ],
+   "vm": [
+    "EVM"
+   ],
+   "preferred": [
+    "account-abstraction:contracts/accounts/SimpleAccount.sol",
+    "account-abstraction:contracts/accounts/SimpleAccountFactory.sol",
+    "account-abstraction:contracts/core/BasePaymaster.sol",
+    "account-abstraction:contracts/core/EntryPoint.sol"
+   ]
+  },
+  {
+   "id": "multisig",
+   "label": "Multisig / Safe",
+   "group": "accounts",
+   "description": "Multi-owner treasury wallet.",
+   "match": {
+    "name_regex": "(?i)safe|multisig",
+    "function_any": [
+     "execTransaction",
+     "getThreshold"
+    ],
+    "base_any": [
+     "Safe"
+    ],
+    "path_regex": "(?i)safe"
+   },
+   "synonyms": [
+    "multisig",
+    "treasury",
+    "co-sign",
+    "safe wallet"
+   ],
+   "standards": [],
+   "vm": [
+    "EVM"
+   ],
+   "preferred": [
+    "safe-smart-account:contracts/Safe.sol"
+   ]
+  },
+  {
+   "id": "access-control",
+   "label": "Access control / roles",
+   "group": "security",
+   "description": "Owner and role-based permissions.",
+   "match": {
+    "name_regex": "(?i)ownable|accesscontrol|roles",
+    "function_any": [
+     "grantRole",
+     "transferOwnership",
+     "hasRole"
+    ],
+    "base_any": [
+     "Ownable",
+     "AccessControl"
+    ],
+    "path_regex": "(?i)access"
+   },
+   "synonyms": [
+    "admin",
+    "roles",
+    "permissions",
+    "owner only",
+    "allowlist"
+   ],
+   "standards": [],
+   "vm": [
+    "EVM"
+   ],
+   "preferred": [
+    "openzeppelin-contracts:contracts/access/AccessControl.sol",
+    "openzeppelin-contracts:contracts/access/Ownable.sol"
+   ]
+  },
+  {
+   "id": "upgradeability",
+   "label": "Upgradeable proxies",
+   "group": "security",
+   "description": "UUPS / transparent proxy upgrade patterns.",
+   "match": {
+    "name_regex": "(?i)proxy|upgrade",
+    "function_any": [
+     "upgradeToAndCall"
+    ],
+    "base_any": [
+     "UUPSUpgradeable",
+     "ERC1967Proxy"
+    ],
+    "path_regex": "(?i)proxy"
+   },
+   "synonyms": [
+    "upgradeable",
+    "proxy",
+    "uups"
+   ],
+   "standards": [
+    "Proxy/Upgradeable"
+   ],
+   "vm": [
+    "EVM"
+   ],
+   "preferred": [
+    "openzeppelin-contracts:contracts/proxy/utils/UUPSUpgradeable.sol",
+    "openzeppelin-contracts:contracts/proxy/ERC1967/ERC1967Proxy.sol"
+   ]
+  },
+  {
+   "id": "governance",
+   "label": "DAO governance",
+   "group": "governance",
+   "description": "Token voting, proposals, timelocked execution.",
+   "match": {
+    "name_regex": "(?i)governor|timelock|votes|dao",
+    "function_any": [
+     "propose",
+     "castVote",
+     "queue",
+     "execute"
+    ],
+    "base_any": [
+     "Governor",
+     "TimelockController",
+     "ERC20Votes"
+    ],
+    "path_regex": "(?i)governance"
+   },
+   "synonyms": [
+    "dao",
+    "voting",
+    "governance",
+    "proposal",
+    "community treasury"
+   ],
+   "standards": [],
+   "vm": [
+    "EVM"
+   ],
+   "preferred": [
+    "openzeppelin-contracts:contracts/governance/Governor.sol",
+    "openzeppelin-contracts:contracts/governance/TimelockController.sol",
+    "openzeppelin-contracts:contracts/token/ERC20/extensions/ERC20Votes.sol"
+   ]
+  },
+  {
+   "id": "vesting",
+   "label": "Vesting / timelock payouts",
+   "group": "governance",
+   "description": "Linear token vesting and timed release.",
+   "match": {
+    "name_regex": "(?i)vesting|timelock",
+    "function_any": [
+     "release",
+     "vestedAmount"
+    ],
+    "base_any": [
+     "VestingWallet"
+    ],
+    "path_regex": "(?i)vesting"
+   },
+   "synonyms": [
+    "vesting",
+    "cliff",
+    "team tokens",
+    "payroll stream"
+   ],
+   "standards": [],
+   "vm": [
+    "EVM"
+   ],
+   "preferred": [
+    "openzeppelin-contracts:contracts/finance/VestingWallet.sol"
+   ]
+  },
+  {
+   "id": "signatures",
+   "label": "Signatures / EIP-712",
+   "group": "security",
+   "description": "Typed-data signatures, ECDSA recovery, Merkle proofs.",
+   "match": {
+    "name_regex": "(?i)ecdsa|eip712|signature|merkle",
+    "function_any": [
+     "recover",
+     "verify",
+     "eip712Domain"
+    ],
+    "base_any": [
+     "EIP712"
+    ],
+    "path_regex": "(?i)cryptography"
+   },
+   "synonyms": [
+    "signature",
+    "signed message",
+    "allowlist proof",
+    "merkle",
+    "airdrop claim",
+    "voucher"
+   ],
+   "standards": [
+    "EIP-712"
+   ],
+   "vm": [
+    "EVM"
+   ],
+   "preferred": [
+    "openzeppelin-contracts:contracts/utils/cryptography/ECDSA.sol",
+    "openzeppelin-contracts:contracts/utils/cryptography/MerkleProof.sol",
+    "openzeppelin-contracts:contracts/utils/cryptography/EIP712.sol"
+   ]
+  },
+  {
+   "id": "marketplace",
+   "label": "NFT marketplace",
+   "group": "nft",
+   "description": "Listings, offers and order fulfilment.",
+   "match": {
+    "name_regex": "(?i)seaport|market|order",
+    "function_any": [
+     "fulfillOrder",
+     "fulfillBasicOrder"
+    ],
+    "base_any": [
+     "Seaport",
+     "ConsiderationInterface"
+    ],
+    "path_regex": "(?i)seaport|marketplace"
+   },
+   "synonyms": [
+    "marketplace",
+    "buy and sell nfts",
+    "listing",
+    "auction",
+    "offers"
+   ],
+   "standards": [],
+   "vm": [
+    "EVM"
+   ],
+   "preferred": [
+    "seaport:contracts/Seaport.sol"
+   ]
+  },
+  {
+   "id": "zk-proof",
+   "label": "Zero-knowledge proof",
+   "group": "zk",
+   "description": "Prove a statement without revealing inputs (circom/Noir/zkVM) and verify on-chain.",
+   "match": {
+    "name_regex": "(?i)verifier|groth16|plonk|zk|circuit",
+    "function_any": [
+     "verifyProof",
+     "verify"
+    ],
+    "base_any": [],
+    "path_regex": "(?i)circom|noir|zk|verifier|circuits"
+   },
+   "synonyms": [
+    "age proof",
+    "anonymous",
+    "circom",
+    "credential",
+    "groth16",
+    "noir",
+    "plonk",
+    "private",
+    "prove without revealing",
+    "snark",
+    "zero knowledge",
+    "zero-knowledge proof",
+    "zk",
+    "zk-snark"
+   ],
+   "standards": [],
+   "vm": [
+    "EVM",
+    "ZK"
+   ],
+   "preferred": [
+    "circomlib:circuits/comparators.circom",
+    "circomlib:circuits/poseidon.circom",
+    "snarkjs:templates/verifier_groth16.sol.ejs",
+    "noir:noir_stdlib/src/hash/mod.nr"
+   ]
+  },
+  {
+   "id": "zkvm",
+   "label": "zkVM / verifiable compute",
+   "group": "zk",
+   "description": "Prove arbitrary Rust programs (RISC Zero, SP1, Jolt).",
+   "match": {
+    "name_regex": "(?i)zkvm|risc0|sp1|guest",
+    "function_any": [],
+    "base_any": [],
+    "path_regex": "(?i)risc0|sp1|zkvm|guest"
+   },
+   "synonyms": [
+    "verifiable compute",
+    "coprocessor",
+    "zkvm",
+    "prove computation"
+   ],
+   "standards": [],
+   "vm": [
+    "ZK"
+   ],
+   "preferred": []
+  },
+  {
+   "id": "identity",
+   "label": "Identity / credentials",
+   "group": "identity",
+   "description": "On-chain identity, attestations, soulbound credentials.",
+   "match": {
+    "name_regex": "(?i)identity|attest|soulbound|credential|semaphore",
+    "function_any": [
+     "attest",
+     "verifyProof"
+    ],
+    "base_any": [],
+    "path_regex": "(?i)identity|attest|semaphore"
+   },
+   "synonyms": [
+    "identity",
+    "kyc",
+    "credential",
+    "reputation",
+    "soulbound",
+    "proof of personhood"
+   ],
+   "standards": [],
+   "vm": [
+    "EVM",
+    "ZK"
+   ],
+   "preferred": [
+    "semaphore:packages/contracts/contracts/Semaphore.sol"
+   ]
+  },
+  {
+   "id": "indexer",
+   "label": "Indexer / subgraph",
+   "group": "data",
+   "description": "Index chain events into a queryable API (The Graph, Squid).",
+   "match": {
+    "name_regex": "(?i)subgraph|indexer|squid",
+    "function_any": [],
+    "base_any": [],
+    "path_regex": "(?i)subgraph|graph-node|squid|indexer"
+   },
+   "synonyms": [
+    "indexer",
+    "subgraph",
+    "analytics",
+    "dashboard data",
+    "query events",
+    "api"
+   ],
+   "standards": [],
+   "vm": [
+    "EVM",
+    "SVM",
+    "Substrate"
+   ],
+   "preferred": [
+    "graph-tooling:packages/cli",
+    "squid-sdk"
+   ]
+  },
+  {
+   "id": "wallet-ui",
+   "label": "Wallet connect UI",
+   "group": "frontend",
+   "description": "Connect-wallet buttons and account state for dApps.",
+   "match": {
+    "name_regex": "(?i)connect|wallet|rainbowkit|wagmi",
+    "function_any": [],
+    "base_any": [],
+    "path_regex": "(?i)rainbowkit|connectkit|wallet-adapter|wagmi"
+   },
+   "synonyms": [
+    "wallet",
+    "connect wallet",
+    "dapp frontend",
+    "web app",
+    "ui",
+    "login with wallet"
+   ],
+   "standards": [],
+   "vm": [
+    "EVM",
+    "SVM"
+   ],
+   "preferred": [
+    "rainbowkit:packages/rainbowkit",
+    "wagmi:packages/react",
+    "viem:src"
+   ]
+  },
+  {
+   "id": "evm-client-lib",
+   "label": "EVM client library",
+   "group": "frontend",
+   "description": "Typed RPC client, ABI encoding, contract calls (viem, ethers, alloy).",
+   "match": {
+    "name_regex": "(?i)viem|ethers|alloy|web3",
+    "function_any": [],
+    "base_any": [],
+    "path_regex": "(?i)viem|ethers|alloy|web3j"
+   },
+   "synonyms": [
+    "frontend",
+    "script",
+    "backend",
+    "read contract",
+    "sdk"
+   ],
+   "standards": [],
+   "vm": [
+    "EVM"
+   ],
+   "preferred": [
+    "viem:src",
+    "ethers.js:src.ts",
+    "alloy:crates"
+   ]
+  },
+  {
+   "id": "dev-framework",
+   "label": "Smart-contract dev framework",
+   "group": "tooling",
+   "description": "Compile, test, deploy (Foundry, Hardhat, Ape).",
+   "match": {
+    "name_regex": "(?i)forge|hardhat|ape",
+    "function_any": [],
+    "base_any": [],
+    "path_regex": "(?i)foundry|hardhat|forge-std"
+   },
+   "synonyms": [
+    "test",
+    "deploy",
+    "framework",
+    "scripts",
+    "local chain"
+   ],
+   "standards": [],
+   "vm": [
+    "EVM"
+   ],
+   "preferred": [
+    "foundry:crates/forge",
+    "forge-std:src"
+   ]
+  },
+  {
+   "id": "security-analysis",
+   "label": "Security analysis",
+   "group": "security",
+   "description": "Static analysis, fuzzing, linting (Slither, Echidna, Solhint).",
+   "match": {
+    "name_regex": "(?i)slither|echidna|solhint|fuzz",
+    "function_any": [],
+    "base_any": [],
+    "path_regex": "(?i)slither|echidna|solhint|heimdall"
+   },
+   "synonyms": [
+    "audit",
+    "security",
+    "fuzzing",
+    "static analysis",
+    "lint"
+   ],
+   "standards": [],
+   "vm": [
+    "EVM"
+   ],
+   "preferred": [
+    "slither",
+    "echidna",
+    "solhint"
+   ]
+  },
+  {
+   "id": "hedera-hts",
+   "label": "Hedera Token Service",
+   "group": "hedera",
+   "description": "Native Hedera tokens via the Hiero/Hedera SDK or HTS system contract.",
+   "match": {
+    "name_regex": "(?i)hedera|hts|token.?service",
+    "function_any": [
+     "createFungibleToken",
+     "mintToken"
+    ],
+    "base_any": [
+     "HederaTokenService"
+    ],
+    "path_regex": "(?i)hedera|hts|hiero"
+   },
+   "synonyms": [
+    "hedera",
+    "hbar",
+    "hts",
+    "hashgraph",
+    "hiero"
+   ],
+   "standards": [],
+   "vm": [
+    "Hedera",
+    "EVM"
+   ],
+   "preferred": [
+    "hedera-smart-contracts:lib/layer-zero/hts/HederaTokenService.sol",
+    "hedera-smart-contracts:lib/layer-zero/hts/IHederaTokenService.sol",
+    "hiero-sdk-js:src/token"
+   ]
+  },
+  {
+   "id": "solana-program",
+   "label": "Solana program (Anchor)",
+   "group": "svm",
+   "description": "On-chain programs for Solana using Anchor.",
+   "match": {
+    "name_regex": "(?i)program|anchor",
+    "function_any": [],
+    "base_any": [],
+    "path_regex": "(?i)programs/|anchor"
+   },
+   "synonyms": [
+    "solana",
+    "spl",
+    "anchor",
+    "sol"
+   ],
+   "standards": [],
+   "vm": [
+    "SVM"
+   ],
+   "preferred": [
+    "anchor:lang",
+    "program-examples"
+   ]
+  },
+  {
+   "id": "move-module",
+   "label": "Move module (Sui/Aptos)",
+   "group": "move",
+   "description": "Move smart-contract modules and objects.",
+   "match": {
+    "name_regex": "(?i).",
+    "function_any": [],
+    "base_any": [],
+    "path_regex": "\\.move$"
+   },
+   "synonyms": [
+    "sui",
+    "aptos",
+    "move"
+   ],
+   "standards": [],
+   "vm": [
+    "Move"
+   ],
+   "preferred": [
+    "sui:crates/sui-framework/packages/sui-framework"
+   ]
+  },
+  {
+   "id": "cosmos-module",
+   "label": "Cosmos SDK module / CosmWasm",
+   "group": "cosmos",
+   "description": "App-chain modules and CosmWasm contracts.",
+   "match": {
+    "name_regex": "(?i)keeper|msgserver|cw",
+    "function_any": [],
+    "base_any": [],
+    "path_regex": "(?i)x/|cosmwasm|contracts/"
+   },
+   "synonyms": [
+    "cosmos",
+    "appchain",
+    "ibc",
+    "cosmwasm",
+    "tendermint"
+   ],
+   "standards": [],
+   "vm": [
+    "Cosmos"
+   ],
+   "preferred": [
+    "cosmos-sdk:x/bank",
+    "cosmwasm:packages/std"
+   ]
+  },
+  {
+   "id": "substrate-pallet",
+   "label": "Substrate pallet / ink!",
+   "group": "polkadot",
+   "description": "Polkadot SDK runtime pallets and ink! contracts.",
+   "match": {
+    "name_regex": "(?i)pallet|ink",
+    "function_any": [],
+    "base_any": [],
+    "path_regex": "(?i)pallets?/|frame/"
+   },
+   "synonyms": [
+    "polkadot",
+    "substrate",
+    "parachain",
+    "pallet",
+    "ink"
+   ],
+   "standards": [],
+   "vm": [
+    "Substrate"
+   ],
+   "preferred": [
+    "polkadot-sdk:substrate/frame"
+   ]
+  },
+  {
+   "id": "bitcoin-wallet",
+   "label": "Bitcoin wallet / payments",
+   "group": "bitcoin",
+   "description": "Descriptor wallets, PSBT, Lightning payments.",
+   "match": {
+    "name_regex": "(?i)wallet|psbt|lightning|invoice",
+    "function_any": [],
+    "base_any": [],
+    "path_regex": "(?i)bdk|lnd|lightning|btc"
+   },
+   "synonyms": [
+    "bitcoin",
+    "btc",
+    "lightning",
+    "sats",
+    "invoice",
+    "psbt"
+   ],
+   "standards": [],
+   "vm": [
+    "Bitcoin"
+   ],
+   "preferred": [
+    "bdk:crates/wallet",
+    "lnd:lnrpc"
+   ]
+  },
+  {
+   "id": "l2-rollup",
+   "label": "L2 / rollup stack",
+   "group": "scaling",
+   "description": "Deploy or integrate an optimistic or ZK rollup (OP Stack, zkSync, Taiko, Stylus).",
+   "match": {
+    "name_regex": "(?i)rollup|l2|portal|sequencer",
+    "function_any": [],
+    "base_any": [],
+    "path_regex": "(?i)optimism|op-|zksync|taiko|stylus"
+   },
+   "synonyms": [
+    "layer 2",
+    "rollup",
+    "appchain",
+    "scaling",
+    "op stack",
+    "superchain"
+   ],
+   "standards": [],
+   "vm": [
+    "EVM"
+   ],
+   "preferred": [
+    "optimism:packages/contracts-bedrock"
+   ]
+  },
+  {
+   "id": "storage-ipfs",
+   "label": "Decentralised storage",
+   "group": "storage",
+   "description": "Content-addressed file storage (IPFS/Helia, Filecoin, Swarm).",
+   "match": {
+    "name_regex": "(?i)ipfs|helia|cid|swarm|filecoin",
+    "function_any": [],
+    "base_any": [],
+    "path_regex": "(?i)ipfs|helia|kubo|swarm|filecoin"
+   },
+   "synonyms": [
+    "ipfs",
+    "file storage",
+    "metadata hosting",
+    "decentralised storage",
+    "media"
+   ],
+   "standards": [],
+   "vm": [
+    "EVM",
+    "Any"
+   ],
+   "preferred": [
+    "helia:packages/helia"
+   ]
+  },
+  {
+   "id": "payments",
+   "label": "Payments / checkout",
+   "group": "payments",
+   "description": "Accept crypto payments, invoices, subscriptions.",
+   "match": {
+    "name_regex": "(?i)payment|invoice|checkout|subscription",
+    "function_any": [],
+    "base_any": [],
+    "path_regex": "(?i)payment|checkout|btcpay"
+   },
+   "synonyms": [
+    "payment",
+    "checkout",
+    "invoice",
+    "merchant",
+    "subscription",
+    "payroll"
+   ],
+   "standards": [],
+   "vm": [
+    "EVM",
+    "Bitcoin"
+   ],
+   "preferred": []
+  },
+  {
+   "id": "ai-agent",
+   "label": "AI agent with wallet",
+   "group": "agents",
+   "description": "Autonomous agents that hold wallets and transact (ElizaOS, IntentKit).",
+   "match": {
+    "name_regex": "(?i)agent|plugin",
+    "function_any": [],
+    "base_any": [],
+    "path_regex": "(?i)agent|plugin-"
+   },
+   "synonyms": [
+    "ai agent",
+    "autonomous agent",
+    "bot with wallet",
+    "agentic"
+   ],
+   "standards": [],
+   "vm": [
+    "EVM",
+    "SVM"
+   ],
+   "preferred": [
+    "eliza",
+    "intentkit"
+   ]
+  },
+  {
+   "id": "math-lib",
+   "label": "Fixed-point / gas-optimised math",
+   "group": "libraries",
+   "description": "Safe fixed-point maths and gas-optimised utilities.",
+   "match": {
+    "name_regex": "(?i)math|fixedpoint|prb",
+    "function_any": [
+     "mulDiv",
+     "sqrt"
+    ],
+    "base_any": [],
+    "path_regex": "(?i)math"
+   },
+   "synonyms": [
+    "math",
+    "interest",
+    "decimals",
+    "fixed point"
+   ],
+   "standards": [],
+   "vm": [
+    "EVM"
+   ],
+   "preferred": [
+    "prb-math:src",
+    "solady:src/utils/FixedPointMathLib.sol",
+    "openzeppelin-contracts:contracts/utils/math/Math.sol"
+   ]
+  }
+ ]
+}

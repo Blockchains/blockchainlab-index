@@ -1,0 +1,204 @@
+{
+ "idea": "DAO governance where only members who prove they are over 18 with a zero-knowledge proof (circom Groth16 verifier, no identity revealed) can vote on proposals; votes use ERC20Votes with a governor and timelock.",
+ "vm": "EVM",
+ "generated_at": "2026-10-03T18:42:58Z",
+ "capabilities": [
+  {
+   "id": "zk-proof",
+   "score": 5.671,
+   "why": [
+    "circom",
+    "groth16",
+    "zero-knowledge proof",
+    "zero-knowledge proof",
+    "semantic z=2.68"
+   ]
+  },
+  {
+   "id": "governance",
+   "score": 4.923,
+   "why": [
+    "dao",
+    "governance",
+    "dao governance",
+    "semantic z=3.81"
+   ]
+  },
+  {
+   "id": "identity",
+   "score": 1.1,
+   "why": [
+    "identity"
+   ]
+  }
+ ],
+ "selected": [
+  {
+   "id": "circomlib:circuits/comparators.circom:IsZero",
+   "slug": "circomlib",
+   "name": "IsZero",
+   "path": "circuits/comparators.circom",
+   "kind": "circom template",
+   "lang": "Circom",
+   "license": "GPL-3.0",
+   "license_class": "strong-copyleft",
+   "pragma": null,
+   "score": 3.276,
+   "raw_url": "https://raw.githubusercontent.com/Blockchains/circomlib/master/circuits/comparators.circom",
+   "commit": "35e54ea21da3e8762557234298dbb553c175ea8d",
+   "fork": "Blockchains/circomlib",
+   "upstream": "iden3/circomlib",
+   "capability": "zk-proof",
+   "role": "primary"
+  },
+  {
+   "id": "circomlib:circuits/poseidon.circom:Sigma",
+   "slug": "circomlib",
+   "name": "Sigma",
+   "path": "circuits/poseidon.circom",
+   "kind": "circom template",
+   "lang": "Circom",
+   "license": "GPL-3.0",
+   "license_class": "strong-copyleft",
+   "pragma": null,
+   "score": null,
+   "raw_url": "https://raw.githubusercontent.com/Blockchains/circomlib/master/circuits/poseidon.circom",
+   "commit": "35e54ea21da3e8762557234298dbb553c175ea8d",
+   "fork": "Blockchains/circomlib",
+   "upstream": "iden3/circomlib",
+   "capability": "zk-proof",
+   "role": "companion"
+  },
+  {
+   "id": "openzeppelin-contracts:contracts/governance/Governor.sol:Governor",
+   "slug": "openzeppelin-contracts",
+   "name": "Governor",
+   "path": "contracts/governance/Governor.sol",
+   "kind": "abstract contract",
+   "lang": "Solidity",
+   "license": "MIT",
+   "license_class": "permissive",
+   "pragma": "^0.8.24",
+   "score": 3.3,
+   "raw_url": "https://raw.githubusercontent.com/Blockchains/openzeppelin-contracts/master/contracts/governance/Governor.sol",
+   "commit": "40a51f7e78852e48d0b128d4ee3d620cbc7d35d8",
+   "fork": "Blockchains/openzeppelin-contracts",
+   "upstream": "OpenZeppelin/openzeppelin-contracts",
+   "capability": "governance",
+   "role": "primary"
+  },
+  {
+   "id": "openzeppelin-contracts:contracts/governance/TimelockController.sol:TimelockController",
+   "slug": "openzeppelin-contracts",
+   "name": "TimelockController",
+   "path": "contracts/governance/TimelockController.sol",
+   "kind": "contract",
+   "lang": "Solidity",
+   "license": "MIT",
+   "license_class": "permissive",
+   "pragma": "^0.8.20",
+   "score": null,
+   "raw_url": "https://raw.githubusercontent.com/Blockchains/openzeppelin-contracts/master/contracts/governance/TimelockController.sol",
+   "commit": "40a51f7e78852e48d0b128d4ee3d620cbc7d35d8",
+   "fork": "Blockchains/openzeppelin-contracts",
+   "upstream": "OpenZeppelin/openzeppelin-contracts",
+   "capability": "governance",
+   "role": "companion"
+  },
+  {
+   "id": "openzeppelin-contracts:contracts/token/ERC20/extensions/ERC20Votes.sol:ERC20Votes",
+   "slug": "openzeppelin-contracts",
+   "name": "ERC20Votes",
+   "path": "contracts/token/ERC20/extensions/ERC20Votes.sol",
+   "kind": "abstract contract",
+   "lang": "Solidity",
+   "license": "MIT",
+   "license_class": "permissive",
+   "pragma": "^0.8.24",
+   "score": null,
+   "raw_url": "https://raw.githubusercontent.com/Blockchains/openzeppelin-contracts/master/contracts/token/ERC20/extensions/ERC20Votes.sol",
+   "commit": "40a51f7e78852e48d0b128d4ee3d620cbc7d35d8",
+   "fork": "Blockchains/openzeppelin-contracts",
+   "upstream": "OpenZeppelin/openzeppelin-contracts",
+   "capability": "governance",
+   "role": "companion"
+  }
+ ],
+ "alternatives": {
+  "zk-proof": [
+   {
+    "id": "circomlib:circuits/poseidon.circom:Sigma",
+    "slug": "circomlib",
+    "name": "Sigma",
+    "path": "circuits/poseidon.circom",
+    "kind": "circom template",
+    "lang": "Circom",
+    "license": "GPL-3.0",
+    "license_class": "strong-copyleft",
+    "pragma": null,
+    "score": 3.276,
+    "raw_url": "https://raw.githubusercontent.com/Blockchains/circomlib/master/circuits/poseidon.circom",
+    "commit": "35e54ea21da3e8762557234298dbb553c175ea8d",
+    "fork": "Blockchains/circomlib",
+    "upstream": "iden3/circomlib"
+   },
+   {
+    "id": "risc0:groth16_proof/groth16/risc0.circom:bit_and_impl",
+    "slug": "risc0",
+    "name": "bit_and_impl",
+    "path": "groth16_proof/groth16/risc0.circom",
+    "kind": "circom template",
+    "lang": "Circom",
+    "license": "Apache-2.0",
+    "license_class": "permissive",
+    "pragma": null,
+    "score": 2.709,
+    "raw_url": "https://raw.githubusercontent.com/Blockchains/risc0/main/groth16_proof/groth16/risc0.circom",
+    "commit": "3bbcd44d6459b9ef6ac0df3846dc9215514934e8",
+    "fork": "Blockchains/risc0",
+    "upstream": "risc0/risc0"
+   }
+  ],
+  "governance": [
+   {
+    "id": "openzeppelin-contracts:contracts/governance/TimelockController.sol:TimelockController",
+    "slug": "openzeppelin-contracts",
+    "name": "TimelockController",
+    "path": "contracts/governance/TimelockController.sol",
+    "kind": "contract",
+    "lang": "Solidity",
+    "license": "MIT",
+    "license_class": "permissive",
+    "pragma": "^0.8.20",
+    "score": 3.087,
+    "raw_url": "https://raw.githubusercontent.com/Blockchains/openzeppelin-contracts/master/contracts/governance/TimelockController.sol",
+    "commit": "40a51f7e78852e48d0b128d4ee3d620cbc7d35d8",
+    "fork": "Blockchains/openzeppelin-contracts",
+    "upstream": "OpenZeppelin/openzeppelin-contracts"
+   },
+   {
+    "id": "openzeppelin-contracts:contracts/token/ERC20/extensions/ERC20Votes.sol:ERC20Votes",
+    "slug": "openzeppelin-contracts",
+    "name": "ERC20Votes",
+    "path": "contracts/token/ERC20/extensions/ERC20Votes.sol",
+    "kind": "abstract contract",
+    "lang": "Solidity",
+    "license": "MIT",
+    "license_class": "permissive",
+    "pragma": "^0.8.24",
+    "score": 2.887,
+    "raw_url": "https://raw.githubusercontent.com/Blockchains/openzeppelin-contracts/master/contracts/token/ERC20/extensions/ERC20Votes.sol",
+    "commit": "40a51f7e78852e48d0b128d4ee3d620cbc7d35d8",
+    "fork": "Blockchains/openzeppelin-contracts",
+    "upstream": "OpenZeppelin/openzeppelin-contracts"
+   }
+  ],
+  "identity": []
+ },
+ "license": {
+  "project_license": "GPL-3.0-or-later",
+  "warning": "Includes strong-copyleft files (GPL-3.0); the composed project is distributed under GPL terms."
+ },
+ "excluded": [],
+ "index_generated_at": "2026-10-03T18:38:55Z"
+}

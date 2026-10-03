@@ -1,0 +1,1 @@
+{"src/Counter.sol:Counter":[{"type":"function","name":"getHookPermissions","inputs":[],"outputs":[{"type":"Hooks.Permissions","name":""}],"stateMutability":"pure"}]}

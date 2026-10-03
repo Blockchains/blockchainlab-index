@@ -1,0 +1,217 @@
+{
+ "idea": "A USD-valued savings vault (ERC-4626) where users deposit WETH and receive shares; deposits and total assets are priced in USD with a Chainlink price feed oracle; an admin role manages a USD deposit cap and a management fee (access control).",
+ "vm": "EVM",
+ "generated_at": "2026-10-03T18:42:55Z",
+ "capabilities": [
+  {
+   "id": "price-oracle",
+   "score": 4.161,
+   "why": [
+    "price",
+    "oracle",
+    "price feed",
+    "semantic z=1.90"
+   ]
+  },
+  {
+   "id": "vault",
+   "score": 3.548,
+   "why": [
+    "vault",
+    "savings",
+    "semantic z=3.37"
+   ]
+  },
+  {
+   "id": "access-control",
+   "score": 1.1,
+   "why": [
+    "admin"
+   ]
+  }
+ ],
+ "selected": [
+  {
+   "id": "chainlink-evm:contracts/src/v0.8/shared/interfaces/AggregatorV3Interface.sol:AggregatorV3Interface",
+   "slug": "chainlink-evm",
+   "name": "AggregatorV3Interface",
+   "path": "contracts/src/v0.8/shared/interfaces/AggregatorV3Interface.sol",
+   "kind": "interface",
+   "lang": "Solidity",
+   "license": "MIT",
+   "license_class": "permissive",
+   "pragma": "^0.8.0",
+   "score": 2.594,
+   "raw_url": "https://raw.githubusercontent.com/Blockchains/chainlink-evm/develop/contracts/src/v0.8/shared/interfaces/AggregatorV3Interface.sol",
+   "commit": "d1ee27b0b5875adb8eca1e0da05926f7eb1f6e1f",
+   "fork": "Blockchains/chainlink-evm",
+   "upstream": "smartcontractkit/chainlink-evm",
+   "capability": "price-oracle",
+   "role": "primary"
+  },
+  {
+   "id": "openzeppelin-contracts:contracts/token/ERC20/extensions/ERC4626.sol:ERC4626",
+   "slug": "openzeppelin-contracts",
+   "name": "ERC4626",
+   "path": "contracts/token/ERC20/extensions/ERC4626.sol",
+   "kind": "abstract contract",
+   "lang": "Solidity",
+   "license": "MIT",
+   "license_class": "permissive",
+   "pragma": "^0.8.24",
+   "score": 3.31,
+   "raw_url": "https://raw.githubusercontent.com/Blockchains/openzeppelin-contracts/master/contracts/token/ERC20/extensions/ERC4626.sol",
+   "commit": "40a51f7e78852e48d0b128d4ee3d620cbc7d35d8",
+   "fork": "Blockchains/openzeppelin-contracts",
+   "upstream": "OpenZeppelin/openzeppelin-contracts",
+   "capability": "vault",
+   "role": "primary"
+  },
+  {
+   "id": "openzeppelin-contracts:contracts/access/AccessControl.sol:AccessControl",
+   "slug": "openzeppelin-contracts",
+   "name": "AccessControl",
+   "path": "contracts/access/AccessControl.sol",
+   "kind": "abstract contract",
+   "lang": "Solidity",
+   "license": "MIT",
+   "license_class": "permissive",
+   "pragma": "^0.8.20",
+   "score": 3.288,
+   "raw_url": "https://raw.githubusercontent.com/Blockchains/openzeppelin-contracts/master/contracts/access/AccessControl.sol",
+   "commit": "40a51f7e78852e48d0b128d4ee3d620cbc7d35d8",
+   "fork": "Blockchains/openzeppelin-contracts",
+   "upstream": "OpenZeppelin/openzeppelin-contracts",
+   "capability": "access-control",
+   "role": "primary"
+  },
+  {
+   "id": "openzeppelin-contracts:contracts/access/Ownable.sol:Ownable",
+   "slug": "openzeppelin-contracts",
+   "name": "Ownable",
+   "path": "contracts/access/Ownable.sol",
+   "kind": "abstract contract",
+   "lang": "Solidity",
+   "license": "MIT",
+   "license_class": "permissive",
+   "pragma": "^0.8.20",
+   "score": null,
+   "raw_url": "https://raw.githubusercontent.com/Blockchains/openzeppelin-contracts/master/contracts/access/Ownable.sol",
+   "commit": "40a51f7e78852e48d0b128d4ee3d620cbc7d35d8",
+   "fork": "Blockchains/openzeppelin-contracts",
+   "upstream": "OpenZeppelin/openzeppelin-contracts",
+   "capability": "access-control",
+   "role": "companion"
+  }
+ ],
+ "alternatives": {
+  "price-oracle": [
+   {
+    "id": "chainlink-evm:contracts/src/v0.6/data-feeds/interfaces/AggregatorV3Interface.sol:AggregatorV3Interface",
+    "slug": "chainlink-evm",
+    "name": "AggregatorV3Interface",
+    "path": "contracts/src/v0.6/data-feeds/interfaces/AggregatorV3Interface.sol",
+    "kind": "interface",
+    "lang": "Solidity",
+    "license": "MIT",
+    "license_class": "permissive",
+    "pragma": "^0.6.0",
+    "score": 1.394,
+    "raw_url": "https://raw.githubusercontent.com/Blockchains/chainlink-evm/develop/contracts/src/v0.6/data-feeds/interfaces/AggregatorV3Interface.sol",
+    "commit": "d1ee27b0b5875adb8eca1e0da05926f7eb1f6e1f",
+    "fork": "Blockchains/chainlink-evm",
+    "upstream": "smartcontractkit/chainlink-evm"
+   },
+   {
+    "id": "chainlink-evm:contracts/src/v0.8/vrf/testhelpers/VRFMockETHLINKAggregator.sol:VRFMockETHLINKAggregator",
+    "slug": "chainlink-evm",
+    "name": "VRFMockETHLINKAggregator",
+    "path": "contracts/src/v0.8/vrf/testhelpers/VRFMockETHLINKAggregator.sol",
+    "kind": "contract",
+    "lang": "Solidity",
+    "license": "MIT",
+    "license_class": "permissive",
+    "pragma": "^0.8.0",
+    "score": 1.394,
+    "raw_url": "https://raw.githubusercontent.com/Blockchains/chainlink-evm/develop/contracts/src/v0.8/vrf/testhelpers/VRFMockETHLINKAggregator.sol",
+    "commit": "d1ee27b0b5875adb8eca1e0da05926f7eb1f6e1f",
+    "fork": "Blockchains/chainlink-evm",
+    "upstream": "smartcontractkit/chainlink-evm"
+   }
+  ],
+  "vault": [
+   {
+    "id": "solady:src/tokens/ERC4626.sol:ERC4626",
+    "slug": "solady",
+    "name": "ERC4626",
+    "path": "src/tokens/ERC4626.sol",
+    "kind": "abstract contract",
+    "lang": "Solidity",
+    "license": "MIT",
+    "license_class": "permissive",
+    "pragma": "^0.8.4",
+    "score": 1.945,
+    "raw_url": "https://raw.githubusercontent.com/Blockchains/solady/main/src/tokens/ERC4626.sol",
+    "commit": "2afba69bf67b78dd4abeadcc696052b3a6f71499",
+    "fork": "Blockchains/solady",
+    "upstream": "Vectorized/solady"
+   },
+   {
+    "id": "openzeppelin-contracts:contracts/interfaces/IERC4626.sol:IERC4626",
+    "slug": "openzeppelin-contracts",
+    "name": "IERC4626",
+    "path": "contracts/interfaces/IERC4626.sol",
+    "kind": "interface",
+    "lang": "Solidity",
+    "license": "MIT",
+    "license_class": "permissive",
+    "pragma": ">=0.6.2",
+    "score": 1.705,
+    "raw_url": "https://raw.githubusercontent.com/Blockchains/openzeppelin-contracts/master/contracts/interfaces/IERC4626.sol",
+    "commit": "40a51f7e78852e48d0b128d4ee3d620cbc7d35d8",
+    "fork": "Blockchains/openzeppelin-contracts",
+    "upstream": "OpenZeppelin/openzeppelin-contracts"
+   }
+  ],
+  "access-control": [
+   {
+    "id": "openzeppelin-contracts:contracts/access/Ownable.sol:Ownable",
+    "slug": "openzeppelin-contracts",
+    "name": "Ownable",
+    "path": "contracts/access/Ownable.sol",
+    "kind": "abstract contract",
+    "lang": "Solidity",
+    "license": "MIT",
+    "license_class": "permissive",
+    "pragma": "^0.8.20",
+    "score": 3.087,
+    "raw_url": "https://raw.githubusercontent.com/Blockchains/openzeppelin-contracts/master/contracts/access/Ownable.sol",
+    "commit": "40a51f7e78852e48d0b128d4ee3d620cbc7d35d8",
+    "fork": "Blockchains/openzeppelin-contracts",
+    "upstream": "OpenZeppelin/openzeppelin-contracts"
+   },
+   {
+    "id": "openzeppelin-contracts:fv/harnesses/AccessControlHarness.sol:AccessControlHarness",
+    "slug": "openzeppelin-contracts",
+    "name": "AccessControlHarness",
+    "path": "fv/harnesses/AccessControlHarness.sol",
+    "kind": "contract",
+    "lang": "Solidity",
+    "license": "MIT",
+    "license_class": "permissive",
+    "pragma": "^0.8.20",
+    "score": 2.088,
+    "raw_url": "https://raw.githubusercontent.com/Blockchains/openzeppelin-contracts/master/fv/harnesses/AccessControlHarness.sol",
+    "commit": "40a51f7e78852e48d0b128d4ee3d620cbc7d35d8",
+    "fork": "Blockchains/openzeppelin-contracts",
+    "upstream": "OpenZeppelin/openzeppelin-contracts"
+   }
+  ]
+ },
+ "license": {
+  "project_license": "MIT",
+  "warning": null
+ },
+ "excluded": [],
+ "index_generated_at": "2026-10-03T18:38:55Z"
+}

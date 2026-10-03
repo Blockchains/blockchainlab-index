@@ -1,0 +1,176 @@
+{
+ "idea": "A retail loyalty points programme on Hedera: create a fungible loyalty token with the Hedera Token Service, mint points to customers on purchase, and let them redeem points for rewards, with a simple web dashboard.",
+ "vm": "EVM",
+ "generated_at": "2026-10-03T18:42:57Z",
+ "capabilities": [
+  {
+   "id": "fungible-token",
+   "score": 4.226,
+   "why": [
+    "token",
+    "points",
+    "loyalty points",
+    "semantic z=2.06"
+   ]
+  },
+  {
+   "id": "hedera-hts",
+   "score": 3.684,
+   "why": [
+    "hedera",
+    "hedera token service",
+    "semantic z=3.21"
+   ]
+  }
+ ],
+ "selected": [
+  {
+   "id": "openzeppelin-contracts:contracts/token/ERC20/ERC20.sol:ERC20",
+   "slug": "openzeppelin-contracts",
+   "name": "ERC20",
+   "path": "contracts/token/ERC20/ERC20.sol",
+   "kind": "abstract contract",
+   "lang": "Solidity",
+   "license": "MIT",
+   "license_class": "permissive",
+   "pragma": "^0.8.20",
+   "score": 3.087,
+   "raw_url": "https://raw.githubusercontent.com/Blockchains/openzeppelin-contracts/master/contracts/token/ERC20/ERC20.sol",
+   "commit": "40a51f7e78852e48d0b128d4ee3d620cbc7d35d8",
+   "fork": "Blockchains/openzeppelin-contracts",
+   "upstream": "OpenZeppelin/openzeppelin-contracts",
+   "capability": "fungible-token",
+   "role": "primary"
+  },
+  {
+   "id": "solady:src/tokens/ERC20.sol:ERC20",
+   "slug": "solady",
+   "name": "ERC20",
+   "path": "src/tokens/ERC20.sol",
+   "kind": "abstract contract",
+   "lang": "Solidity",
+   "license": "MIT",
+   "license_class": "permissive",
+   "pragma": "^0.8.4",
+   "score": null,
+   "raw_url": "https://raw.githubusercontent.com/Blockchains/solady/main/src/tokens/ERC20.sol",
+   "commit": "2afba69bf67b78dd4abeadcc696052b3a6f71499",
+   "fork": "Blockchains/solady",
+   "upstream": "Vectorized/solady",
+   "capability": "fungible-token",
+   "role": "companion"
+  },
+  {
+   "id": "hedera-smart-contracts:lib/layer-zero/hts/HederaTokenService.sol:HederaTokenService",
+   "slug": "hedera-smart-contracts",
+   "name": "HederaTokenService",
+   "path": "lib/layer-zero/hts/HederaTokenService.sol",
+   "kind": "abstract contract",
+   "lang": "Solidity",
+   "license": "Apache-2.0",
+   "license_class": "permissive",
+   "pragma": ">=0.5.0 <0.9.0",
+   "score": 2.809,
+   "raw_url": "https://raw.githubusercontent.com/Blockchains/hedera-smart-contracts/main/lib/layer-zero/hts/HederaTokenService.sol",
+   "commit": "43854b5c927e467b53f36316a5097f2b0815c75b",
+   "fork": "Blockchains/hedera-smart-contracts",
+   "upstream": "hashgraph/hedera-smart-contracts",
+   "capability": "hedera-hts",
+   "role": "primary"
+  },
+  {
+   "id": "hedera-smart-contracts:lib/layer-zero/hts/IHederaTokenService.sol:IHederaTokenService",
+   "slug": "hedera-smart-contracts",
+   "name": "IHederaTokenService",
+   "path": "lib/layer-zero/hts/IHederaTokenService.sol",
+   "kind": "interface",
+   "lang": "Solidity",
+   "license": "Apache-2.0",
+   "license_class": "permissive",
+   "pragma": ">=0.4.9 <0.9.0",
+   "score": null,
+   "raw_url": "https://raw.githubusercontent.com/Blockchains/hedera-smart-contracts/main/lib/layer-zero/hts/IHederaTokenService.sol",
+   "commit": "43854b5c927e467b53f36316a5097f2b0815c75b",
+   "fork": "Blockchains/hedera-smart-contracts",
+   "upstream": "hashgraph/hedera-smart-contracts",
+   "capability": "hedera-hts",
+   "role": "companion"
+  }
+ ],
+ "alternatives": {
+  "fungible-token": [
+   {
+    "id": "solady:src/tokens/ERC20.sol:ERC20",
+    "slug": "solady",
+    "name": "ERC20",
+    "path": "src/tokens/ERC20.sol",
+    "kind": "abstract contract",
+    "lang": "Solidity",
+    "license": "MIT",
+    "license_class": "permissive",
+    "pragma": "^0.8.4",
+    "score": 2.906,
+    "raw_url": "https://raw.githubusercontent.com/Blockchains/solady/main/src/tokens/ERC20.sol",
+    "commit": "2afba69bf67b78dd4abeadcc696052b3a6f71499",
+    "fork": "Blockchains/solady",
+    "upstream": "Vectorized/solady"
+   },
+   {
+    "id": "openzeppelin-contracts:contracts/token/ERC20/extensions/ERC1363.sol:ERC1363",
+    "slug": "openzeppelin-contracts",
+    "name": "ERC1363",
+    "path": "contracts/token/ERC20/extensions/ERC1363.sol",
+    "kind": "abstract contract",
+    "lang": "Solidity",
+    "license": "MIT",
+    "license_class": "permissive",
+    "pragma": "^0.8.20",
+    "score": 1.737,
+    "raw_url": "https://raw.githubusercontent.com/Blockchains/openzeppelin-contracts/master/contracts/token/ERC20/extensions/ERC1363.sol",
+    "commit": "40a51f7e78852e48d0b128d4ee3d620cbc7d35d8",
+    "fork": "Blockchains/openzeppelin-contracts",
+    "upstream": "OpenZeppelin/openzeppelin-contracts"
+   }
+  ],
+  "hedera-hts": [
+   {
+    "id": "hedera-smart-contracts:lib/layer-zero/hts/IHederaTokenService.sol:IHederaTokenService",
+    "slug": "hedera-smart-contracts",
+    "name": "IHederaTokenService",
+    "path": "lib/layer-zero/hts/IHederaTokenService.sol",
+    "kind": "interface",
+    "lang": "Solidity",
+    "license": "Apache-2.0",
+    "license_class": "permissive",
+    "pragma": ">=0.4.9 <0.9.0",
+    "score": 2.377,
+    "raw_url": "https://raw.githubusercontent.com/Blockchains/hedera-smart-contracts/main/lib/layer-zero/hts/IHederaTokenService.sol",
+    "commit": "43854b5c927e467b53f36316a5097f2b0815c75b",
+    "fork": "Blockchains/hedera-smart-contracts",
+    "upstream": "hashgraph/hedera-smart-contracts"
+   },
+   {
+    "id": "hiero-consensus-node:hedera-node/test-clients/src/main/resources/contract/contracts_16c/HederaTokenService/HederaTokenService.sol:HederaTokenService",
+    "slug": "hiero-consensus-node",
+    "name": "HederaTokenService",
+    "path": "hedera-node/test-clients/src/main/resources/contract/contracts_16c/HederaTokenService/HederaTokenService.sol",
+    "kind": "abstract contract",
+    "lang": "Solidity",
+    "license": "Apache-2.0",
+    "license_class": "permissive",
+    "pragma": ">=0.5.0 <0.9.0",
+    "score": 1.781,
+    "raw_url": "https://raw.githubusercontent.com/Blockchains/hiero-consensus-node/main/hedera-node/test-clients/src/main/resources/contract/contracts_16c/HederaTokenService/HederaTokenService.sol",
+    "commit": "c2cd3bd80de7b79655d4719f20ce33313f3e7d4c",
+    "fork": "Blockchains/hiero-consensus-node",
+    "upstream": "hiero-ledger/hiero-consensus-node"
+   }
+  ]
+ },
+ "license": {
+  "project_license": "MIT",
+  "warning": null
+ },
+ "excluded": [],
+ "index_generated_at": "2026-10-03T18:38:55Z"
+}

@@ -1,0 +1,177 @@
+{
+ "idea": "A Uniswap v4 hook that sets a dynamic swap fee based on volatility measured from a Chainlink price feed oracle, raising fees when the market is volatile.",
+ "vm": "EVM",
+ "generated_at": "2026-10-03T18:42:59Z",
+ "capabilities": [
+  {
+   "id": "dex-hook",
+   "score": 4.907,
+   "why": [
+    "hook",
+    "uniswap v4 hook",
+    "v4 hook",
+    "semantic z=3.27"
+   ]
+  },
+  {
+   "id": "price-oracle",
+   "score": 4.053,
+   "why": [
+    "price",
+    "oracle",
+    "price feed",
+    "semantic z=1.63"
+   ]
+  }
+ ],
+ "selected": [
+  {
+   "id": "v4-core:src/interfaces/IHooks.sol:IHooks",
+   "slug": "v4-core",
+   "name": "IHooks",
+   "path": "src/interfaces/IHooks.sol",
+   "kind": "interface",
+   "lang": "Solidity",
+   "license": "MIT",
+   "license_class": "permissive",
+   "pragma": "^0.8.0",
+   "score": 2.481,
+   "raw_url": "https://raw.githubusercontent.com/Blockchains/v4-core/main/src/interfaces/IHooks.sol",
+   "commit": "46c6834698c48bc4a463a86d8420f4eb1d7f3b75",
+   "fork": "Blockchains/v4-core",
+   "upstream": "Uniswap/v4-core",
+   "capability": "dex-hook",
+   "role": "primary"
+  },
+  {
+   "id": "v4-core:src/libraries/LPFeeLibrary.sol:LPFeeLibrary",
+   "slug": "v4-core",
+   "name": "LPFeeLibrary",
+   "path": "src/libraries/LPFeeLibrary.sol",
+   "kind": "library",
+   "lang": "Solidity",
+   "license": "MIT",
+   "license_class": "permissive",
+   "pragma": "^0.8.0",
+   "score": null,
+   "raw_url": "https://raw.githubusercontent.com/Blockchains/v4-core/main/src/libraries/LPFeeLibrary.sol",
+   "commit": "46c6834698c48bc4a463a86d8420f4eb1d7f3b75",
+   "fork": "Blockchains/v4-core",
+   "upstream": "Uniswap/v4-core",
+   "capability": "dex-hook",
+   "role": "companion"
+  },
+  {
+   "id": "v4-core:src/interfaces/IPoolManager.sol:IPoolManager",
+   "slug": "v4-core",
+   "name": "IPoolManager",
+   "path": "src/interfaces/IPoolManager.sol",
+   "kind": "interface",
+   "lang": "Solidity",
+   "license": "MIT",
+   "license_class": "permissive",
+   "pragma": "^0.8.24",
+   "score": null,
+   "raw_url": "https://raw.githubusercontent.com/Blockchains/v4-core/main/src/interfaces/IPoolManager.sol",
+   "commit": "46c6834698c48bc4a463a86d8420f4eb1d7f3b75",
+   "fork": "Blockchains/v4-core",
+   "upstream": "Uniswap/v4-core",
+   "capability": "dex-hook",
+   "role": "companion"
+  },
+  {
+   "id": "chainlink-evm:contracts/src/v0.8/shared/interfaces/AggregatorV3Interface.sol:AggregatorV3Interface",
+   "slug": "chainlink-evm",
+   "name": "AggregatorV3Interface",
+   "path": "contracts/src/v0.8/shared/interfaces/AggregatorV3Interface.sol",
+   "kind": "interface",
+   "lang": "Solidity",
+   "license": "MIT",
+   "license_class": "permissive",
+   "pragma": "^0.8.0",
+   "score": 2.594,
+   "raw_url": "https://raw.githubusercontent.com/Blockchains/chainlink-evm/develop/contracts/src/v0.8/shared/interfaces/AggregatorV3Interface.sol",
+   "commit": "d1ee27b0b5875adb8eca1e0da05926f7eb1f6e1f",
+   "fork": "Blockchains/chainlink-evm",
+   "upstream": "smartcontractkit/chainlink-evm",
+   "capability": "price-oracle",
+   "role": "primary"
+  }
+ ],
+ "alternatives": {
+  "dex-hook": [
+   {
+    "id": "v4-core:src/interfaces/IPoolManager.sol:IPoolManager",
+    "slug": "v4-core",
+    "name": "IPoolManager",
+    "path": "src/interfaces/IPoolManager.sol",
+    "kind": "interface",
+    "lang": "Solidity",
+    "license": "MIT",
+    "license_class": "permissive",
+    "pragma": "^0.8.24",
+    "score": 1.881,
+    "raw_url": "https://raw.githubusercontent.com/Blockchains/v4-core/main/src/interfaces/IPoolManager.sol",
+    "commit": "46c6834698c48bc4a463a86d8420f4eb1d7f3b75",
+    "fork": "Blockchains/v4-core",
+    "upstream": "Uniswap/v4-core"
+   },
+   {
+    "id": "v4-core:src/libraries/LPFeeLibrary.sol:LPFeeLibrary",
+    "slug": "v4-core",
+    "name": "LPFeeLibrary",
+    "path": "src/libraries/LPFeeLibrary.sol",
+    "kind": "library",
+    "lang": "Solidity",
+    "license": "MIT",
+    "license_class": "permissive",
+    "pragma": "^0.8.0",
+    "score": 1.881,
+    "raw_url": "https://raw.githubusercontent.com/Blockchains/v4-core/main/src/libraries/LPFeeLibrary.sol",
+    "commit": "46c6834698c48bc4a463a86d8420f4eb1d7f3b75",
+    "fork": "Blockchains/v4-core",
+    "upstream": "Uniswap/v4-core"
+   }
+  ],
+  "price-oracle": [
+   {
+    "id": "chainlink-evm:contracts/src/v0.6/data-feeds/interfaces/AggregatorV3Interface.sol:AggregatorV3Interface",
+    "slug": "chainlink-evm",
+    "name": "AggregatorV3Interface",
+    "path": "contracts/src/v0.6/data-feeds/interfaces/AggregatorV3Interface.sol",
+    "kind": "interface",
+    "lang": "Solidity",
+    "license": "MIT",
+    "license_class": "permissive",
+    "pragma": "^0.6.0",
+    "score": 1.394,
+    "raw_url": "https://raw.githubusercontent.com/Blockchains/chainlink-evm/develop/contracts/src/v0.6/data-feeds/interfaces/AggregatorV3Interface.sol",
+    "commit": "d1ee27b0b5875adb8eca1e0da05926f7eb1f6e1f",
+    "fork": "Blockchains/chainlink-evm",
+    "upstream": "smartcontractkit/chainlink-evm"
+   },
+   {
+    "id": "chainlink-evm:contracts/src/v0.8/vrf/testhelpers/VRFMockETHLINKAggregator.sol:VRFMockETHLINKAggregator",
+    "slug": "chainlink-evm",
+    "name": "VRFMockETHLINKAggregator",
+    "path": "contracts/src/v0.8/vrf/testhelpers/VRFMockETHLINKAggregator.sol",
+    "kind": "contract",
+    "lang": "Solidity",
+    "license": "MIT",
+    "license_class": "permissive",
+    "pragma": "^0.8.0",
+    "score": 1.394,
+    "raw_url": "https://raw.githubusercontent.com/Blockchains/chainlink-evm/develop/contracts/src/v0.8/vrf/testhelpers/VRFMockETHLINKAggregator.sol",
+    "commit": "d1ee27b0b5875adb8eca1e0da05926f7eb1f6e1f",
+    "fork": "Blockchains/chainlink-evm",
+    "upstream": "smartcontractkit/chainlink-evm"
+   }
+  ]
+ },
+ "license": {
+  "project_license": "MIT",
+  "warning": null
+ },
+ "excluded": [],
+ "index_generated_at": "2026-10-03T18:38:55Z"
+}
