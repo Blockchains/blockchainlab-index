@@ -1,0 +1,27 @@
+# blockchainlab-index
+
+> Nightly machine-readable code index of the curated Blockchains forks: per-repo catalog, every contract/module/circuit as a component with functions, licence and pinned raw URL, capability taxonomy, int8 embeddings, static search shards and SQLite FTS5. Feeds the composers.
+
+## Docs
+
+- [README](https://raw.githubusercontent.com/Blockchains/blockchainlab-index/main/README.md): overview, install and the 'Use as a building block' section
+- [AGENTS.md](https://raw.githubusercontent.com/Blockchains/blockchainlab-index/main/AGENTS.md): setup, build/test commands, structure map, conventions and rules for AI coding agents
+- [blocks.json](https://raw.githubusercontent.com/Blockchains/blockchainlab-index/main/blocks.json): machine-readable building-block manifest (entrypoints, inputs, outputs, deps, compatible blocks)
+
+## Key files
+
+- [catalog.json](https://github.com/Blockchains/blockchainlab-index/blob/main/catalog.json): catalog
+- [taxonomy/capabilities.json](https://github.com/Blockchains/blockchainlab-index/blob/main/taxonomy/capabilities.json): taxonomy
+- [taxonomy/reuse.json](https://github.com/Blockchains/blockchainlab-index/blob/main/taxonomy/reuse.json): reuse notes per category
+- [indexer/compose.py](https://github.com/Blockchains/blockchainlab-index/blob/main/indexer/compose.py): planner
+- [indexer/build_index.py](https://github.com/Blockchains/blockchainlab-index/blob/main/indexer/build_index.py): builder
+
+## Related
+
+- [Build with Blocks](https://github.com/Blockchains/.github/blob/main/docs/BUILD-WITH-BLOCKS.md): how to assemble projects from Blockchains repos
+- [Org llms.txt](https://blockchains.github.io/llms.txt) · [blocks catalogue](https://blockchains.github.io/blocks.json)
+- [Blockchains/blockchainlab-compose](https://github.com/Blockchains/blockchainlab-compose): consumes catalog/components/taxonomy to generate projects
+- [Blockchains/fork-sync](https://github.com/Blockchains/fork-sync): keeps the indexed forks current; index runs after the sync
+- [Blockchains/awesome-blockchainlab](https://github.com/Blockchains/awesome-blockchainlab): human-readable list of the same forks
+- [Blockchains/forge-example-gasless-membership](https://github.com/Blockchains/forge-example-gasless-membership): composed from this index
+- [Blockchains/forge-example-usd-savings-vault](https://github.com/Blockchains/forge-example-usd-savings-vault): composed from this index

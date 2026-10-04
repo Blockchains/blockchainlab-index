@@ -2,6 +2,8 @@
 """Build blockchainlab-index from ingest output: components, capability tags, embeddings, search shards, SQLite FTS.
 Usage: build_index.py <ingest-out> <index-repo-dir> <repolist.json> [--no-embed]"""
 import json, os, re, sys, glob, sqlite3, struct, hashlib, datetime, gzip, shutil
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from reuse import reuse  # noqa: E402  per-repo reuse hints (taxonomy/reuse.json has category notes)
 src, dst, rl = sys.argv[1], sys.argv[2], sys.argv[3]
 EMBED = "--no-embed" not in sys.argv
 tax = json.load(open(f"{dst}/taxonomy/capabilities.json"))
@@ -81,6 +83,7 @@ for ipath in sorted(glob.glob(f"{src}/repos/*/index.json")):
                       "install_commands": idx["install_commands"][:12], "languages_bytes": dict(list(idx["languages_bytes"].items())[:8]), "file_count": idx["file_count"], "tags": idx["tags"],
                       "component_count": len(comps), "capabilities": dict(sorted(capc.items(), key=lambda x: -x[1])), "packages": [p["name"] for p in idx["packages"] if not p.get("private")][:30],
                       "raw_base": idx["raw_base"], "index_url": f"repos/{slug}/index.json", "components_url": f"components/{slug}.json", "tree_url": f"repos/{slug}/tree.json", "wave": meta.get("wave"), "tier": meta.get("tier")})
+    repos_out[-1]["reuse"] = reuse(repos_out[-1], idx["packages"])
     comps_all.extend(comps)
 # embeddings
 if EMBED:
@@ -140,6 +143,6 @@ db.commit(); db.execute("VACUUM"); db.close()
 if os.path.exists(f"{src}/ingest-status.json"): shutil.copy(f"{src}/ingest-status.json", f"{dst}/ingest-status.json")
 cat = {"generated_at": datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"), "owner": "Blockchains", "repo_count": len(repos_out), "component_count": len(comps_all),
        "embedding": {"model": "BAAI/bge-small-en-v1.5", "dim": 384, "format": "vectors/<slug>.i8: header '<4sII' (magic BLV1, count, dim) + int8[count*dim], row order = components/<slug>.json, value/127 ~ L2-normalised float", "query_pooling": "cls", "normalize": True},
-       "search_shards": [f"search/components-{i:03d}.json" for i in range(n)], "symbol_shards": sorted(f"search/symbols-{k}.json" for k in sym), "sqlite": "index.sqlite", "taxonomy": "taxonomy/capabilities.json", "repos": repos_out}
+       "search_shards": [f"search/components-{i:03d}.json" for i in range(n)], "symbol_shards": sorted(f"search/symbols-{k}.json" for k in sym), "sqlite": "index.sqlite", "taxonomy": "taxonomy/capabilities.json", "reuse_notes": "taxonomy/reuse.json", "repos": repos_out}
 json.dump(cat, open(f"{dst}/catalog.json", "w"), indent=1)
 print(json.dumps({"repos": len(repos_out), "components": len(comps_all), "sqlite_mb": round(os.path.getsize(dbp) / 1e6, 1)}))

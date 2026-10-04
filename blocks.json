@@ -1,0 +1,110 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Blockchains/.github/main/docs/blocks.schema.json",
+  "schema_version": "1.0",
+  "name": "blockchainlab-index",
+  "repo": "Blockchains/blockchainlab-index",
+  "summary": "Nightly machine-readable code index of the curated Blockchains forks: per-repo catalog, every contract/module/circuit as a component with functions, licence and pinned raw URL, capability taxonomy, int8 embeddings, static search shards and SQLite FTS5. Feeds the composers.",
+  "kind": [
+    "index",
+    "dataset",
+    "cli"
+  ],
+  "stability": "beta",
+  "license": "MIT",
+  "entrypoints": [
+    {
+      "type": "file",
+      "name": "catalog.json",
+      "ref": "catalog.json",
+      "usage": "https://raw.githubusercontent.com/Blockchains/blockchainlab-index/main/catalog.json"
+    },
+    {
+      "type": "file",
+      "name": "components/<slug>.json",
+      "ref": "components/",
+      "usage": "per-fork component list (path, kind, functions, events, SPDX, pragma, caps, raw URL)"
+    },
+    {
+      "type": "file",
+      "name": "index.sqlite",
+      "ref": "index.sqlite",
+      "usage": "FTS5: select slug,path,name from components where components match 'paymaster'"
+    },
+    {
+      "type": "cli",
+      "name": "indexer/compose.py",
+      "ref": "indexer/compose.py",
+      "usage": "BL_INDEX=. python3 indexer/compose.py plan \"<idea>\" --json plan.json && python3 indexer/compose.py fetch plan.json out/"
+    },
+    {
+      "type": "file",
+      "name": "taxonomy/capabilities.json",
+      "ref": "taxonomy/capabilities.json",
+      "usage": "capability ids, synonyms, standards, match rules, licence policy"
+    }
+  ],
+  "inputs": [
+    {
+      "name": "sources.json",
+      "type": "file",
+      "description": "forks to index (from fork-sync waves)"
+    },
+    {
+      "name": "idea",
+      "type": "string",
+      "description": "for compose.py plan"
+    }
+  ],
+  "outputs": [
+    {
+      "name": "catalog",
+      "type": "JSON",
+      "description": "repo records incl. category, licence, commit, packages, install commands, reuse note"
+    },
+    {
+      "name": "components",
+      "type": "JSON"
+    },
+    {
+      "name": "plan.json",
+      "type": "JSON",
+      "description": "capabilities → selected components + licence verdict"
+    }
+  ],
+  "deps": [
+    "python>=3.10",
+    "fastembed + numpy (embeddings only)"
+  ],
+  "compatible_with": [
+    {
+      "repo": "Blockchains/blockchainlab-compose",
+      "how": "consumes catalog/components/taxonomy to generate projects"
+    },
+    {
+      "repo": "Blockchains/fork-sync",
+      "how": "keeps the indexed forks current; index runs after the sync"
+    },
+    {
+      "repo": "Blockchains/awesome-blockchainlab",
+      "how": "human-readable list of the same forks"
+    },
+    {
+      "repo": "Blockchains/forge-example-gasless-membership",
+      "how": "composed from this index"
+    },
+    {
+      "repo": "Blockchains/forge-example-usd-savings-vault",
+      "how": "composed from this index"
+    }
+  ],
+  "tests": {
+    "command": "python3 indexer/validate.py .",
+    "ci": ".github/workflows/nightly-index.yml",
+    "network": false
+  },
+  "docs": {
+    "readme": "README.md",
+    "agents": "AGENTS.md",
+    "llms": "llms.txt"
+  }
+}
