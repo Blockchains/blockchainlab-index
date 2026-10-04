@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-04T17:40:00Z",
+ "generated_at": "2026-10-04T18:27:45Z",
  "owner": "Blockchains",
  "repo_count": 236,
  "component_count": 14574,
@@ -339,7 +339,7 @@
    "license": "Apache-2.0",
    "license_class": "permissive",
    "license_spdx_github": "Apache-2.0",
-   "stars": 1931,
+   "stars": 1932,
    "description": "Web-Scale Blockchain for fast, secure, scalable, decentralized apps and marketplaces.",
    "readme_summary": "The `rust-toolchain.toml` file pins a specific rust version and ensures that cargo commands run with that version. Note that cargo will automatically install the correct version if it is not already installed. On Linux systems you may need to install libssl-dev, pkg-config, zlib1g-dev, protobuf etc. > [!NOTE] > Note that this builds a debug version that is **not suitable for running a testnet or mainnet validator**. Please read the install guide for instructions to build a release version for test and production uses. XDP transmit is enabled on Linux by default and requires extra capabilities. After building, grant them to the validator binary: For XDP zero-copy mode (`--xdp-zero-copy`), additional capabilities are needed:",
    "install_commands": [
@@ -8905,7 +8905,7 @@
    "license": "GPL-3.0",
    "license_class": "strong-copyleft",
    "license_spdx_github": "GPL-3.0",
-   "stars": 1609,
+   "stars": 1610,
    "description": "A robust, high-performance execution client for Ethereum node operators.",
    "readme_summary": "Nethermind is a high-performance Ethereum execution client built on .NET. It provides fast sync, high-throughput JSON-RPC, and a plugin system for extending the client without forking. In production since 2017. **Ethereum** \u00b7 **Gnosis** \u00b7 **Optimism** \u00b7 **Taiko** \u00b7 **World Chain** \u00b7 **Linea** \u00b7 **Energy Web** Nethermind documentation is available at [docs.nethermind.io][docs]. Nethermind connects operators to the Ethereum network via JSON-RPC over HTTP, WebSocket, and IPC. Snap sync, enabled by default, reaches the chain tip up to 10x faster than traditional fast sync. Node health and performance are exposed through a built-in UI and Prometheus metrics. - **Performance:** The EVM is optimized for low-overhead block processing: direct opcode dispatch, hardware-accelerated bitwise operations, and zero heap allocation on the execution stack. A parallel pre-execution system warms state reads",
    "install_commands": [

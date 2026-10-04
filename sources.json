@@ -30,7 +30,7 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-04T17:23:13Z",
+  "pushed_at": "2026-10-04T18:11:56Z",
   "tier": "curated"
  },
  {
@@ -58,7 +58,7 @@
   "category": "clients-nodes",
   "license_note": "Apache-2.0",
   "license_spdx": "Apache-2.0",
-  "stars": 1931,
+  "stars": 1932,
   "description": "Web-Scale Blockchain for fast, secure, scalable, decentralized apps and marketplaces.",
   "wave": "wave0-curated",
   "topics": [],
@@ -149,7 +149,7 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-04T17:14:40Z",
+  "pushed_at": "2026-10-04T18:06:23Z",
   "tier": "curated"
  },
  {
@@ -336,7 +336,7 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-04T17:22:47Z",
+  "pushed_at": "2026-10-04T18:00:01Z",
   "tier": "curated"
  },
  {
@@ -1101,7 +1101,7 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-04T17:05:05Z",
+  "pushed_at": "2026-10-04T17:26:54Z",
   "tier": "curated"
  },
  {
@@ -1203,7 +1203,7 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-04T14:45:32Z",
+  "pushed_at": "2026-10-04T17:29:43Z",
   "tier": "curated"
  },
  {
@@ -1526,7 +1526,7 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-04T15:51:54Z",
+  "pushed_at": "2026-10-04T17:56:12Z",
   "tier": "curated"
  },
  {
@@ -1707,13 +1707,13 @@
   "category": "clients-nodes",
   "license_note": null,
   "license_spdx": "GPL-3.0",
-  "stars": 1609,
+  "stars": 1610,
   "description": "A robust, high-performance execution client for Ethereum node operators.",
   "wave": "wave3-retry",
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-04T16:41:57Z",
+  "pushed_at": "2026-10-04T17:54:04Z",
   "tier": "curated"
  },
  {
@@ -2189,7 +2189,7 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-04T17:10:59Z",
+  "pushed_at": "2026-10-04T18:08:10Z",
   "tier": "curated"
  },
  {
@@ -2699,7 +2699,7 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-04T17:19:11Z",
+  "pushed_at": "2026-10-04T17:33:57Z",
   "tier": "curated"
  },
  {
@@ -2767,7 +2767,7 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-04T17:04:57Z",
+  "pushed_at": "2026-10-04T17:34:38Z",
   "tier": "curated"
  },
  {
@@ -3481,7 +3481,7 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-04T15:09:19Z",
+  "pushed_at": "2026-10-04T17:27:00Z",
   "tier": "curated"
  },
  {
@@ -3549,7 +3549,7 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-04T17:13:59Z",
+  "pushed_at": "2026-10-04T18:09:40Z",
   "tier": "curated"
  },
  {
