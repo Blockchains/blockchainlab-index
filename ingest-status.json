@@ -1573,5 +1573,82 @@
   "files": 6948,
   "contracts": 0,
   "secs": 2.3
+ },
+ "marketplace": {
+  "status": "ok",
+  "commit": "a07f1e1a8d9885c1e2651ec8cdd35b3c1e9b0b65",
+  "files": 1864,
+  "contracts": 0,
+  "secs": 7.5
+ },
+ "builder": {
+  "status": "ok",
+  "commit": "c9abed136e0347fb63c6d3f36ecae7d69da04514",
+  "files": 1681,
+  "contracts": 0,
+  "secs": 13.6
+ },
+ "decentraland-dapps": {
+  "status": "ok",
+  "commit": "c5cfb3d2a14c544e200f8bca60409b1c8a0c7259",
+  "files": 371,
+  "contracts": 0,
+  "secs": 1.1
+ },
+ "ui": {
+  "status": "ok",
+  "commit": "8a63476ef780665d79638e22c1ba61707f1a776f",
+  "files": 670,
+  "contracts": 0,
+  "secs": 2.3
+ },
+ "catalyst": {
+  "status": "ok",
+  "commit": "c8d76b606d1cdf1ca73dc56517eb73e97e384d98",
+  "files": 324,
+  "contracts": 0,
+  "secs": 1.6
+ },
+ "awesome-nft": {
+  "status": "ok",
+  "commit": "64ac6e8e4df294f21216c6d7beedadcf9dbdc3fc",
+  "files": 3,
+  "contracts": 0,
+  "secs": 0.5
+ },
+ "ufragments": {
+  "status": "ok",
+  "commit": "701eee27d877f2ad7d0308467968a209d73dcff7",
+  "files": 64,
+  "contracts": 20,
+  "secs": 1.1
+ },
+ "soulbyte": {
+  "status": "ok",
+  "commit": "60f72b6fea736081e9234f320679924a7c33dbd7",
+  "files": 291,
+  "contracts": 0,
+  "secs": 3.1
+ },
+ "synthetix-assets": {
+  "status": "ok",
+  "commit": "e42d608a02ddd9603bb597a568019972f684d68a",
+  "files": 3519,
+  "contracts": 0,
+  "secs": 2.5
+ },
+ "zksync": {
+  "status": "ok",
+  "commit": "9ecfe440945c46f02060f164a0fb45adfa69e634",
+  "files": 1185,
+  "contracts": 69,
+  "secs": 2.4
+ },
+ "defi-sdk": {
+  "status": "ok",
+  "commit": "0f3ddd73ce822e20726d72491da1702358bb7700",
+  "files": 104,
+  "contracts": 24,
+  "secs": 1.8
  }
 }

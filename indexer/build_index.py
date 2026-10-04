@@ -80,7 +80,7 @@ for ipath in sorted(glob.glob(f"{src}/repos/*/index.json")):
                       "license_spdx_github": idx.get("license_spdx_github"), "stars": meta.get("stars"), "description": meta.get("description") or idx.get("description"), "readme_summary": idx["readme_summary"],
                       "install_commands": idx["install_commands"][:12], "languages_bytes": dict(list(idx["languages_bytes"].items())[:8]), "file_count": idx["file_count"], "tags": idx["tags"],
                       "component_count": len(comps), "capabilities": dict(sorted(capc.items(), key=lambda x: -x[1])), "packages": [p["name"] for p in idx["packages"] if not p.get("private")][:30],
-                      "raw_base": idx["raw_base"], "index_url": f"repos/{slug}/index.json", "components_url": f"components/{slug}.json", "tree_url": f"repos/{slug}/tree.json", "wave": meta.get("wave")})
+                      "raw_base": idx["raw_base"], "index_url": f"repos/{slug}/index.json", "components_url": f"components/{slug}.json", "tree_url": f"repos/{slug}/tree.json", "wave": meta.get("wave"), "tier": meta.get("tier")})
     comps_all.extend(comps)
 # embeddings
 if EMBED:

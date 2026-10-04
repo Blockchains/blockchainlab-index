@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-04T16:56:28Z",
+ "generated_at": "2026-10-04T17:23:02Z",
  "owner": "Blockchains",
- "repo_count": 225,
- "component_count": 14403,
+ "repo_count": 236,
+ "component_count": 14574,
  "embedding": {
   "model": "BAAI/bge-small-en-v1.5",
   "dim": 384,
@@ -141,7 +141,8 @@
    "index_url": "repos/0x-monorepo/index.json",
    "components_url": "components/0x-monorepo.json",
    "tree_url": "repos/0x-monorepo/tree.json",
-   "wave": "wave3-retry"
+   "wave": "wave3-retry",
+   "tier": "curated"
   },
   {
    "slug": "account-abstraction",
@@ -199,7 +200,8 @@
    "index_url": "repos/account-abstraction/index.json",
    "components_url": "components/account-abstraction.json",
    "tree_url": "repos/account-abstraction/tree.json",
-   "wave": "wave0-curated"
+   "wave": "wave0-curated",
+   "tier": "curated"
   },
   {
    "slug": "aelf",
@@ -232,7 +234,8 @@
    "index_url": "repos/aelf/index.json",
    "components_url": "components/aelf.json",
    "tree_url": "repos/aelf/tree.json",
-   "wave": "wave3-retry"
+   "wave": "wave3-retry",
+   "tier": "curated"
   },
   {
    "slug": "aeternity",
@@ -272,7 +275,8 @@
    "index_url": "repos/aeternity/index.json",
    "components_url": "components/aeternity.json",
    "tree_url": "repos/aeternity/tree.json",
-   "wave": "wave3-retry"
+   "wave": "wave3-retry",
+   "tier": "curated"
   },
   {
    "slug": "agave",
@@ -353,7 +357,8 @@
    "index_url": "repos/agave/index.json",
    "components_url": "components/agave.json",
    "tree_url": "repos/agave/tree.json",
-   "wave": "wave0-curated"
+   "wave": "wave0-curated",
+   "tier": "curated"
   },
   {
    "slug": "alloy",
@@ -427,7 +432,8 @@
    "index_url": "repos/alloy/index.json",
    "components_url": "components/alloy.json",
    "tree_url": "repos/alloy/tree.json",
-   "wave": "wave3-retry"
+   "wave": "wave3-retry",
+   "tier": "curated"
   },
   {
    "slug": "amethyst",
@@ -474,7 +480,8 @@
    "index_url": "repos/amethyst/index.json",
    "components_url": "components/amethyst.json",
    "tree_url": "repos/amethyst/tree.json",
-   "wave": "wave4-orgs"
+   "wave": "wave4-orgs",
+   "tier": "curated"
   },
   {
    "slug": "anchor",
@@ -555,7 +562,8 @@
    "index_url": "repos/anchor/index.json",
    "components_url": "components/anchor.json",
    "tree_url": "repos/anchor/tree.json",
-   "wave": "wave0-curated"
+   "wave": "wave0-curated",
+   "tier": "curated"
   },
   {
    "slug": "ant-design-web3",
@@ -616,7 +624,8 @@
    "index_url": "repos/ant-design-web3/index.json",
    "components_url": "components/ant-design-web3.json",
    "tree_url": "repos/ant-design-web3/tree.json",
-   "wave": "wave3-retry"
+   "wave": "wave3-retry",
+   "tier": "curated"
   },
   {
    "slug": "ape",
@@ -661,7 +670,8 @@
    "index_url": "repos/ape/index.json",
    "components_url": "components/ape.json",
    "tree_url": "repos/ape/tree.json",
-   "wave": "wave3-retry"
+   "wave": "wave3-retry",
+   "tier": "curated"
   },
   {
    "slug": "apps",
@@ -702,7 +712,8 @@
    "index_url": "repos/apps/index.json",
    "components_url": "components/apps.json",
    "tree_url": "repos/apps/tree.json",
-   "wave": "wave1"
+   "wave": "wave1",
+   "tier": "curated"
   },
   {
    "slug": "arbitrum-classic",
@@ -765,7 +776,8 @@
    "index_url": "repos/arbitrum-classic/index.json",
    "components_url": "components/arbitrum-classic.json",
    "tree_url": "repos/arbitrum-classic/tree.json",
-   "wave": "wave4-orgs"
+   "wave": "wave4-orgs",
+   "tier": "curated"
   },
   {
    "slug": "assets",
@@ -805,7 +817,8 @@
    "index_url": "repos/assets/index.json",
    "components_url": "components/assets.json",
    "tree_url": "repos/assets/tree.json",
-   "wave": "preexisting"
+   "wave": "preexisting",
+   "tier": "curated"
   },
   {
    "slug": "avalanchego",
@@ -861,7 +874,39 @@
    "index_url": "repos/avalanchego/index.json",
    "components_url": "components/avalanchego.json",
    "tree_url": "repos/avalanchego/tree.json",
-   "wave": "wave4-orgs"
+   "wave": "wave4-orgs",
+   "tier": "curated"
+  },
+  {
+   "slug": "awesome-nft",
+   "name": "awesome-nft",
+   "fork": "Blockchains/awesome-nft",
+   "fork_url": "https://github.com/Blockchains/awesome-nft",
+   "upstream": "gianni-dalerta/awesome-nft",
+   "upstream_url": "https://github.com/gianni-dalerta/awesome-nft",
+   "branch": "master",
+   "commit": "64ac6e8e4df294f21216c6d7beedadcf9dbdc3fc",
+   "indexed_at": "2026-10-04T17:14:37Z",
+   "category": "nft",
+   "license": "MIT",
+   "license_class": "permissive",
+   "license_spdx_github": "MIT",
+   "stars": 971,
+   "description": "A curated list of awesome Non Fungible Token (NFT, ERC721) frameworks, libraries and software",
+   "readme_summary": "* Follow Me on Twitter @giannidalerta * Visit Me GianniDalerta.com * My Consulting NAKA.io * Support Cuban NFT Artists NFTcuba.ART * NFT Cuba Twitter @NFTcubaART --- * Project Spotlight * Blockchains * Ethereum * Matic - Polygon * Flow Blockchain * Polkadot and Kusama * Hedera Token Service * Tezos * Blockchain Commmunities * Matic - Polygon * Flow Blockchain * NFT Commmunity * Conferences * Discord * NFT Enabled Communities * Twitter List * Hackathons * 2021 Eth Global NFT Hack * Publications * Newsletters * Gaming * NFT Articles * Articles Misc * Audio * NFT Podcasts * Podcast Episodes * Framework, blockchain orchestration, testing, and command line interface * NFT Games * NFT Platforms * NFT Art * NFT IRL * NFT Music * NFT Sports * NFT DeFi * NFT Explorers * NFT Portfolios * NFT Fundraising * NFT Collectables * NFT PFP * NFT Business * NFT Badges * NFT Marketplaces * NFT Aggregators *",
+   "install_commands": [],
+   "languages_bytes": {},
+   "file_count": 3,
+   "tags": [],
+   "component_count": 0,
+   "capabilities": {},
+   "packages": [],
+   "raw_base": "https://raw.githubusercontent.com/Blockchains/awesome-nft/master/",
+   "index_url": "repos/awesome-nft/index.json",
+   "components_url": "components/awesome-nft.json",
+   "tree_url": "repos/awesome-nft/tree.json",
+   "wave": "extended-2026-10-04",
+   "tier": "extended"
   },
   {
    "slug": "bdk",
@@ -904,7 +949,8 @@
    "index_url": "repos/bdk/index.json",
    "components_url": "components/bdk.json",
    "tree_url": "repos/bdk/tree.json",
-   "wave": "wave0-curated"
+   "wave": "wave0-curated",
+   "tier": "curated"
   },
   {
    "slug": "bee",
@@ -949,7 +995,8 @@
    "index_url": "repos/bee/index.json",
    "components_url": "components/bee.json",
    "tree_url": "repos/bee/tree.json",
-   "wave": "wave3-retry"
+   "wave": "wave3-retry",
+   "tier": "curated"
   },
   {
    "slug": "besu",
@@ -985,7 +1032,8 @@
    "index_url": "repos/besu/index.json",
    "components_url": "components/besu.json",
    "tree_url": "repos/besu/tree.json",
-   "wave": "wave3-retry"
+   "wave": "wave3-retry",
+   "tier": "curated"
   },
   {
    "slug": "bip39",
@@ -1024,7 +1072,8 @@
    "index_url": "repos/bip39/index.json",
    "components_url": "components/bip39.json",
    "tree_url": "repos/bip39/tree.json",
-   "wave": "wave3-retry"
+   "wave": "wave3-retry",
+   "tier": "curated"
   },
   {
    "slug": "bisq",
@@ -1061,7 +1110,8 @@
    "index_url": "repos/bisq/index.json",
    "components_url": "components/bisq.json",
    "tree_url": "repos/bisq/tree.json",
-   "wave": "wave1"
+   "wave": "wave1",
+   "tier": "curated"
   },
   {
    "slug": "bitcoin-abc",
@@ -1140,7 +1190,8 @@
    "index_url": "repos/bitcoin-abc/index.json",
    "components_url": "components/bitcoin-abc.json",
    "tree_url": "repos/bitcoin-abc/tree.json",
-   "wave": "wave3-retry"
+   "wave": "wave3-retry",
+   "tier": "curated"
   },
   {
    "slug": "bitcoin-org",
@@ -1174,7 +1225,8 @@
    "index_url": "repos/bitcoin-org/index.json",
    "components_url": "components/bitcoin-org.json",
    "tree_url": "repos/bitcoin-org/tree.json",
-   "wave": "wave3-topup"
+   "wave": "wave3-topup",
+   "tier": "curated"
   },
   {
    "slug": "bitcoin",
@@ -1216,7 +1268,8 @@
    "index_url": "repos/bitcoin/index.json",
    "components_url": "components/bitcoin.json",
    "tree_url": "repos/bitcoin/tree.json",
-   "wave": "wave0-curated"
+   "wave": "wave0-curated",
+   "tier": "curated"
   },
   {
    "slug": "bitcoinj",
@@ -1249,7 +1302,8 @@
    "index_url": "repos/bitcoinj/index.json",
    "components_url": "components/bitcoinj.json",
    "tree_url": "repos/bitcoinj/tree.json",
-   "wave": "wave1"
+   "wave": "wave1",
+   "tier": "curated"
   },
   {
    "slug": "bluewallet",
@@ -1305,7 +1359,8 @@
    "index_url": "repos/bluewallet/index.json",
    "components_url": "components/bluewallet.json",
    "tree_url": "repos/bluewallet/tree.json",
-   "wave": "wave1"
+   "wave": "wave1",
+   "tier": "curated"
   },
   {
    "slug": "bor",
@@ -1356,7 +1411,8 @@
    "index_url": "repos/bor/index.json",
    "components_url": "components/bor.json",
    "tree_url": "repos/bor/tree.json",
-   "wave": "wave3-retry"
+   "wave": "wave3-retry",
+   "tier": "curated"
   },
   {
    "slug": "brownie",
@@ -1405,7 +1461,8 @@
    "index_url": "repos/brownie/index.json",
    "components_url": "components/brownie.json",
    "tree_url": "repos/brownie/tree.json",
-   "wave": "wave1"
+   "wave": "wave1",
+   "tier": "curated"
   },
   {
    "slug": "bsc",
@@ -1457,7 +1514,8 @@
    "index_url": "repos/bsc/index.json",
    "components_url": "components/bsc.json",
    "tree_url": "repos/bsc/tree.json",
-   "wave": "wave1"
+   "wave": "wave1",
+   "tier": "curated"
   },
   {
    "slug": "btcd",
@@ -1510,7 +1568,8 @@
    "index_url": "repos/btcd/index.json",
    "components_url": "components/btcd.json",
    "tree_url": "repos/btcd/tree.json",
-   "wave": "wave1"
+   "wave": "wave1",
+   "tier": "curated"
   },
   {
    "slug": "btcpayserver",
@@ -1543,7 +1602,8 @@
    "index_url": "repos/btcpayserver/index.json",
    "components_url": "components/btcpayserver.json",
    "tree_url": "repos/btcpayserver/tree.json",
-   "wave": "wave1"
+   "wave": "wave1",
+   "tier": "curated"
   },
   {
    "slug": "buidler",
@@ -1615,7 +1675,56 @@
    "index_url": "repos/buidler/index.json",
    "components_url": "components/buidler.json",
    "tree_url": "repos/buidler/tree.json",
-   "wave": "wave0-curated"
+   "wave": "wave0-curated",
+   "tier": "curated"
+  },
+  {
+   "slug": "builder",
+   "name": "builder",
+   "fork": "Blockchains/builder",
+   "fork_url": "https://github.com/Blockchains/builder",
+   "upstream": "decentraland/builder",
+   "upstream_url": "https://github.com/decentraland/builder",
+   "branch": "master",
+   "commit": "c9abed136e0347fb63c6d3f36ecae7d69da04514",
+   "indexed_at": "2026-10-04T17:14:50Z",
+   "category": "dev-tooling",
+   "license": "Apache-2.0 (LICENSE text; GitHub API reports NOASSERTION)",
+   "license_class": "permissive",
+   "license_spdx_github": "Apache-2.0",
+   "stars": 157,
+   "description": "\ud83c\udf49 Build scenes for Decentraland",
+   "readme_summary": "This UI allows users to create beautiful scenes for Decentraland, manage wearables and emotes, handle LAND parcels and Estates, and deploy content to Worlds. - Features - Dependencies & Related Services - Getting Started - Prerequisites - Installation - Configuration - Running the UI - Testing - **Scene Editor (SDK6)**: Drag-and-drop scene editor for creating 3D scenes with pre-built assets - **Web Editor (SDK7)**: Advanced scene editor using the Inspector for SDK7 scenes - **Wearables & Emotes Editor**: Create, edit, and publish wearables and emotes for avatars - **Collection Management**: Manage standard and third-party collections of items - **Land Management**: View, edit, transfer, and manage LAND parcels and Estates - **Worlds Deployment**: Deploy scenes to personal Worlds with custom permissions - **DCL Names Management**: Manage Decentraland Names (claim, transfer, link to LAND, ",
+   "install_commands": [
+    "git clone https://github.com/decentraland/builder.git",
+    "npm install",
+    "npm run start",
+    "npm run start:website",
+    "npm run test",
+    "npm run test:coverage"
+   ],
+   "languages_bytes": {
+    "TypeScript": 4149436,
+    "JavaScript": 722
+   },
+   "file_count": 1681,
+   "tags": [
+    "EVM",
+    "Substrate",
+    "npm"
+   ],
+   "component_count": 2,
+   "capabilities": {},
+   "packages": [
+    "@dcl/builder-site",
+    "@dcl/builder-site"
+   ],
+   "raw_base": "https://raw.githubusercontent.com/Blockchains/builder/master/",
+   "index_url": "repos/builder/index.json",
+   "components_url": "components/builder.json",
+   "tree_url": "repos/builder/tree.json",
+   "wave": "extended-2026-10-04",
+   "tier": "extended"
   },
   {
    "slug": "cairo-lang",
@@ -1665,7 +1774,8 @@
    "index_url": "repos/cairo-lang/index.json",
    "components_url": "components/cairo-lang.json",
    "tree_url": "repos/cairo-lang/tree.json",
-   "wave": "wave4-orgs"
+   "wave": "wave4-orgs",
+   "tier": "curated"
   },
   {
    "slug": "cairo",
@@ -1748,7 +1858,8 @@
    "index_url": "repos/cairo/index.json",
    "components_url": "components/cairo.json",
    "tree_url": "repos/cairo/tree.json",
-   "wave": "wave3-retry"
+   "wave": "wave3-retry",
+   "tier": "curated"
   },
   {
    "slug": "cake-wallet",
@@ -1791,7 +1902,8 @@
    "index_url": "repos/cake-wallet/index.json",
    "components_url": "components/cake-wallet.json",
    "tree_url": "repos/cake-wallet/tree.json",
-   "wave": "wave3-retry"
+   "wave": "wave3-retry",
+   "tier": "curated"
   },
   {
    "slug": "cardano-node",
@@ -1828,7 +1940,47 @@
    "index_url": "repos/cardano-node/index.json",
    "components_url": "components/cardano-node.json",
    "tree_url": "repos/cardano-node/tree.json",
-   "wave": "wave4-orgs"
+   "wave": "wave4-orgs",
+   "tier": "curated"
+  },
+  {
+   "slug": "catalyst",
+   "name": "catalyst",
+   "fork": "Blockchains/catalyst",
+   "fork_url": "https://github.com/Blockchains/catalyst",
+   "upstream": "decentraland/catalyst",
+   "upstream_url": "https://github.com/decentraland/catalyst",
+   "branch": "upstream-main",
+   "commit": "c8d76b606d1cdf1ca73dc56517eb73e97e384d98",
+   "indexed_at": "2026-10-04T17:14:38Z",
+   "category": "p2p-storage",
+   "license": "Apache-2.0",
+   "license_class": "permissive",
+   "license_spdx_github": "Apache-2.0",
+   "stars": 52,
+   "description": "\ud83d\udc27 Content server for Decentraland",
+   "readme_summary": "A Catalyst is a server that bundles different services. These services currently work as the backbone for Decentraland and run the decentralized storage for most of the content needed by the client and orchestrate the communications between peers. If you just want to run a Catalyst server, please check the Catalyst Owner repository. The current repository is mostly used for developing. - Backend for Frontend (BFF) This service was created to resolve client needs to enable faster development of new features without breaking the existing APIs. In the Catalyst context, it's used for the communications between peers connected to the client, its main responsibility is to manage the P2P signaling. - Archipelago Service Previously Archipelago was a library used by the Lighthouse, as now it needs to work with the different transports beyond P2P, it was converted into a Service. This service will",
+   "install_commands": [
+    "yarn build",
+    "yarn test"
+   ],
+   "languages_bytes": {
+    "TypeScript": 1112682,
+    "JavaScript": 4836
+   },
+   "file_count": 324,
+   "tags": [
+    "npm"
+   ],
+   "component_count": 0,
+   "capabilities": {},
+   "packages": [],
+   "raw_base": "https://raw.githubusercontent.com/Blockchains/catalyst/upstream-main/",
+   "index_url": "repos/catalyst/index.json",
+   "components_url": "components/catalyst.json",
+   "tree_url": "repos/catalyst/tree.json",
+   "wave": "extended-2026-10-04",
+   "tier": "extended"
   },
   {
    "slug": "celestia-node",
@@ -1878,7 +2030,8 @@
    "index_url": "repos/celestia-node/index.json",
    "components_url": "components/celestia-node.json",
    "tree_url": "repos/celestia-node/tree.json",
-   "wave": "wave4-orgs"
+   "wave": "wave4-orgs",
+   "tier": "curated"
   },
   {
    "slug": "chainlink-evm",
@@ -1946,7 +2099,8 @@
    "index_url": "repos/chainlink-evm/index.json",
    "components_url": "components/chainlink-evm.json",
    "tree_url": "repos/chainlink-evm/tree.json",
-   "wave": "wave1"
+   "wave": "wave1",
+   "tier": "curated"
   },
   {
    "slug": "chainlink",
@@ -2043,7 +2197,8 @@
    "index_url": "repos/chainlink/index.json",
    "components_url": "components/chainlink.json",
    "tree_url": "repos/chainlink/tree.json",
-   "wave": "wave0-curated"
+   "wave": "wave0-curated",
+   "tier": "curated"
   },
   {
    "slug": "chainquery",
@@ -2087,7 +2242,8 @@
    "index_url": "repos/chainquery/index.json",
    "components_url": "components/chainquery.json",
    "tree_url": "repos/chainquery/tree.json",
-   "wave": "wave3-topup"
+   "wave": "wave3-topup",
+   "tier": "curated"
   },
   {
    "slug": "chains",
@@ -2126,7 +2282,8 @@
    "index_url": "repos/chains/index.json",
    "components_url": "components/chains.json",
    "tree_url": "repos/chains/tree.json",
-   "wave": "wave1"
+   "wave": "wave1",
+   "tier": "curated"
   },
   {
    "slug": "chia-blockchain",
@@ -2165,7 +2322,8 @@
    "index_url": "repos/chia-blockchain/index.json",
    "components_url": "components/chia-blockchain.json",
    "tree_url": "repos/chia-blockchain/tree.json",
-   "wave": "wave1"
+   "wave": "wave1",
+   "tier": "curated"
   },
   {
    "slug": "circom",
@@ -2214,7 +2372,8 @@
    "index_url": "repos/circom/index.json",
    "components_url": "components/circom.json",
    "tree_url": "repos/circom/tree.json",
-   "wave": "wave0-curated"
+   "wave": "wave0-curated",
+   "tier": "curated"
   },
   {
    "slug": "circomlib",
@@ -2254,7 +2413,8 @@
    "index_url": "repos/circomlib/index.json",
    "components_url": "components/circomlib.json",
    "tree_url": "repos/circomlib/tree.json",
-   "wave": "wave1"
+   "wave": "wave1",
+   "tier": "curated"
   },
   {
    "slug": "ckb",
@@ -2326,7 +2486,8 @@
    "index_url": "repos/ckb/index.json",
    "components_url": "components/ckb.json",
    "tree_url": "repos/ckb/tree.json",
-   "wave": "wave3-retry"
+   "wave": "wave3-retry",
+   "tier": "curated"
   },
   {
    "slug": "clawrouter",
@@ -2369,7 +2530,8 @@
    "index_url": "repos/clawrouter/index.json",
    "components_url": "components/clawrouter.json",
    "tree_url": "repos/clawrouter/tree.json",
-   "wave": "preexisting"
+   "wave": "preexisting",
+   "tier": "curated"
   },
   {
    "slug": "cli",
@@ -2419,7 +2581,8 @@
    "index_url": "repos/cli/index.json",
    "components_url": "components/cli.json",
    "tree_url": "repos/cli/tree.json",
-   "wave": "wave3-retry"
+   "wave": "wave3-retry",
+   "tier": "curated"
   },
   {
    "slug": "coinbase-wallet-sdk",
@@ -2468,7 +2631,8 @@
    "index_url": "repos/coinbase-wallet-sdk/index.json",
    "components_url": "components/coinbase-wallet-sdk.json",
    "tree_url": "repos/coinbase-wallet-sdk/tree.json",
-   "wave": "wave3-retry"
+   "wave": "wave3-retry",
+   "tier": "curated"
   },
   {
    "slug": "cometbft",
@@ -2509,7 +2673,8 @@
    "index_url": "repos/cometbft/index.json",
    "components_url": "components/cometbft.json",
    "tree_url": "repos/cometbft/tree.json",
-   "wave": "wave3-retry"
+   "wave": "wave3-retry",
+   "tier": "curated"
   },
   {
    "slug": "connectkit",
@@ -2559,7 +2724,8 @@
    "index_url": "repos/connectkit/index.json",
    "components_url": "components/connectkit.json",
    "tree_url": "repos/connectkit/tree.json",
-   "wave": "wave3-retry"
+   "wave": "wave3-retry",
+   "tier": "curated"
   },
   {
    "slug": "consensus-specs",
@@ -2593,7 +2759,8 @@
    "index_url": "repos/consensus-specs/index.json",
    "components_url": "components/consensus-specs.json",
    "tree_url": "repos/consensus-specs/tree.json",
-   "wave": "wave4-orgs"
+   "wave": "wave4-orgs",
+   "tier": "curated"
   },
   {
    "slug": "cosmos-sdk",
@@ -2661,7 +2828,8 @@
    "index_url": "repos/cosmos-sdk/index.json",
    "components_url": "components/cosmos-sdk.json",
    "tree_url": "repos/cosmos-sdk/tree.json",
-   "wave": "wave0-curated"
+   "wave": "wave0-curated",
+   "tier": "curated"
   },
   {
    "slug": "cosmwasm",
@@ -2737,7 +2905,8 @@
    "index_url": "repos/cosmwasm/index.json",
    "components_url": "components/cosmwasm.json",
    "tree_url": "repos/cosmwasm/tree.json",
-   "wave": "wave3-retry"
+   "wave": "wave3-retry",
+   "tier": "curated"
   },
   {
    "slug": "daedalus",
@@ -2786,7 +2955,8 @@
    "index_url": "repos/daedalus/index.json",
    "components_url": "components/daedalus.json",
    "tree_url": "repos/daedalus/tree.json",
-   "wave": "wave4-orgs"
+   "wave": "wave4-orgs",
+   "tier": "curated"
   },
   {
    "slug": "damus",
@@ -2824,7 +2994,8 @@
    "index_url": "repos/damus/index.json",
    "components_url": "components/damus.json",
    "tree_url": "repos/damus/tree.json",
-   "wave": "wave3-topup"
+   "wave": "wave3-topup",
+   "tier": "curated"
   },
   {
    "slug": "darkfi",
@@ -2888,7 +3059,98 @@
    "index_url": "repos/darkfi/index.json",
    "components_url": "components/darkfi.json",
    "tree_url": "repos/darkfi/tree.json",
-   "wave": "wave3-retry"
+   "wave": "wave3-retry",
+   "tier": "curated"
+  },
+  {
+   "slug": "decentraland-dapps",
+   "name": "decentraland-dapps",
+   "fork": "Blockchains/decentraland-dapps",
+   "fork_url": "https://github.com/Blockchains/decentraland-dapps",
+   "upstream": "decentraland/decentraland-dapps",
+   "upstream_url": "https://github.com/decentraland/decentraland-dapps",
+   "branch": "master",
+   "commit": "c5cfb3d2a14c544e200f8bca60409b1c8a0c7259",
+   "indexed_at": "2026-10-04T17:14:37Z",
+   "category": "dev-tooling",
+   "license": "Apache-2.0",
+   "license_class": "permissive",
+   "license_spdx_github": "Apache-2.0",
+   "stars": 115,
+   "description": "\ud83d\udee0 Common modules for dApps",
+   "readme_summary": "This version includes significant changes including **React 18 upgrade** and dependency management improvements following Decentraland's Dependency Management Standard. **This version requires React 18.0.0 or higher.** React 17 is no longer supported. - **JSX Transform**: Updated from `react` to `react-jsx`. You no longer need to import React in files that only use JSX. - **RootStateOrAny removed**: `RootStateOrAny` was removed in react-redux v8. Use `any` or define your own `RootState` type. - **Node.js requirement**: Now requires Node.js >=20.0.0 and npm >=10.0.0 The following packages are required and will be **automatically installed** by npm v7+ when you install `decentraland-dapps`. If your project already has these dependencies, npm will use your existing versions (as long as they satisfy the version ranges).",
+   "install_commands": [],
+   "languages_bytes": {
+    "TypeScript": 934915,
+    "JavaScript": 54
+   },
+   "file_count": 371,
+   "tags": [
+    "EVM",
+    "npm"
+   ],
+   "component_count": 1,
+   "capabilities": {},
+   "packages": [
+    "decentraland-dapps"
+   ],
+   "raw_base": "https://raw.githubusercontent.com/Blockchains/decentraland-dapps/master/",
+   "index_url": "repos/decentraland-dapps/index.json",
+   "components_url": "components/decentraland-dapps.json",
+   "tree_url": "repos/decentraland-dapps/tree.json",
+   "wave": "extended-2026-10-04",
+   "tier": "extended"
+  },
+  {
+   "slug": "defi-sdk",
+   "name": "defi-sdk",
+   "fork": "Blockchains/defi-sdk",
+   "fork_url": "https://github.com/Blockchains/defi-sdk",
+   "upstream": "zeriontech/defi-sdk",
+   "upstream_url": "https://github.com/zeriontech/defi-sdk",
+   "branch": "upstream-router",
+   "commit": "0f3ddd73ce822e20726d72491da1702358bb7700",
+   "indexed_at": "2026-10-04T17:14:52Z",
+   "category": "defi",
+   "license": "LGPL-3.0",
+   "license_class": "weak-copyleft",
+   "license_spdx_github": "LGPL-3.0",
+   "stars": 844,
+   "description": "DeFi SDK Makes Money Lego Work",
+   "readme_summary": "**DeFi SDK** is an open-source system of smart contracts that allows you to execute trades with ERC20 tokens and track balances on different protocols. If you have any questions about DeFi SDK, feel free to reach out to us on our Discord server. **\ud83d\udcb8Trade any ERC20 tokens on L2 chains using single Router contract** > See How to swap ERC20 tokens using DeFi SDK Router **\ud83d\udca5Query user assets and debt deposited in DeFi protocols like *Maker, Aave, dYdX*, etc.** > How much debt does `0xdead..beef` have on Compound? **\ud83d\udccaGet the underlying components of complex derivative ERC20 tokens** > How much `cUSDC` vs `ETH` does `ETHMACOAPY` have? **\u2728Interact with multiple DeFi protocols in a unified way** > See How to interact with DeFi SDK contracts",
+   "install_commands": [],
+   "languages_bytes": {
+    "JavaScript": 204366,
+    "TypeScript": 108447,
+    "Solidity": 98592
+   },
+   "file_count": 104,
+   "tags": [
+    "EIP-712",
+    "ERC-20",
+    "ERC-2612",
+    "EVM",
+    "Hardhat",
+    "npm"
+   ],
+   "component_count": 25,
+   "capabilities": {
+    "token-permit": 5,
+    "amm-dex": 4,
+    "access-control": 4,
+    "fungible-token": 3,
+    "zk-proof": 2,
+    "signatures": 1
+   },
+   "packages": [
+    "zerion-defi-sdk"
+   ],
+   "raw_base": "https://raw.githubusercontent.com/Blockchains/defi-sdk/upstream-router/",
+   "index_url": "repos/defi-sdk/index.json",
+   "components_url": "components/defi-sdk.json",
+   "tree_url": "repos/defi-sdk/tree.json",
+   "wave": "extended-2026-10-04",
+   "tier": "extended"
   },
   {
    "slug": "defihacklabs",
@@ -2946,7 +3208,8 @@
    "index_url": "repos/defihacklabs/index.json",
    "components_url": "components/defihacklabs.json",
    "tree_url": "repos/defihacklabs/tree.json",
-   "wave": "wave1"
+   "wave": "wave1",
+   "tier": "curated"
   },
   {
    "slug": "diem",
@@ -3032,7 +3295,8 @@
    "index_url": "repos/diem/index.json",
    "components_url": "components/diem.json",
    "tree_url": "repos/diem/tree.json",
-   "wave": "wave3-topup"
+   "wave": "wave3-topup",
+   "tier": "curated"
   },
   {
    "slug": "dmm-dao-web-app",
@@ -3086,7 +3350,8 @@
    "index_url": "repos/dmm-dao-web-app/index.json",
    "components_url": "components/dmm-dao-web-app.json",
    "tree_url": "repos/dmm-dao-web-app/tree.json",
-   "wave": "wave1"
+   "wave": "wave1",
+   "tier": "curated"
   },
   {
    "slug": "dogecoin",
@@ -3122,7 +3387,8 @@
    "index_url": "repos/dogecoin/index.json",
    "components_url": "components/dogecoin.json",
    "tree_url": "repos/dogecoin/tree.json",
-   "wave": "wave1"
+   "wave": "wave1",
+   "tier": "curated"
   },
   {
    "slug": "echidna",
@@ -3171,7 +3437,8 @@
    "index_url": "repos/echidna/index.json",
    "components_url": "components/echidna.json",
    "tree_url": "repos/echidna/tree.json",
-   "wave": "wave1"
+   "wave": "wave1",
+   "tier": "curated"
   },
   {
    "slug": "eclair",
@@ -3208,7 +3475,8 @@
    "index_url": "repos/eclair/index.json",
    "components_url": "components/eclair.json",
    "tree_url": "repos/eclair/tree.json",
-   "wave": "wave3-retry"
+   "wave": "wave3-retry",
+   "tier": "curated"
   },
   {
    "slug": "eips",
@@ -3259,7 +3527,8 @@
    "index_url": "repos/eips/index.json",
    "components_url": "components/eips.json",
    "tree_url": "repos/eips/tree.json",
-   "wave": "wave4-orgs"
+   "wave": "wave4-orgs",
+   "tier": "curated"
   },
   {
    "slug": "electrs",
@@ -3296,7 +3565,8 @@
    "index_url": "repos/electrs/index.json",
    "components_url": "components/electrs.json",
    "tree_url": "repos/electrs/tree.json",
-   "wave": "wave3-retry"
+   "wave": "wave3-retry",
+   "tier": "curated"
   },
   {
    "slug": "electrum",
@@ -3331,7 +3601,8 @@
    "index_url": "repos/electrum/index.json",
    "components_url": "components/electrum.json",
    "tree_url": "repos/electrum/tree.json",
-   "wave": "wave1"
+   "wave": "wave1",
+   "tier": "curated"
   },
   {
    "slug": "elements",
@@ -3372,7 +3643,8 @@
    "index_url": "repos/elements/index.json",
    "components_url": "components/elements.json",
    "tree_url": "repos/elements/tree.json",
-   "wave": "wave4-orgs"
+   "wave": "wave4-orgs",
+   "tier": "curated"
   },
   {
    "slug": "eliza",
@@ -3467,7 +3739,8 @@
    "index_url": "repos/eliza/index.json",
    "components_url": "components/eliza.json",
    "tree_url": "repos/eliza/tree.json",
-   "wave": "wave3-retry"
+   "wave": "wave3-retry",
+   "tier": "curated"
   },
   {
    "slug": "erigon",
@@ -3526,7 +3799,8 @@
    "index_url": "repos/erigon/index.json",
    "components_url": "components/erigon.json",
    "tree_url": "repos/erigon/tree.json",
-   "wave": "wave1"
+   "wave": "wave1",
+   "tier": "curated"
   },
   {
    "slug": "esplora",
@@ -3578,7 +3852,8 @@
    "index_url": "repos/esplora/index.json",
    "components_url": "components/esplora.json",
    "tree_url": "repos/esplora/tree.json",
-   "wave": "wave4-orgs"
+   "wave": "wave4-orgs",
+   "tier": "curated"
   },
   {
    "slug": "ethereum-org-website",
@@ -3617,7 +3892,8 @@
    "index_url": "repos/ethereum-org-website/index.json",
    "components_url": "components/ethereum-org-website.json",
    "tree_url": "repos/ethereum-org-website/tree.json",
-   "wave": "wave3-topup"
+   "wave": "wave3-topup",
+   "tier": "curated"
   },
   {
    "slug": "ethernaut",
@@ -3677,7 +3953,8 @@
    "index_url": "repos/ethernaut/index.json",
    "components_url": "components/ethernaut.json",
    "tree_url": "repos/ethernaut/tree.json",
-   "wave": "wave3-retry"
+   "wave": "wave3-retry",
+   "tier": "curated"
   },
   {
    "slug": "ethers-js",
@@ -3715,7 +3992,8 @@
    "index_url": "repos/ethers-js/index.json",
    "components_url": "components/ethers-js.json",
    "tree_url": "repos/ethers-js/tree.json",
-   "wave": "wave0-curated"
+   "wave": "wave0-curated",
+   "tier": "curated"
   },
   {
    "slug": "execution-apis",
@@ -3766,7 +4044,8 @@
    "index_url": "repos/execution-apis/index.json",
    "components_url": "components/execution-apis.json",
    "tree_url": "repos/execution-apis/tree.json",
-   "wave": "wave4-orgs"
+   "wave": "wave4-orgs",
+   "tier": "curated"
   },
   {
    "slug": "execution-specs",
@@ -3810,7 +4089,8 @@
    "index_url": "repos/execution-specs/index.json",
    "components_url": "components/execution-specs.json",
    "tree_url": "repos/execution-specs/tree.json",
-   "wave": "wave4-orgs"
+   "wave": "wave4-orgs",
+   "tier": "curated"
   },
   {
    "slug": "extension-1",
@@ -3856,7 +4136,8 @@
    "index_url": "repos/extension-1/index.json",
    "components_url": "components/extension-1.json",
    "tree_url": "repos/extension-1/tree.json",
-   "wave": "wave3-retry"
+   "wave": "wave3-retry",
+   "tier": "curated"
   },
   {
    "slug": "extension",
@@ -3916,7 +4197,8 @@
    "index_url": "repos/extension/index.json",
    "components_url": "components/extension.json",
    "tree_url": "repos/extension/tree.json",
-   "wave": "wave1"
+   "wave": "wave1",
+   "tier": "curated"
   },
   {
    "slug": "fabric-samples",
@@ -3988,7 +4270,8 @@
    "index_url": "repos/fabric-samples/index.json",
    "components_url": "components/fabric-samples.json",
    "tree_url": "repos/fabric-samples/tree.json",
-   "wave": "wave4-orgs"
+   "wave": "wave4-orgs",
+   "tier": "curated"
   },
   {
    "slug": "fabric",
@@ -4033,7 +4316,8 @@
    "index_url": "repos/fabric/index.json",
    "components_url": "components/fabric.json",
    "tree_url": "repos/fabric/tree.json",
-   "wave": "wave1"
+   "wave": "wave1",
+   "tier": "curated"
   },
   {
    "slug": "fe",
@@ -4105,7 +4389,8 @@
    "index_url": "repos/fe/index.json",
    "components_url": "components/fe.json",
    "tree_url": "repos/fe/tree.json",
-   "wave": "wave4-orgs"
+   "wave": "wave4-orgs",
+   "tier": "curated"
   },
   {
    "slug": "firedancer",
@@ -4157,7 +4442,8 @@
    "index_url": "repos/firedancer/index.json",
    "components_url": "components/firedancer.json",
    "tree_url": "repos/firedancer/tree.json",
-   "wave": "wave3-retry"
+   "wave": "wave3-retry",
+   "tier": "curated"
   },
   {
    "slug": "fisco-bcos",
@@ -4201,7 +4487,8 @@
    "index_url": "repos/fisco-bcos/index.json",
    "components_url": "components/fisco-bcos.json",
    "tree_url": "repos/fisco-bcos/tree.json",
-   "wave": "wave3-retry"
+   "wave": "wave3-retry",
+   "tier": "curated"
   },
   {
    "slug": "forge-std",
@@ -4253,7 +4540,8 @@
    "index_url": "repos/forge-std/index.json",
    "components_url": "components/forge-std.json",
    "tree_url": "repos/forge-std/tree.json",
-   "wave": "wave1"
+   "wave": "wave1",
+   "tier": "curated"
   },
   {
    "slug": "foundry",
@@ -4336,7 +4624,8 @@
    "index_url": "repos/foundry/index.json",
    "components_url": "components/foundry.json",
    "tree_url": "repos/foundry/tree.json",
-   "wave": "wave0-curated"
+   "wave": "wave0-curated",
+   "tier": "curated"
   },
   {
    "slug": "gnark",
@@ -4386,7 +4675,8 @@
    "index_url": "repos/gnark/index.json",
    "components_url": "components/gnark.json",
    "tree_url": "repos/gnark/tree.json",
-   "wave": "wave3-retry"
+   "wave": "wave3-retry",
+   "tier": "curated"
   },
   {
    "slug": "go-ethereum",
@@ -4437,7 +4727,8 @@
    "index_url": "repos/go-ethereum/index.json",
    "components_url": "components/go-ethereum.json",
    "tree_url": "repos/go-ethereum/tree.json",
-   "wave": "wave0-curated"
+   "wave": "wave0-curated",
+   "tier": "curated"
   },
   {
    "slug": "go-libp2p",
@@ -4482,7 +4773,8 @@
    "index_url": "repos/go-libp2p/index.json",
    "components_url": "components/go-libp2p.json",
    "tree_url": "repos/go-libp2p/tree.json",
-   "wave": "wave4-orgs"
+   "wave": "wave4-orgs",
+   "tier": "curated"
   },
   {
    "slug": "go-stellar-sdk",
@@ -4521,7 +4813,8 @@
    "index_url": "repos/go-stellar-sdk/index.json",
    "components_url": "components/go-stellar-sdk.json",
    "tree_url": "repos/go-stellar-sdk/tree.json",
-   "wave": "wave3-retry"
+   "wave": "wave3-retry",
+   "tier": "curated"
   },
   {
    "slug": "graph-node",
@@ -4583,7 +4876,8 @@
    "index_url": "repos/graph-node/index.json",
    "components_url": "components/graph-node.json",
    "tree_url": "repos/graph-node/tree.json",
-   "wave": "wave0-curated"
+   "wave": "wave0-curated",
+   "tier": "curated"
   },
   {
    "slug": "graph-tooling",
@@ -4625,7 +4919,8 @@
    "index_url": "repos/graph-tooling/index.json",
    "components_url": "components/graph-tooling.json",
    "tree_url": "repos/graph-tooling/tree.json",
-   "wave": "wave0-curated"
+   "wave": "wave0-curated",
+   "tier": "curated"
   },
   {
    "slug": "grin",
@@ -4671,7 +4966,8 @@
    "index_url": "repos/grin/index.json",
    "components_url": "components/grin.json",
    "tree_url": "repos/grin/tree.json",
-   "wave": "wave1"
+   "wave": "wave1",
+   "tier": "curated"
   },
   {
    "slug": "hardhat-deploy",
@@ -4701,7 +4997,8 @@
    "index_url": "repos/hardhat-deploy/index.json",
    "components_url": "components/hardhat-deploy.json",
    "tree_url": "repos/hardhat-deploy/tree.json",
-   "wave": "wave3-retry"
+   "wave": "wave3-retry",
+   "tier": "curated"
   },
   {
    "slug": "harmony",
@@ -4758,7 +5055,8 @@
    "index_url": "repos/harmony/index.json",
    "components_url": "components/harmony.json",
    "tree_url": "repos/harmony/tree.json",
-   "wave": "wave3-retry"
+   "wave": "wave3-retry",
+   "tier": "curated"
   },
   {
    "slug": "haveno",
@@ -4791,7 +5089,8 @@
    "index_url": "repos/haveno/index.json",
    "components_url": "components/haveno.json",
    "tree_url": "repos/haveno/tree.json",
-   "wave": "wave3-retry"
+   "wave": "wave3-retry",
+   "tier": "curated"
   },
   {
    "slug": "hedera-smart-contracts",
@@ -4860,7 +5159,8 @@
    "index_url": "repos/hedera-smart-contracts/index.json",
    "components_url": "components/hedera-smart-contracts.json",
    "tree_url": "repos/hedera-smart-contracts/tree.json",
-   "wave": "wave0-curated"
+   "wave": "wave0-curated",
+   "tier": "curated"
   },
   {
    "slug": "heimdall-rs",
@@ -4912,7 +5212,8 @@
    "index_url": "repos/heimdall-rs/index.json",
    "components_url": "components/heimdall-rs.json",
    "tree_url": "repos/heimdall-rs/tree.json",
-   "wave": "wave3-retry"
+   "wave": "wave3-retry",
+   "tier": "curated"
   },
   {
    "slug": "helia",
@@ -4971,7 +5272,8 @@
    "index_url": "repos/helia/index.json",
    "components_url": "components/helia.json",
    "tree_url": "repos/helia/tree.json",
-   "wave": "wave3-retry"
+   "wave": "wave3-retry",
+   "tier": "curated"
   },
   {
    "slug": "helios",
@@ -5027,7 +5329,8 @@
    "index_url": "repos/helios/index.json",
    "components_url": "components/helios.json",
    "tree_url": "repos/helios/tree.json",
-   "wave": "wave3-retry"
+   "wave": "wave3-retry",
+   "tier": "curated"
   },
   {
    "slug": "hiero-consensus-node",
@@ -5079,7 +5382,8 @@
    "index_url": "repos/hiero-consensus-node/index.json",
    "components_url": "components/hiero-consensus-node.json",
    "tree_url": "repos/hiero-consensus-node/tree.json",
-   "wave": "wave0-curated"
+   "wave": "wave0-curated",
+   "tier": "curated"
   },
   {
    "slug": "hiero-json-rpc-relay",
@@ -5164,7 +5468,8 @@
    "index_url": "repos/hiero-json-rpc-relay/index.json",
    "components_url": "components/hiero-json-rpc-relay.json",
    "tree_url": "repos/hiero-json-rpc-relay/tree.json",
-   "wave": "wave3-retry"
+   "wave": "wave3-retry",
+   "tier": "curated"
   },
   {
    "slug": "hiero-mirror-node",
@@ -5218,7 +5523,8 @@
    "index_url": "repos/hiero-mirror-node/index.json",
    "components_url": "components/hiero-mirror-node.json",
    "tree_url": "repos/hiero-mirror-node/tree.json",
-   "wave": "wave3-retry"
+   "wave": "wave3-retry",
+   "tier": "curated"
   },
   {
    "slug": "hiero-sdk-js",
@@ -5277,7 +5583,8 @@
    "index_url": "repos/hiero-sdk-js/index.json",
    "components_url": "components/hiero-sdk-js.json",
    "tree_url": "repos/hiero-sdk-js/tree.json",
-   "wave": "wave0-curated"
+   "wave": "wave0-curated",
+   "tier": "curated"
   },
   {
    "slug": "holochain",
@@ -5347,7 +5654,8 @@
    "index_url": "repos/holochain/index.json",
    "components_url": "components/holochain.json",
    "tree_url": "repos/holochain/tree.json",
-   "wave": "wave3-retry"
+   "wave": "wave3-retry",
+   "tier": "curated"
   },
   {
    "slug": "ibc",
@@ -5395,7 +5703,8 @@
    "index_url": "repos/ibc/index.json",
    "components_url": "components/ibc.json",
    "tree_url": "repos/ibc/tree.json",
-   "wave": "wave3-retry"
+   "wave": "wave3-retry",
+   "tier": "curated"
   },
   {
    "slug": "icefiredb",
@@ -5434,7 +5743,8 @@
    "index_url": "repos/icefiredb/index.json",
    "components_url": "components/icefiredb.json",
    "tree_url": "repos/icefiredb/tree.json",
-   "wave": "wave3-topup"
+   "wave": "wave3-topup",
+   "tier": "curated"
   },
   {
    "slug": "intellij-solidity",
@@ -5473,7 +5783,8 @@
    "index_url": "repos/intellij-solidity/index.json",
    "components_url": "components/intellij-solidity.json",
    "tree_url": "repos/intellij-solidity/tree.json",
-   "wave": "wave3-topup"
+   "wave": "wave3-topup",
+   "tier": "curated"
   },
   {
    "slug": "intentkit",
@@ -5516,7 +5827,8 @@
    "index_url": "repos/intentkit/index.json",
    "components_url": "components/intentkit.json",
    "tree_url": "repos/intentkit/tree.json",
-   "wave": "wave3-retry"
+   "wave": "wave3-retry",
+   "tier": "curated"
   },
   {
    "slug": "iotex-core",
@@ -5576,7 +5888,8 @@
    "index_url": "repos/iotex-core/index.json",
    "components_url": "components/iotex-core.json",
    "tree_url": "repos/iotex-core/tree.json",
-   "wave": "wave3-retry"
+   "wave": "wave3-retry",
+   "tier": "curated"
   },
   {
    "slug": "ipfs-companion",
@@ -5614,7 +5927,8 @@
    "index_url": "repos/ipfs-companion/index.json",
    "components_url": "components/ipfs-companion.json",
    "tree_url": "repos/ipfs-companion/tree.json",
-   "wave": "wave4-orgs"
+   "wave": "wave4-orgs",
+   "tier": "curated"
   },
   {
    "slug": "ipfs-desktop",
@@ -5654,7 +5968,8 @@
    "index_url": "repos/ipfs-desktop/index.json",
    "components_url": "components/ipfs-desktop.json",
    "tree_url": "repos/ipfs-desktop/tree.json",
-   "wave": "wave4-orgs"
+   "wave": "wave4-orgs",
+   "tier": "curated"
   },
   {
    "slug": "ipfs-webui",
@@ -5699,7 +6014,8 @@
    "index_url": "repos/ipfs-webui/index.json",
    "components_url": "components/ipfs-webui.json",
    "tree_url": "repos/ipfs-webui/tree.json",
-   "wave": "wave4-orgs"
+   "wave": "wave4-orgs",
+   "tier": "curated"
   },
   {
    "slug": "java-tron",
@@ -5737,7 +6053,8 @@
    "index_url": "repos/java-tron/index.json",
    "components_url": "components/java-tron.json",
    "tree_url": "repos/java-tron/tree.json",
-   "wave": "wave4-orgs"
+   "wave": "wave4-orgs",
+   "tier": "curated"
   },
   {
    "slug": "jolt",
@@ -5814,7 +6131,8 @@
    "index_url": "repos/jolt/index.json",
    "components_url": "components/jolt.json",
    "tree_url": "repos/jolt/tree.json",
-   "wave": "wave3-retry"
+   "wave": "wave3-retry",
+   "tier": "curated"
   },
   {
    "slug": "js-libp2p",
@@ -5883,7 +6201,8 @@
    "index_url": "repos/js-libp2p/index.json",
    "components_url": "components/js-libp2p.json",
    "tree_url": "repos/js-libp2p/tree.json",
-   "wave": "wave3-retry"
+   "wave": "wave3-retry",
+   "tier": "curated"
   },
   {
    "slug": "kubo",
@@ -5929,7 +6248,8 @@
    "index_url": "repos/kubo/index.json",
    "components_url": "components/kubo.json",
    "tree_url": "repos/kubo/tree.json",
-   "wave": "wave3-retry"
+   "wave": "wave3-retry",
+   "tier": "curated"
   },
   {
    "slug": "lbry-desktop",
@@ -5966,7 +6286,8 @@
    "index_url": "repos/lbry-desktop/index.json",
    "components_url": "components/lbry-desktop.json",
    "tree_url": "repos/lbry-desktop/tree.json",
-   "wave": "wave3-topup"
+   "wave": "wave3-topup",
+   "tier": "curated"
   },
   {
    "slug": "leo",
@@ -6032,7 +6353,8 @@
    "index_url": "repos/leo/index.json",
    "components_url": "components/leo.json",
    "tree_url": "repos/leo/tree.json",
-   "wave": "wave3-topup"
+   "wave": "wave3-topup",
+   "tier": "curated"
   },
   {
    "slug": "lighthouse",
@@ -6102,7 +6424,8 @@
    "index_url": "repos/lighthouse/index.json",
    "components_url": "components/lighthouse.json",
    "tree_url": "repos/lighthouse/tree.json",
-   "wave": "wave1"
+   "wave": "wave1",
+   "tier": "curated"
   },
   {
    "slug": "lightning",
@@ -6167,7 +6490,8 @@
    "index_url": "repos/lightning/index.json",
    "components_url": "components/lightning.json",
    "tree_url": "repos/lightning/tree.json",
-   "wave": "wave3-retry"
+   "wave": "wave3-retry",
+   "tier": "curated"
   },
   {
    "slug": "linera-protocol",
@@ -6244,7 +6568,8 @@
    "index_url": "repos/linera-protocol/index.json",
    "components_url": "components/linera-protocol.json",
    "tree_url": "repos/linera-protocol/tree.json",
-   "wave": "wave1"
+   "wave": "wave1",
+   "tier": "curated"
   },
   {
    "slug": "lnbits",
@@ -6283,7 +6608,8 @@
    "index_url": "repos/lnbits/index.json",
    "components_url": "components/lnbits.json",
    "tree_url": "repos/lnbits/tree.json",
-   "wave": "wave3-retry"
+   "wave": "wave3-retry",
+   "tier": "curated"
   },
   {
    "slug": "lnd",
@@ -6338,7 +6664,8 @@
    "index_url": "repos/lnd/index.json",
    "components_url": "components/lnd.json",
    "tree_url": "repos/lnd/tree.json",
-   "wave": "wave0-curated"
+   "wave": "wave0-curated",
+   "tier": "curated"
   },
   {
    "slug": "lndhub",
@@ -6378,7 +6705,8 @@
    "index_url": "repos/lndhub/index.json",
    "components_url": "components/lndhub.json",
    "tree_url": "repos/lndhub/tree.json",
-   "wave": "wave3-retry"
+   "wave": "wave3-retry",
+   "tier": "curated"
   },
   {
    "slug": "lodestar",
@@ -6434,7 +6762,8 @@
    "index_url": "repos/lodestar/index.json",
    "components_url": "components/lodestar.json",
    "tree_url": "repos/lodestar/tree.json",
-   "wave": "wave3-retry"
+   "wave": "wave3-retry",
+   "tier": "curated"
   },
   {
    "slug": "lotus",
@@ -6481,7 +6810,49 @@
    "index_url": "repos/lotus/index.json",
    "components_url": "components/lotus.json",
    "tree_url": "repos/lotus/tree.json",
-   "wave": "wave3-retry"
+   "wave": "wave3-retry",
+   "tier": "curated"
+  },
+  {
+   "slug": "marketplace",
+   "name": "marketplace",
+   "fork": "Blockchains/marketplace",
+   "fork_url": "https://github.com/Blockchains/marketplace",
+   "upstream": "decentraland/marketplace",
+   "upstream_url": "https://github.com/decentraland/marketplace",
+   "branch": "master",
+   "commit": "a07f1e1a8d9885c1e2651ec8cdd35b3c1e9b0b65",
+   "indexed_at": "2026-10-04T17:14:44Z",
+   "category": "nft",
+   "license": "Apache-2.0 (LICENSE text; GitHub API reports NOASSERTION)",
+   "license_class": "permissive",
+   "license_spdx_github": "Apache-2.0",
+   "stars": 1199,
+   "description": "\ud83c\udfdb\ufe0f Decentraland's NFT Marketplace",
+   "readme_summary": "The Marketplace is a React static site. Its code can be found under the /webapp directory. Contributing to the Marketplace is easy, you just need to go through the following process: 1. Look for issues in the Issues tab or create a new one with the proposed changes. We classify issues with the \u201cEnhancement\u201d, \u201cBug\u201d or \u201cGood first issue\u201d tags. Feel free to check one of those first. 2. Contact team members via the GitHub issue or use the Code Contribution Discord channel. It\u2019s important to at least check on the issue status before starting. 3. Set up your GPG key and sign all commits in your branch. 4. Read the testing standards and the coding standards to produce code that fits the project standards. 5. Create a PR with the changes, linking the PR to the created issue. If there are visual changes in the PR, attach images.",
+   "install_commands": [],
+   "languages_bytes": {
+    "TypeScript": 4109353
+   },
+   "file_count": 1864,
+   "tags": [
+    "EVM",
+    "npm"
+   ],
+   "component_count": 4,
+   "capabilities": {},
+   "packages": [
+    "testing",
+    "marketplace",
+    "@dcl/marketplace-site",
+    "@dcl/marketplace-site"
+   ],
+   "raw_base": "https://raw.githubusercontent.com/Blockchains/marketplace/master/",
+   "index_url": "repos/marketplace/index.json",
+   "components_url": "components/marketplace.json",
+   "tree_url": "repos/marketplace/tree.json",
+   "wave": "extended-2026-10-04",
+   "tier": "extended"
   },
   {
    "slug": "mempool",
@@ -6524,7 +6895,8 @@
    "index_url": "repos/mempool/index.json",
    "components_url": "components/mempool.json",
    "tree_url": "repos/mempool/tree.json",
-   "wave": "wave3-retry"
+   "wave": "wave3-retry",
+   "tier": "curated"
   },
   {
    "slug": "mina",
@@ -6577,7 +6949,8 @@
    "index_url": "repos/mina/index.json",
    "components_url": "components/mina.json",
    "tree_url": "repos/mina/tree.json",
-   "wave": "wave3-retry"
+   "wave": "wave3-retry",
+   "tier": "curated"
   },
   {
    "slug": "monero",
@@ -6629,7 +7002,8 @@
    "index_url": "repos/monero/index.json",
    "components_url": "components/monero.json",
    "tree_url": "repos/monero/tree.json",
-   "wave": "wave3-retry"
+   "wave": "wave3-retry",
+   "tier": "curated"
   },
   {
    "slug": "morpho-blue",
@@ -6670,7 +7044,8 @@
    "index_url": "repos/morpho-blue/index.json",
    "components_url": "components/morpho-blue.json",
    "tree_url": "repos/morpho-blue/tree.json",
-   "wave": "wave3-retry"
+   "wave": "wave3-retry",
+   "tier": "curated"
   },
   {
    "slug": "myetherwallet",
@@ -6709,7 +7084,8 @@
    "index_url": "repos/myetherwallet/index.json",
    "components_url": "components/myetherwallet.json",
    "tree_url": "repos/myetherwallet/tree.json",
-   "wave": "wave3-retry"
+   "wave": "wave3-retry",
+   "tier": "curated"
   },
   {
    "slug": "namada",
@@ -6786,7 +7162,8 @@
    "index_url": "repos/namada/index.json",
    "components_url": "components/namada.json",
    "tree_url": "repos/namada/tree.json",
-   "wave": "wave3-retry"
+   "wave": "wave3-retry",
+   "tier": "curated"
   },
   {
    "slug": "nano-node",
@@ -6822,7 +7199,8 @@
    "index_url": "repos/nano-node/index.json",
    "components_url": "components/nano-node.json",
    "tree_url": "repos/nano-node/tree.json",
-   "wave": "wave1"
+   "wave": "wave1",
+   "tier": "curated"
   },
   {
    "slug": "nearcore",
@@ -6895,7 +7273,8 @@
    "index_url": "repos/nearcore/index.json",
    "components_url": "components/nearcore.json",
    "tree_url": "repos/nearcore/tree.json",
-   "wave": "wave1"
+   "wave": "wave1",
+   "tier": "curated"
   },
   {
    "slug": "neo",
@@ -6927,7 +7306,8 @@
    "index_url": "repos/neo/index.json",
    "components_url": "components/neo.json",
    "tree_url": "repos/neo/tree.json",
-   "wave": "wave1"
+   "wave": "wave1",
+   "tier": "curated"
   },
   {
    "slug": "nethereum",
@@ -6985,7 +7365,8 @@
    "index_url": "repos/nethereum/index.json",
    "components_url": "components/nethereum.json",
    "tree_url": "repos/nethereum/tree.json",
-   "wave": "wave3-retry"
+   "wave": "wave3-retry",
+   "tier": "curated"
   },
   {
    "slug": "nethermind",
@@ -7029,7 +7410,8 @@
    "index_url": "repos/nethermind/index.json",
    "components_url": "components/nethermind.json",
    "tree_url": "repos/nethermind/tree.json",
-   "wave": "wave3-retry"
+   "wave": "wave3-retry",
+   "tier": "curated"
   },
   {
    "slug": "node-1",
@@ -7076,7 +7458,8 @@
    "index_url": "repos/node-1/index.json",
    "components_url": "components/node-1.json",
    "tree_url": "repos/node-1/tree.json",
-   "wave": "wave3-topup"
+   "wave": "wave3-topup",
+   "tier": "curated"
   },
   {
    "slug": "node",
@@ -7129,7 +7512,8 @@
    "index_url": "repos/node/index.json",
    "components_url": "components/node.json",
    "tree_url": "repos/node/tree.json",
-   "wave": "wave3-retry"
+   "wave": "wave3-retry",
+   "tier": "curated"
   },
   {
    "slug": "noir",
@@ -7210,7 +7594,8 @@
    "index_url": "repos/noir/index.json",
    "components_url": "components/noir.json",
    "tree_url": "repos/noir/tree.json",
-   "wave": "wave0-curated"
+   "wave": "wave0-curated",
+   "tier": "curated"
   },
   {
    "slug": "openzeppelin-contracts-upgradeable",
@@ -7279,7 +7664,8 @@
    "index_url": "repos/openzeppelin-contracts-upgradeable/index.json",
    "components_url": "components/openzeppelin-contracts-upgradeable.json",
    "tree_url": "repos/openzeppelin-contracts-upgradeable/tree.json",
-   "wave": "wave3-retry"
+   "wave": "wave3-retry",
+   "tier": "curated"
   },
   {
    "slug": "openzeppelin-contracts",
@@ -7352,7 +7738,8 @@
    "index_url": "repos/openzeppelin-contracts/index.json",
    "components_url": "components/openzeppelin-contracts.json",
    "tree_url": "repos/openzeppelin-contracts/tree.json",
-   "wave": "wave0-curated"
+   "wave": "wave0-curated",
+   "tier": "curated"
   },
   {
    "slug": "optimism",
@@ -7457,7 +7844,8 @@
    "index_url": "repos/optimism/index.json",
    "components_url": "components/optimism.json",
    "tree_url": "repos/optimism/tree.json",
-   "wave": "wave0-curated"
+   "wave": "wave0-curated",
+   "tier": "curated"
   },
   {
    "slug": "p2pool",
@@ -7500,7 +7888,8 @@
    "index_url": "repos/p2pool/index.json",
    "components_url": "components/p2pool.json",
    "tree_url": "repos/p2pool/tree.json",
-   "wave": "wave3-topup"
+   "wave": "wave3-topup",
+   "tier": "curated"
   },
   {
    "slug": "pay",
@@ -7566,7 +7955,8 @@
    "index_url": "repos/pay/index.json",
    "components_url": "components/pay.json",
    "tree_url": "repos/pay/tree.json",
-   "wave": "wave4-orgs"
+   "wave": "wave4-orgs",
+   "tier": "curated"
   },
   {
    "slug": "permissionless-js",
@@ -7608,7 +7998,8 @@
    "index_url": "repos/permissionless-js/index.json",
    "components_url": "components/permissionless-js.json",
    "tree_url": "repos/permissionless-js/tree.json",
-   "wave": "wave0-curated"
+   "wave": "wave0-curated",
+   "tier": "curated"
   },
   {
    "slug": "planet",
@@ -7643,7 +8034,8 @@
    "index_url": "repos/planet/index.json",
    "components_url": "components/planet.json",
    "tree_url": "repos/planet/tree.json",
-   "wave": "wave3-topup"
+   "wave": "wave3-topup",
+   "tier": "curated"
   },
   {
    "slug": "plutus",
@@ -7680,7 +8072,8 @@
    "index_url": "repos/plutus/index.json",
    "components_url": "components/plutus.json",
    "tree_url": "repos/plutus/tree.json",
-   "wave": "wave3-retry"
+   "wave": "wave3-retry",
+   "tier": "curated"
   },
   {
    "slug": "polkadot-js-api",
@@ -7734,7 +8127,8 @@
    "index_url": "repos/polkadot-js-api/index.json",
    "components_url": "components/polkadot-js-api.json",
    "tree_url": "repos/polkadot-js-api/tree.json",
-   "wave": "wave3-retry"
+   "wave": "wave3-retry",
+   "tier": "curated"
   },
   {
    "slug": "polkadot-sdk",
@@ -7820,7 +8214,8 @@
    "index_url": "repos/polkadot-sdk/index.json",
    "components_url": "components/polkadot-sdk.json",
    "tree_url": "repos/polkadot-sdk/tree.json",
-   "wave": "wave0-curated"
+   "wave": "wave0-curated",
+   "tier": "curated"
   },
   {
    "slug": "ponder",
@@ -7876,7 +8271,8 @@
    "index_url": "repos/ponder/index.json",
    "components_url": "components/ponder.json",
    "tree_url": "repos/ponder/tree.json",
-   "wave": "wave4-orgs"
+   "wave": "wave4-orgs",
+   "tier": "curated"
   },
   {
    "slug": "powfaucet",
@@ -7928,7 +8324,8 @@
    "index_url": "repos/powfaucet/index.json",
    "components_url": "components/powfaucet.json",
    "tree_url": "repos/powfaucet/tree.json",
-   "wave": "wave3-topup"
+   "wave": "wave3-topup",
+   "tier": "curated"
   },
   {
    "slug": "prb-math",
@@ -7971,7 +8368,8 @@
    "index_url": "repos/prb-math/index.json",
    "components_url": "components/prb-math.json",
    "tree_url": "repos/prb-math/tree.json",
-   "wave": "wave3-retry"
+   "wave": "wave3-retry",
+   "tier": "curated"
   },
   {
    "slug": "program-examples",
@@ -8048,7 +8446,8 @@
    "index_url": "repos/program-examples/index.json",
    "components_url": "components/program-examples.json",
    "tree_url": "repos/program-examples/tree.json",
-   "wave": "wave3-retry"
+   "wave": "wave3-retry",
+   "tier": "curated"
   },
   {
    "slug": "prysm",
@@ -8093,7 +8492,8 @@
    "index_url": "repos/prysm/index.json",
    "components_url": "components/prysm.json",
    "tree_url": "repos/prysm/tree.json",
-   "wave": "wave1"
+   "wave": "wave1",
+   "tier": "curated"
   },
   {
    "slug": "qtum",
@@ -8143,7 +8543,8 @@
    "index_url": "repos/qtum/index.json",
    "components_url": "components/qtum.json",
    "tree_url": "repos/qtum/tree.json",
-   "wave": "wave3-retry"
+   "wave": "wave3-retry",
+   "tier": "curated"
   },
   {
    "slug": "rainbow",
@@ -8191,7 +8592,8 @@
    "index_url": "repos/rainbow/index.json",
    "components_url": "components/rainbow.json",
    "tree_url": "repos/rainbow/tree.json",
-   "wave": "wave1"
+   "wave": "wave1",
+   "tier": "curated"
   },
   {
    "slug": "rainbowkit",
@@ -8254,7 +8656,8 @@
    "index_url": "repos/rainbowkit/index.json",
    "components_url": "components/rainbowkit.json",
    "tree_url": "repos/rainbowkit/tree.json",
-   "wave": "wave0-curated"
+   "wave": "wave0-curated",
+   "tier": "curated"
   },
   {
    "slug": "rango-client",
@@ -8328,7 +8731,8 @@
    "index_url": "repos/rango-client/index.json",
    "components_url": "components/rango-client.json",
    "tree_url": "repos/rango-client/tree.json",
-   "wave": "wave3-topup"
+   "wave": "wave3-topup",
+   "tier": "curated"
   },
   {
    "slug": "rango-sdk",
@@ -8376,7 +8780,8 @@
    "index_url": "repos/rango-sdk/index.json",
    "components_url": "components/rango-sdk.json",
    "tree_url": "repos/rango-sdk/tree.json",
-   "wave": "wave3-retry"
+   "wave": "wave3-retry",
+   "tier": "curated"
   },
   {
    "slug": "raspibolt",
@@ -8423,7 +8828,8 @@
    "index_url": "repos/raspibolt/index.json",
    "components_url": "components/raspibolt.json",
    "tree_url": "repos/raspibolt/tree.json",
-   "wave": "wave3-topup"
+   "wave": "wave3-topup",
+   "tier": "curated"
   },
   {
    "slug": "ravencoin",
@@ -8459,7 +8865,8 @@
    "index_url": "repos/ravencoin/index.json",
    "components_url": "components/ravencoin.json",
    "tree_url": "repos/ravencoin/tree.json",
-   "wave": "wave3-retry"
+   "wave": "wave3-retry",
+   "tier": "curated"
   },
   {
    "slug": "reentrancy-attacks",
@@ -8489,7 +8896,8 @@
    "index_url": "repos/reentrancy-attacks/index.json",
    "components_url": "components/reentrancy-attacks.json",
    "tree_url": "repos/reentrancy-attacks/tree.json",
-   "wave": "wave4-orgs"
+   "wave": "wave4-orgs",
+   "tier": "curated"
   },
   {
    "slug": "remix-ide",
@@ -8525,7 +8933,8 @@
    "index_url": "repos/remix-ide/index.json",
    "components_url": "components/remix-ide.json",
    "tree_url": "repos/remix-ide/tree.json",
-   "wave": "wave3-topup"
+   "wave": "wave3-topup",
+   "tier": "curated"
   },
   {
    "slug": "remix-project",
@@ -8625,7 +9034,8 @@
    "index_url": "repos/remix-project/index.json",
    "components_url": "components/remix-project.json",
    "tree_url": "repos/remix-project/tree.json",
-   "wave": "wave1"
+   "wave": "wave1",
+   "tier": "curated"
   },
   {
    "slug": "reth",
@@ -8704,7 +9114,8 @@
    "index_url": "repos/reth/index.json",
    "components_url": "components/reth.json",
    "tree_url": "repos/reth/tree.json",
-   "wave": "wave0-curated"
+   "wave": "wave0-curated",
+   "tier": "curated"
   },
   {
    "slug": "revm",
@@ -8756,7 +9167,8 @@
    "index_url": "repos/revm/index.json",
    "components_url": "components/revm.json",
    "tree_url": "repos/revm/tree.json",
-   "wave": "wave3-retry"
+   "wave": "wave3-retry",
+   "tier": "curated"
   },
   {
    "slug": "rippled",
@@ -8797,7 +9209,8 @@
    "index_url": "repos/rippled/index.json",
    "components_url": "components/rippled.json",
    "tree_url": "repos/rippled/tree.json",
-   "wave": "wave1"
+   "wave": "wave1",
+   "tier": "curated"
   },
   {
    "slug": "risc0",
@@ -8881,7 +9294,8 @@
    "index_url": "repos/risc0/index.json",
    "components_url": "components/risc0.json",
    "tree_url": "repos/risc0/tree.json",
-   "wave": "wave0-curated"
+   "wave": "wave0-curated",
+   "tier": "curated"
   },
   {
    "slug": "robosats",
@@ -8921,7 +9335,8 @@
    "index_url": "repos/robosats/index.json",
    "components_url": "components/robosats.json",
    "tree_url": "repos/robosats/tree.json",
-   "wave": "wave3-retry"
+   "wave": "wave3-retry",
+   "tier": "curated"
   },
   {
    "slug": "rotki",
@@ -8973,7 +9388,8 @@
    "index_url": "repos/rotki/index.json",
    "components_url": "components/rotki.json",
    "tree_url": "repos/rotki/tree.json",
-   "wave": "wave1"
+   "wave": "wave1",
+   "tier": "curated"
   },
   {
    "slug": "rust-libp2p",
@@ -9045,7 +9461,8 @@
    "index_url": "repos/rust-libp2p/index.json",
    "components_url": "components/rust-libp2p.json",
    "tree_url": "repos/rust-libp2p/tree.json",
-   "wave": "wave4-orgs"
+   "wave": "wave4-orgs",
+   "tier": "curated"
   },
   {
    "slug": "rust-lightning",
@@ -9106,7 +9523,8 @@
    "index_url": "repos/rust-lightning/index.json",
    "components_url": "components/rust-lightning.json",
    "tree_url": "repos/rust-lightning/tree.json",
-   "wave": "wave3-retry"
+   "wave": "wave3-retry",
+   "tier": "curated"
   },
   {
    "slug": "safe-smart-account",
@@ -9170,7 +9588,8 @@
    "index_url": "repos/safe-smart-account/index.json",
    "components_url": "components/safe-smart-account.json",
    "tree_url": "repos/safe-smart-account/tree.json",
-   "wave": "wave0-curated"
+   "wave": "wave0-curated",
+   "tier": "curated"
   },
   {
    "slug": "scaffold-eth-2",
@@ -9217,7 +9636,8 @@
    "index_url": "repos/scaffold-eth-2/index.json",
    "components_url": "components/scaffold-eth-2.json",
    "tree_url": "repos/scaffold-eth-2/tree.json",
-   "wave": "wave0-curated"
+   "wave": "wave0-curated",
+   "tier": "curated"
   },
   {
    "slug": "seaport",
@@ -9277,7 +9697,8 @@
    "index_url": "repos/seaport/index.json",
    "components_url": "components/seaport.json",
    "tree_url": "repos/seaport/tree.json",
-   "wave": "wave3-retry"
+   "wave": "wave3-retry",
+   "tier": "curated"
   },
   {
    "slug": "sei-chain",
@@ -9358,7 +9779,8 @@
    "index_url": "repos/sei-chain/index.json",
    "components_url": "components/sei-chain.json",
    "tree_url": "repos/sei-chain/tree.json",
-   "wave": "wave4-orgs"
+   "wave": "wave4-orgs",
+   "tier": "curated"
   },
   {
    "slug": "semaphore",
@@ -9432,7 +9854,8 @@
    "index_url": "repos/semaphore/index.json",
    "components_url": "components/semaphore.json",
    "tree_url": "repos/semaphore/tree.json",
-   "wave": "wave3-retry"
+   "wave": "wave3-retry",
+   "tier": "curated"
   },
   {
    "slug": "simple-taiko-node",
@@ -9462,7 +9885,8 @@
    "index_url": "repos/simple-taiko-node/index.json",
    "components_url": "components/simple-taiko-node.json",
    "tree_url": "repos/simple-taiko-node/tree.json",
-   "wave": "wave4-orgs"
+   "wave": "wave4-orgs",
+   "tier": "curated"
   },
   {
    "slug": "slither",
@@ -9519,7 +9943,8 @@
    "index_url": "repos/slither/index.json",
    "components_url": "components/slither.json",
    "tree_url": "repos/slither/tree.json",
-   "wave": "wave1"
+   "wave": "wave1",
+   "tier": "curated"
   },
   {
    "slug": "snarkjs",
@@ -9573,7 +9998,8 @@
    "index_url": "repos/snarkjs/index.json",
    "components_url": "components/snarkjs.json",
    "tree_url": "repos/snarkjs/tree.json",
-   "wave": "wave0-curated"
+   "wave": "wave0-curated",
+   "tier": "curated"
   },
   {
    "slug": "snarkos",
@@ -9643,7 +10069,8 @@
    "index_url": "repos/snarkos/index.json",
    "components_url": "components/snarkos.json",
    "tree_url": "repos/snarkos/tree.json",
-   "wave": "wave1"
+   "wave": "wave1",
+   "tier": "curated"
   },
   {
    "slug": "snarkvm",
@@ -9714,7 +10141,8 @@
    "index_url": "repos/snarkvm/index.json",
    "components_url": "components/snarkvm.json",
    "tree_url": "repos/snarkvm/tree.json",
-   "wave": "wave3-retry"
+   "wave": "wave3-retry",
+   "tier": "curated"
   },
   {
    "slug": "solady",
@@ -9781,7 +10209,8 @@
    "index_url": "repos/solady/index.json",
    "components_url": "components/solady.json",
    "tree_url": "repos/solady/tree.json",
-   "wave": "wave0-curated"
+   "wave": "wave0-curated",
+   "tier": "curated"
   },
   {
    "slug": "solana-go",
@@ -9835,7 +10264,8 @@
    "index_url": "repos/solana-go/index.json",
    "components_url": "components/solana-go.json",
    "tree_url": "repos/solana-go/tree.json",
-   "wave": "wave3-retry"
+   "wave": "wave3-retry",
+   "tier": "curated"
   },
   {
    "slug": "solana-py",
@@ -9879,7 +10309,8 @@
    "index_url": "repos/solana-py/index.json",
    "components_url": "components/solana-py.json",
    "tree_url": "repos/solana-py/tree.json",
-   "wave": "wave3-retry"
+   "wave": "wave3-retry",
+   "tier": "curated"
   },
   {
    "slug": "solana-web3-js",
@@ -9928,7 +10359,8 @@
    "index_url": "repos/solana-web3-js/index.json",
    "components_url": "components/solana-web3-js.json",
    "tree_url": "repos/solana-web3-js/tree.json",
-   "wave": "wave1"
+   "wave": "wave1",
+   "tier": "curated"
   },
   {
    "slug": "solang",
@@ -10002,7 +10434,8 @@
    "index_url": "repos/solang/index.json",
    "components_url": "components/solang.json",
    "tree_url": "repos/solang/tree.json",
-   "wave": "wave3-retry"
+   "wave": "wave3-retry",
+   "tier": "curated"
   },
   {
    "slug": "solc-js",
@@ -10043,7 +10476,8 @@
    "index_url": "repos/solc-js/index.json",
    "components_url": "components/solc-js.json",
    "tree_url": "repos/solc-js/tree.json",
-   "wave": "wave3-retry"
+   "wave": "wave3-retry",
+   "tier": "curated"
   },
   {
    "slug": "solhint",
@@ -10084,7 +10518,8 @@
    "index_url": "repos/solhint/index.json",
    "components_url": "components/solhint.json",
    "tree_url": "repos/solhint/tree.json",
-   "wave": "wave3-retry"
+   "wave": "wave3-retry",
+   "tier": "curated"
   },
   {
    "slug": "solidity",
@@ -10128,7 +10563,51 @@
    "index_url": "repos/solidity/index.json",
    "components_url": "components/solidity.json",
    "tree_url": "repos/solidity/tree.json",
-   "wave": "wave0-curated"
+   "wave": "wave0-curated",
+   "tier": "curated"
+  },
+  {
+   "slug": "soulbyte",
+   "name": "Soulbyte",
+   "fork": "Blockchains/Soulbyte",
+   "fork_url": "https://github.com/Blockchains/Soulbyte",
+   "upstream": "web3devz/Soulbyte",
+   "upstream_url": "https://github.com/web3devz/Soulbyte",
+   "branch": "main",
+   "commit": "60f72b6fea736081e9234f320679924a7c33dbd7",
+   "indexed_at": "2026-10-04T17:14:53Z",
+   "category": "ai-agents",
+   "license": "MIT",
+   "license_class": "permissive",
+   "license_spdx_github": "MIT",
+   "stars": 2,
+   "description": "Autonomous AI Life Simulation",
+   "readme_summary": "*Show the world you support this repo! Change this message at markee.xyz ^* Soulbyte is a fully autonomous world simulation where AI agents live, work, socialize, start businesses, commit crimes, fall in love, go bankrupt, and climb back up\u2014all driven by a deterministic decision engine enhanced with **z.ai's GLM-5 model** for personality and social intelligence, settled on-chain with the **SBYTE** ERC-20 token. - **Autonomous AI Agents**: Personality-driven entities powered by z.ai GLM-5 that reason about survival, relationships, and economic strategy - **Deterministic World Engine**: Tick-based simulation processing ~17,280 decisions per agent per day - **On-Chain Settlement**: Every economic transaction settled on blockchain with decentralized verification - **Persistent Economy**: Dynamic market with businesses, jobs, housing, and a single-token ($SBYTE) economy - **Real-Time Viewer**",
+   "install_commands": [
+    "pnpm install",
+    "pnpm prisma migrate dev",
+    "pnpm dev"
+   ],
+   "languages_bytes": {
+    "TypeScript": 2006961
+   },
+   "file_count": 291,
+   "tags": [
+    "EVM",
+    "npm"
+   ],
+   "component_count": 2,
+   "capabilities": {},
+   "packages": [
+    "world-api",
+    "world-api"
+   ],
+   "raw_base": "https://raw.githubusercontent.com/Blockchains/Soulbyte/main/",
+   "index_url": "repos/soulbyte/index.json",
+   "components_url": "components/soulbyte.json",
+   "tree_url": "repos/soulbyte/tree.json",
+   "wave": "extended-2026-10-04",
+   "tier": "extended"
   },
   {
    "slug": "sp1",
@@ -10208,7 +10687,8 @@
    "index_url": "repos/sp1/index.json",
    "components_url": "components/sp1.json",
    "tree_url": "repos/sp1/tree.json",
-   "wave": "wave0-curated"
+   "wave": "wave0-curated",
+   "tier": "curated"
   },
   {
    "slug": "sparrow",
@@ -10240,7 +10720,8 @@
    "index_url": "repos/sparrow/index.json",
    "components_url": "components/sparrow.json",
    "tree_url": "repos/sparrow/tree.json",
-   "wave": "wave3-retry"
+   "wave": "wave3-retry",
+   "tier": "curated"
   },
   {
    "slug": "squid-sdk",
@@ -10315,7 +10796,8 @@
    "index_url": "repos/squid-sdk/index.json",
    "components_url": "components/squid-sdk.json",
    "tree_url": "repos/squid-sdk/tree.json",
-   "wave": "wave3-retry"
+   "wave": "wave3-retry",
+   "tier": "curated"
   },
   {
    "slug": "stacks-core",
@@ -10383,7 +10865,8 @@
    "index_url": "repos/stacks-core/index.json",
    "components_url": "components/stacks-core.json",
    "tree_url": "repos/stacks-core/tree.json",
-   "wave": "wave1"
+   "wave": "wave1",
+   "tier": "curated"
   },
   {
    "slug": "standards-sdk",
@@ -10437,7 +10920,8 @@
    "index_url": "repos/standards-sdk/index.json",
    "components_url": "components/standards-sdk.json",
    "tree_url": "repos/standards-sdk/tree.json",
-   "wave": "wave3-retry"
+   "wave": "wave3-retry",
+   "tier": "curated"
   },
   {
    "slug": "starcoin",
@@ -10522,7 +11006,8 @@
    "index_url": "repos/starcoin/index.json",
    "components_url": "components/starcoin.json",
    "tree_url": "repos/starcoin/tree.json",
-   "wave": "wave3-retry"
+   "wave": "wave3-retry",
+   "tier": "curated"
   },
   {
    "slug": "starknet-js",
@@ -10569,7 +11054,8 @@
    "index_url": "repos/starknet-js/index.json",
    "components_url": "components/starknet-js.json",
    "tree_url": "repos/starknet-js/tree.json",
-   "wave": "wave3-retry"
+   "wave": "wave3-retry",
+   "tier": "curated"
   },
   {
    "slug": "stylus-sdk-rs",
@@ -10620,7 +11106,8 @@
    "index_url": "repos/stylus-sdk-rs/index.json",
    "components_url": "components/stylus-sdk-rs.json",
    "tree_url": "repos/stylus-sdk-rs/tree.json",
-   "wave": "wave0-curated"
+   "wave": "wave0-curated",
+   "tier": "curated"
   },
   {
    "slug": "sui",
@@ -10717,7 +11204,48 @@
    "index_url": "repos/sui/index.json",
    "components_url": "components/sui.json",
    "tree_url": "repos/sui/tree.json",
-   "wave": "wave0-curated"
+   "wave": "wave0-curated",
+   "tier": "curated"
+  },
+  {
+   "slug": "synthetix-assets",
+   "name": "synthetix-assets",
+   "fork": "Blockchains/synthetix-assets",
+   "fork_url": "https://github.com/Blockchains/synthetix-assets",
+   "upstream": "Synthetixio/synthetix-assets",
+   "upstream_url": "https://github.com/Synthetixio/synthetix-assets",
+   "branch": "master",
+   "commit": "e42d608a02ddd9603bb597a568019972f684d68a",
+   "indexed_at": "2026-10-04T17:14:52Z",
+   "category": "data-registries",
+   "license": "MIT",
+   "license_class": "permissive",
+   "license_spdx_github": "MIT",
+   "stars": 10,
+   "description": "Synthetix Assets",
+   "readme_summary": "A repository for reusable assets from the synthetix ecosystem.",
+   "install_commands": [
+    "npm install @synthetixio/assets"
+   ],
+   "languages_bytes": {
+    "JavaScript": 522
+   },
+   "file_count": 3519,
+   "tags": [
+    "EVM",
+    "npm"
+   ],
+   "component_count": 1,
+   "capabilities": {},
+   "packages": [
+    "@synthetixio/assets"
+   ],
+   "raw_base": "https://raw.githubusercontent.com/Blockchains/synthetix-assets/master/",
+   "index_url": "repos/synthetix-assets/index.json",
+   "components_url": "components/synthetix-assets.json",
+   "tree_url": "repos/synthetix-assets/tree.json",
+   "wave": "extended-2026-10-04",
+   "tier": "extended"
   },
   {
    "slug": "taiko-mono",
@@ -10795,7 +11323,8 @@
    "index_url": "repos/taiko-mono/index.json",
    "components_url": "components/taiko-mono.json",
    "tree_url": "repos/taiko-mono/tree.json",
-   "wave": "wave3-retry"
+   "wave": "wave3-retry",
+   "tier": "curated"
   },
   {
    "slug": "tendermint",
@@ -10839,7 +11368,8 @@
    "index_url": "repos/tendermint/index.json",
    "components_url": "components/tendermint.json",
    "tree_url": "repos/tendermint/tree.json",
-   "wave": "wave3-topup"
+   "wave": "wave3-topup",
+   "tier": "curated"
   },
   {
    "slug": "trueblocks-core",
@@ -10878,7 +11408,8 @@
    "index_url": "repos/trueblocks-core/index.json",
    "components_url": "components/trueblocks-core.json",
    "tree_url": "repos/trueblocks-core/tree.json",
-   "wave": "wave3-retry"
+   "wave": "wave3-retry",
+   "tier": "curated"
   },
   {
    "slug": "tss-lib",
@@ -10916,7 +11447,107 @@
    "index_url": "repos/tss-lib/index.json",
    "components_url": "components/tss-lib.json",
    "tree_url": "repos/tss-lib/tree.json",
-   "wave": "wave3-retry"
+   "wave": "wave3-retry",
+   "tier": "curated"
+  },
+  {
+   "slug": "ufragments",
+   "name": "uFragments",
+   "fork": "Blockchains/uFragments",
+   "fork_url": "https://github.com/Blockchains/uFragments",
+   "upstream": "fragmentsorg/ampleforth-contracts",
+   "upstream_url": "https://github.com/fragmentsorg/ampleforth-contracts",
+   "branch": "master",
+   "commit": "701eee27d877f2ad7d0308467968a209d73dcff7",
+   "indexed_at": "2026-10-04T17:14:51Z",
+   "category": "defi",
+   "license": "GPL-3.0",
+   "license_class": "strong-copyleft",
+   "license_spdx_github": "GPL-3.0",
+   "stars": 280,
+   "description": "Smart contracts for Ampleforth Protocol (working name uFragments)",
+   "readme_summary": "Ampleforth (code name uFragments) is a decentralized elastic supply protocol. It maintains a stable unit price by adjusting supply directly to and from wallet holders. You can read the whitepaper for the motivation and a complete description of the protocol. This repository is a collection of smart contracts that implement the Ampleforth protocol on the Ethereum blockchain. - ERC-20 Token: 0xD46bA6D942050d489DBd938a2C909A5d5039A161 - Supply Policy: 0x1B228a749077b8e307C5856cE62Ef35d96Dca2ea - Orchestrator: 0x6fb00a180781e75f87e2b690af0196baa77c7e7c - Market Oracle: 0x99c9775e076fdf99388c029550155032ba2d8914 - CPI Oracle: 0x2A18bfb505b49AED12F19F271cC1183F98ff4f71 - WAMPL: 0xEDB171C18cE90B633DB442f2A6F72874093b49Ef",
+   "install_commands": [
+    "yarn",
+    "yarn test",
+    "yarn lint",
+    "yarn format",
+    "yarn coverage",
+    "yarn profile"
+   ],
+   "languages_bytes": {
+    "TypeScript": 199328,
+    "Solidity": 75884,
+    "JavaScript": 45
+   },
+   "file_count": 64,
+   "tags": [
+    "ERC-20",
+    "ERC-2612",
+    "EVM",
+    "Hardhat",
+    "npm"
+   ],
+   "component_count": 21,
+   "capabilities": {
+    "access-control": 4,
+    "fungible-token": 4,
+    "price-oracle": 2,
+    "token-permit": 2,
+    "multisig": 2,
+    "math-lib": 2
+   },
+   "packages": [
+    "uFragments"
+   ],
+   "raw_base": "https://raw.githubusercontent.com/Blockchains/uFragments/master/",
+   "index_url": "repos/ufragments/index.json",
+   "components_url": "components/ufragments.json",
+   "tree_url": "repos/ufragments/tree.json",
+   "wave": "extended-2026-10-04",
+   "tier": "extended"
+  },
+  {
+   "slug": "ui",
+   "name": "ui",
+   "fork": "Blockchains/ui",
+   "fork_url": "https://github.com/Blockchains/ui",
+   "upstream": "decentraland/ui",
+   "upstream_url": "https://github.com/decentraland/ui",
+   "branch": "master",
+   "commit": "8a63476ef780665d79638e22c1ba61707f1a776f",
+   "indexed_at": "2026-10-04T17:14:38Z",
+   "category": "dev-tooling",
+   "license": "Apache-2.0 (LICENSE text; GitHub API reports NOASSERTION)",
+   "license_class": "permissive",
+   "license_spdx_github": "Apache-2.0",
+   "stars": 212,
+   "description": "\ud83e\udd84 Decentraland UI",
+   "readme_summary": "This is basically `semantic-ui-react` themed with Decentrland's look & feel + some of our own components You can also use `decentraland-ui` as a CSS framework just by adding this tag in your ``: You can import just the essential component and reduce the size of your bundles, like this: You can use one of our alternative themes by importing in after Decentraland UI's styles, like this: We deploy automatically to ui.decentraland.org and release a new version via `semantic-release`.",
+   "install_commands": [
+    "npm install --save decentraland-ui",
+    "npm install",
+    "npm start"
+   ],
+   "languages_bytes": {
+    "TypeScript": 736819,
+    "JavaScript": 4593
+   },
+   "file_count": 670,
+   "tags": [
+    "npm"
+   ],
+   "component_count": 1,
+   "capabilities": {},
+   "packages": [
+    "decentraland-ui"
+   ],
+   "raw_base": "https://raw.githubusercontent.com/Blockchains/ui/master/",
+   "index_url": "repos/ui/index.json",
+   "components_url": "components/ui.json",
+   "tree_url": "repos/ui/tree.json",
+   "wave": "extended-2026-10-04",
+   "tier": "extended"
   },
   {
    "slug": "union",
@@ -11012,7 +11643,8 @@
    "index_url": "repos/union/index.json",
    "components_url": "components/union.json",
    "tree_url": "repos/union/tree.json",
-   "wave": "wave3-topup"
+   "wave": "wave3-topup",
+   "tier": "curated"
   },
   {
    "slug": "uniswap-hooks",
@@ -11061,7 +11693,8 @@
    "index_url": "repos/uniswap-hooks/index.json",
    "components_url": "components/uniswap-hooks.json",
    "tree_url": "repos/uniswap-hooks/tree.json",
-   "wave": "wave3-retry"
+   "wave": "wave3-retry",
+   "tier": "curated"
   },
   {
    "slug": "uniswap-python",
@@ -11101,7 +11734,8 @@
    "index_url": "repos/uniswap-python/index.json",
    "components_url": "components/uniswap-python.json",
    "tree_url": "repos/uniswap-python/tree.json",
-   "wave": "wave3-retry"
+   "wave": "wave3-retry",
+   "tier": "curated"
   },
   {
    "slug": "v2-core",
@@ -11147,7 +11781,8 @@
    "index_url": "repos/v2-core/index.json",
    "components_url": "components/v2-core.json",
    "tree_url": "repos/v2-core/tree.json",
-   "wave": "wave1"
+   "wave": "wave1",
+   "tier": "curated"
   },
   {
    "slug": "v2-periphery",
@@ -11193,7 +11828,8 @@
    "index_url": "repos/v2-periphery/index.json",
    "components_url": "components/v2-periphery.json",
    "tree_url": "repos/v2-periphery/tree.json",
-   "wave": "wave3-retry"
+   "wave": "wave3-retry",
+   "tier": "curated"
   },
   {
    "slug": "v3-core",
@@ -11238,7 +11874,8 @@
    "index_url": "repos/v3-core/index.json",
    "components_url": "components/v3-core.json",
    "tree_url": "repos/v3-core/tree.json",
-   "wave": "wave0-curated"
+   "wave": "wave0-curated",
+   "tier": "curated"
   },
   {
    "slug": "v3-periphery",
@@ -11288,7 +11925,8 @@
    "index_url": "repos/v3-periphery/index.json",
    "components_url": "components/v3-periphery.json",
    "tree_url": "repos/v3-periphery/tree.json",
-   "wave": "wave3-retry"
+   "wave": "wave3-retry",
+   "tier": "curated"
   },
   {
    "slug": "v4-core",
@@ -11338,7 +11976,8 @@
    "index_url": "repos/v4-core/index.json",
    "components_url": "components/v4-core.json",
    "tree_url": "repos/v4-core/tree.json",
-   "wave": "wave0-curated"
+   "wave": "wave0-curated",
+   "tier": "curated"
   },
   {
    "slug": "v4-periphery",
@@ -11390,7 +12029,8 @@
    "index_url": "repos/v4-periphery/index.json",
    "components_url": "components/v4-periphery.json",
    "tree_url": "repos/v4-periphery/tree.json",
-   "wave": "wave0-curated"
+   "wave": "wave0-curated",
+   "tier": "curated"
   },
   {
    "slug": "v4-template",
@@ -11437,7 +12077,8 @@
    "index_url": "repos/v4-template/index.json",
    "components_url": "components/v4-template.json",
    "tree_url": "repos/v4-template/tree.json",
-   "wave": "wave0-curated"
+   "wave": "wave0-curated",
+   "tier": "curated"
   },
   {
    "slug": "verge",
@@ -11478,7 +12119,8 @@
    "index_url": "repos/verge/index.json",
    "components_url": "components/verge.json",
    "tree_url": "repos/verge/tree.json",
-   "wave": "wave3-topup"
+   "wave": "wave3-topup",
+   "tier": "curated"
   },
   {
    "slug": "viem",
@@ -11521,7 +12163,8 @@
    "index_url": "repos/viem/index.json",
    "components_url": "components/viem.json",
    "tree_url": "repos/viem/tree.json",
-   "wave": "wave0-curated"
+   "wave": "wave0-curated",
+   "tier": "curated"
   },
   {
    "slug": "vyper",
@@ -11564,7 +12207,8 @@
    "index_url": "repos/vyper/index.json",
    "components_url": "components/vyper.json",
    "tree_url": "repos/vyper/tree.json",
-   "wave": "wave3-retry"
+   "wave": "wave3-retry",
+   "tier": "curated"
   },
   {
    "slug": "wagmi",
@@ -11613,7 +12257,8 @@
    "index_url": "repos/wagmi/index.json",
    "components_url": "components/wagmi.json",
    "tree_url": "repos/wagmi/tree.json",
-   "wave": "wave0-curated"
+   "wave": "wave0-curated",
+   "tier": "curated"
   },
   {
    "slug": "wallet-adapter",
@@ -11684,7 +12329,8 @@
    "index_url": "repos/wallet-adapter/index.json",
    "components_url": "components/wallet-adapter.json",
    "tree_url": "repos/wallet-adapter/tree.json",
-   "wave": "wave3-retry"
+   "wave": "wave3-retry",
+   "tier": "curated"
   },
   {
    "slug": "wallet-core",
@@ -11767,7 +12413,8 @@
    "index_url": "repos/wallet-core/index.json",
    "components_url": "components/wallet-core.json",
    "tree_url": "repos/wallet-core/tree.json",
-   "wave": "wave1"
+   "wave": "wave1",
+   "tier": "curated"
   },
   {
    "slug": "wallet",
@@ -11817,7 +12464,8 @@
    "index_url": "repos/wallet/index.json",
    "components_url": "components/wallet.json",
    "tree_url": "repos/wallet/tree.json",
-   "wave": "wave1"
+   "wave": "wave1",
+   "tier": "curated"
   },
   {
    "slug": "walletwasabi",
@@ -11851,7 +12499,8 @@
    "index_url": "repos/walletwasabi/index.json",
    "components_url": "components/walletwasabi.json",
    "tree_url": "repos/walletwasabi/tree.json",
-   "wave": "wave3-retry"
+   "wave": "wave3-retry",
+   "tier": "curated"
   },
   {
    "slug": "waves",
@@ -11893,7 +12542,8 @@
    "index_url": "repos/waves/index.json",
    "components_url": "components/waves.json",
    "tree_url": "repos/waves/tree.json",
-   "wave": "wave3-retry"
+   "wave": "wave3-retry",
+   "tier": "curated"
   },
   {
    "slug": "web3-py",
@@ -11934,7 +12584,8 @@
    "index_url": "repos/web3-py/index.json",
    "components_url": "components/web3-py.json",
    "tree_url": "repos/web3-py/tree.json",
-   "wave": "wave4-orgs"
+   "wave": "wave4-orgs",
+   "tier": "curated"
   },
   {
    "slug": "web3j",
@@ -11978,7 +12629,8 @@
    "index_url": "repos/web3j/index.json",
    "components_url": "components/web3j.json",
    "tree_url": "repos/web3j/tree.json",
-   "wave": "wave3-retry"
+   "wave": "wave3-retry",
+   "tier": "curated"
   },
   {
    "slug": "whatsabi",
@@ -12015,7 +12667,8 @@
    "index_url": "repos/whatsabi/index.json",
    "components_url": "components/whatsabi.json",
    "tree_url": "repos/whatsabi/tree.json",
-   "wave": "wave3-retry"
+   "wave": "wave3-retry",
+   "tier": "curated"
   },
   {
    "slug": "wormhole",
@@ -12114,7 +12767,8 @@
    "index_url": "repos/wormhole/index.json",
    "components_url": "components/wormhole.json",
    "tree_url": "repos/wormhole/tree.json",
-   "wave": "wave3-retry"
+   "wave": "wave3-retry",
+   "tier": "curated"
   },
   {
    "slug": "yellowstone-grpc",
@@ -12169,7 +12823,8 @@
    "index_url": "repos/yellowstone-grpc/index.json",
    "components_url": "components/yellowstone-grpc.json",
    "tree_url": "repos/yellowstone-grpc/tree.json",
-   "wave": "wave3-retry"
+   "wave": "wave3-retry",
+   "tier": "curated"
   },
   {
    "slug": "zksync-era",
@@ -12251,7 +12906,94 @@
    "index_url": "repos/zksync-era/index.json",
    "components_url": "components/zksync-era.json",
    "tree_url": "repos/zksync-era/tree.json",
-   "wave": "wave0-curated"
+   "wave": "wave0-curated",
+   "tier": "curated"
+  },
+  {
+   "slug": "zksync",
+   "name": "zksync",
+   "fork": "Blockchains/zksync",
+   "fork_url": "https://github.com/Blockchains/zksync",
+   "upstream": "matter-labs/zksync",
+   "upstream_url": "https://github.com/matter-labs/zksync",
+   "branch": "master",
+   "commit": "9ecfe440945c46f02060f164a0fb45adfa69e634",
+   "indexed_at": "2026-10-04T17:14:52Z",
+   "category": "l2-rollups",
+   "license": "Apache-2.0",
+   "license_class": "permissive",
+   "license_spdx_github": "Apache-2.0",
+   "stars": 4923,
+   "description": "zkSync: trustless scaling and privacy engine for Ethereum",
+   "readme_summary": "> **\u26a0\ufe0f Deprecation Notice** > > ZKSync Lite is being deprecated. To withdraw your funds, please visit > lite.zksync.io. If you prefer to generate your withdrawal proof independently rather than use the web interface, you can use the Exit Tree Generator. The flow is three steps: Download the snapshot of the ZKSync Lite state at the last verified block from: The archive contains `accounts.csv`, `balances.csv`, and `tokens.csv`. **Mainnet:**: https://etherscan.io/address/0x0a14b696350546110a0d8acdb86226983af9d2a0 - **`claim`** \u2014 withdraws the funds to the caller (`msg.sender`). Use this when the wallet submitting the transaction is the address that held the ZKSync Lite account. - **`claimTo`** \u2014 withdraws the funds to a specified recipient address. Use this when you want the funds sent somewhere other than the caller (for example, a cold wallet or a different EOA).",
+   "install_commands": [
+    "cargo run --release --bin zksync_exit_tree_generator -- create-new-leaves \\",
+    "cargo run --release --bin zksync_exit_tree_generator -- create-proof \\"
+   ],
+   "languages_bytes": {
+    "Rust": 4575966,
+    "TypeScript": 978712,
+    "Solidity": 290047,
+    "JavaScript": 16798
+   },
+   "file_count": 1185,
+   "tags": [
+    "ERC-20",
+    "ERC-721",
+    "EVM",
+    "Hardhat",
+    "Rust-crates",
+    "npm"
+   ],
+   "component_count": 114,
+   "capabilities": {
+    "zk-proof": 25,
+    "fungible-token": 6,
+    "access-control": 5,
+    "multisig": 3,
+    "cosmos-module": 3,
+    "math-lib": 2,
+    "upgradeability": 1,
+    "nft": 1
+   },
+   "packages": [
+    "franklin-contracts",
+    "add_seq_no",
+    "block_revert",
+    "zksync_data_restore",
+    "zksync_exit_tree_generator",
+    "key_generator",
+    "parse_pub_data",
+    "zksync_prover",
+    "remove_proofs",
+    "zksync_server",
+    "tx_count_migration",
+    "zksync_api",
+    "zksync_core",
+    "zksync_eth_sender",
+    "zksync_event_listener",
+    "zksync_forced_exit_requests",
+    "zksync_witness_generator",
+    "zksync_api_client",
+    "zksync_api_types",
+    "zksync_balancer",
+    "zksync_basic_types",
+    "zksync_circuit",
+    "zksync_config",
+    "zksync_contracts",
+    "zksync_crypto",
+    "zksync_eth_client",
+    "zksync_eth_signer",
+    "zksync_gateway_watcher",
+    "zksync_l1_event_listener",
+    "zksync_mempool"
+   ],
+   "raw_base": "https://raw.githubusercontent.com/Blockchains/zksync/master/",
+   "index_url": "repos/zksync/index.json",
+   "components_url": "components/zksync.json",
+   "tree_url": "repos/zksync/tree.json",
+   "wave": "extended-2026-10-04",
+   "tier": "extended"
   }
  ]
 }

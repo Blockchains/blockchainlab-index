@@ -13,7 +13,8 @@
   "topics": [],
   "status": "synced-tracking-branch",
   "archived": false,
-  "pushed_at": "2026-09-30T21:07:39Z"
+  "pushed_at": "2026-09-30T21:07:39Z",
+  "tier": "curated"
  },
  {
   "slug": "reth",
@@ -29,7 +30,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-04T15:57:57Z"
+  "pushed_at": "2026-10-04T15:57:57Z",
+  "tier": "curated"
  },
  {
   "slug": "bitcoin",
@@ -45,7 +47,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-03T10:10:51Z"
+  "pushed_at": "2026-10-03T10:10:51Z",
+  "tier": "curated"
  },
  {
   "slug": "agave",
@@ -61,7 +64,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-03T11:07:29Z"
+  "pushed_at": "2026-10-03T11:07:29Z",
+  "tier": "curated"
  },
  {
   "slug": "openzeppelin-contracts",
@@ -77,7 +81,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-01T13:14:16Z"
+  "pushed_at": "2026-10-01T13:14:16Z",
+  "tier": "curated"
  },
  {
   "slug": "solady",
@@ -93,7 +98,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-09-02T10:47:33Z"
+  "pushed_at": "2026-09-02T10:47:33Z",
+  "tier": "curated"
  },
  {
   "slug": "safe-smart-account",
@@ -109,7 +115,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-09-24T04:50:13Z"
+  "pushed_at": "2026-09-24T04:50:13Z",
+  "tier": "curated"
  },
  {
   "slug": "solidity",
@@ -125,7 +132,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-02T21:23:57Z"
+  "pushed_at": "2026-10-02T21:23:57Z",
+  "tier": "curated"
  },
  {
   "slug": "foundry",
@@ -141,7 +149,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-04T16:31:14Z"
+  "pushed_at": "2026-10-04T16:31:14Z",
+  "tier": "curated"
  },
  {
   "slug": "buidler",
@@ -157,7 +166,8 @@
   "topics": [],
   "status": "synced-tracking-branch",
   "archived": false,
-  "pushed_at": "2026-10-03T22:38:54Z"
+  "pushed_at": "2026-10-03T22:38:54Z",
+  "tier": "curated"
  },
  {
   "slug": "viem",
@@ -173,7 +183,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-04T08:09:27Z"
+  "pushed_at": "2026-10-04T08:09:27Z",
+  "tier": "curated"
  },
  {
   "slug": "ethers-js",
@@ -189,7 +200,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-06-18T05:08:13Z"
+  "pushed_at": "2026-06-18T05:08:13Z",
+  "tier": "curated"
  },
  {
   "slug": "wagmi",
@@ -205,7 +217,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-01T18:05:04Z"
+  "pushed_at": "2026-10-01T18:05:04Z",
+  "tier": "curated"
  },
  {
   "slug": "scaffold-eth-2",
@@ -221,7 +234,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-08-27T06:08:22Z"
+  "pushed_at": "2026-08-27T06:08:22Z",
+  "tier": "curated"
  },
  {
   "slug": "v4-core",
@@ -237,7 +251,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-04-24T19:50:04Z"
+  "pushed_at": "2026-04-24T19:50:04Z",
+  "tier": "curated"
  },
  {
   "slug": "v4-periphery",
@@ -253,7 +268,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-01T20:49:11Z"
+  "pushed_at": "2026-10-01T20:49:11Z",
+  "tier": "curated"
  },
  {
   "slug": "v4-template",
@@ -269,7 +285,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2025-10-28T13:28:32Z"
+  "pushed_at": "2025-10-28T13:28:32Z",
+  "tier": "curated"
  },
  {
   "slug": "v3-core",
@@ -285,7 +302,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-07-30T19:37:39Z"
+  "pushed_at": "2026-07-30T19:37:39Z",
+  "tier": "curated"
  },
  {
   "slug": "chainlink",
@@ -301,7 +319,8 @@
   "topics": [],
   "status": "synced-tracking-branch",
   "archived": false,
-  "pushed_at": "2026-10-04T16:16:06Z"
+  "pushed_at": "2026-10-04T16:16:06Z",
+  "tier": "curated"
  },
  {
   "slug": "optimism",
@@ -317,7 +336,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-04T16:06:25Z"
+  "pushed_at": "2026-10-04T16:06:25Z",
+  "tier": "curated"
  },
  {
   "slug": "zksync-era",
@@ -333,7 +353,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-09-24T23:32:27Z"
+  "pushed_at": "2026-09-24T23:32:27Z",
+  "tier": "curated"
  },
  {
   "slug": "stylus-sdk-rs",
@@ -349,7 +370,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-02T23:25:47Z"
+  "pushed_at": "2026-10-02T23:25:47Z",
+  "tier": "curated"
  },
  {
   "slug": "circom",
@@ -365,7 +387,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-02T13:33:48Z"
+  "pushed_at": "2026-10-02T13:33:48Z",
+  "tier": "curated"
  },
  {
   "slug": "snarkjs",
@@ -381,7 +404,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-01T19:42:37Z"
+  "pushed_at": "2026-10-01T19:42:37Z",
+  "tier": "curated"
  },
  {
   "slug": "noir",
@@ -397,7 +421,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-04T02:55:56Z"
+  "pushed_at": "2026-10-04T02:55:56Z",
+  "tier": "curated"
  },
  {
   "slug": "risc0",
@@ -413,7 +438,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-08-28T05:30:55Z"
+  "pushed_at": "2026-08-28T05:30:55Z",
+  "tier": "curated"
  },
  {
   "slug": "sp1",
@@ -429,7 +455,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-03T08:11:28Z"
+  "pushed_at": "2026-10-03T08:11:28Z",
+  "tier": "curated"
  },
  {
   "slug": "hiero-sdk-js",
@@ -445,7 +472,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-02T13:19:01Z"
+  "pushed_at": "2026-10-02T13:19:01Z",
+  "tier": "curated"
  },
  {
   "slug": "hedera-smart-contracts",
@@ -461,7 +489,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-09-28T14:37:29Z"
+  "pushed_at": "2026-09-28T14:37:29Z",
+  "tier": "curated"
  },
  {
   "slug": "hiero-consensus-node",
@@ -477,7 +506,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-04T02:30:22Z"
+  "pushed_at": "2026-10-04T02:30:22Z",
+  "tier": "curated"
  },
  {
   "slug": "account-abstraction",
@@ -493,7 +523,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-01-25T19:41:37Z"
+  "pushed_at": "2026-01-25T19:41:37Z",
+  "tier": "curated"
  },
  {
   "slug": "permissionless-js",
@@ -509,7 +540,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-09-10T14:44:16Z"
+  "pushed_at": "2026-09-10T14:44:16Z",
+  "tier": "curated"
  },
  {
   "slug": "graph-node",
@@ -525,7 +557,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-08-25T16:04:07Z"
+  "pushed_at": "2026-08-25T16:04:07Z",
+  "tier": "curated"
  },
  {
   "slug": "graph-tooling",
@@ -541,7 +574,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-04T02:04:47Z"
+  "pushed_at": "2026-10-04T02:04:47Z",
+  "tier": "curated"
  },
  {
   "slug": "rainbowkit",
@@ -557,7 +591,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-01T05:19:06Z"
+  "pushed_at": "2026-10-01T05:19:06Z",
+  "tier": "curated"
  },
  {
   "slug": "cosmos-sdk",
@@ -573,7 +608,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-02T11:05:24Z"
+  "pushed_at": "2026-10-02T11:05:24Z",
+  "tier": "curated"
  },
  {
   "slug": "sui",
@@ -589,7 +625,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-04T14:26:06Z"
+  "pushed_at": "2026-10-04T14:26:06Z",
+  "tier": "curated"
  },
  {
   "slug": "anchor",
@@ -605,7 +642,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-02T18:00:18Z"
+  "pushed_at": "2026-10-02T18:00:18Z",
+  "tier": "curated"
  },
  {
   "slug": "lnd",
@@ -621,7 +659,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-01T20:56:31Z"
+  "pushed_at": "2026-10-01T20:56:31Z",
+  "tier": "curated"
  },
  {
   "slug": "bdk",
@@ -637,7 +676,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-09-30T15:21:05Z"
+  "pushed_at": "2026-09-30T15:21:05Z",
+  "tier": "curated"
  },
  {
   "slug": "polkadot-sdk",
@@ -653,7 +693,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-03T18:44:15Z"
+  "pushed_at": "2026-10-03T18:44:15Z",
+  "tier": "curated"
  },
  {
   "slug": "chainlink-evm",
@@ -669,7 +710,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-02T20:26:40Z"
+  "pushed_at": "2026-10-02T20:26:40Z",
+  "tier": "curated"
  },
  {
   "slug": "circomlib",
@@ -685,7 +727,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-09-29T20:08:33Z"
+  "pushed_at": "2026-09-29T20:08:33Z",
+  "tier": "curated"
  },
  {
   "slug": "forge-std",
@@ -701,7 +744,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-01T12:43:43Z"
+  "pushed_at": "2026-10-01T12:43:43Z",
+  "tier": "curated"
  },
  {
   "slug": "linera-protocol",
@@ -717,7 +761,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-09-18T03:02:33Z"
+  "pushed_at": "2026-09-18T03:02:33Z",
+  "tier": "curated"
  },
  {
   "slug": "fabric",
@@ -733,7 +778,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-02T20:39:08Z"
+  "pushed_at": "2026-10-02T20:39:08Z",
+  "tier": "curated"
  },
  {
   "slug": "dogecoin",
@@ -749,7 +795,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-09-10T19:10:05Z"
+  "pushed_at": "2026-09-10T19:10:05Z",
+  "tier": "curated"
  },
  {
   "slug": "chia-blockchain",
@@ -765,7 +812,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-02T16:46:55Z"
+  "pushed_at": "2026-10-02T16:46:55Z",
+  "tier": "curated"
  },
  {
   "slug": "chains",
@@ -781,7 +829,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-04T11:20:22Z"
+  "pushed_at": "2026-10-04T11:20:22Z",
+  "tier": "curated"
  },
  {
   "slug": "electrum",
@@ -797,7 +846,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-01T11:37:54Z"
+  "pushed_at": "2026-10-01T11:37:54Z",
+  "tier": "curated"
  },
  {
   "slug": "btcpayserver",
@@ -813,7 +863,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-04T14:46:22Z"
+  "pushed_at": "2026-10-04T14:46:22Z",
+  "tier": "curated"
  },
  {
   "slug": "defihacklabs",
@@ -829,7 +880,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-04T03:02:04Z"
+  "pushed_at": "2026-10-04T03:02:04Z",
+  "tier": "curated"
  },
  {
   "slug": "btcd",
@@ -845,7 +897,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-09-16T19:23:07Z"
+  "pushed_at": "2026-09-16T19:23:07Z",
+  "tier": "curated"
  },
  {
   "slug": "slither",
@@ -861,7 +914,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-09-23T22:54:56Z"
+  "pushed_at": "2026-09-23T22:54:56Z",
+  "tier": "curated"
  },
  {
   "slug": "dmm-dao-web-app",
@@ -877,7 +931,8 @@
   "topics": [],
   "status": "synced-tracking-branch",
   "archived": false,
-  "pushed_at": "2026-10-02T20:01:46Z"
+  "pushed_at": "2026-10-02T20:01:46Z",
+  "tier": "curated"
  },
  {
   "slug": "bitcoinj",
@@ -893,7 +948,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-09-28T13:45:13Z"
+  "pushed_at": "2026-09-28T13:45:13Z",
+  "tier": "curated"
  },
  {
   "slug": "rippled",
@@ -909,7 +965,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-04T16:30:21Z"
+  "pushed_at": "2026-10-04T16:30:21Z",
+  "tier": "curated"
  },
  {
   "slug": "bisq",
@@ -925,7 +982,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-01T20:17:22Z"
+  "pushed_at": "2026-10-01T20:17:22Z",
+  "tier": "curated"
  },
  {
   "slug": "grin",
@@ -941,7 +999,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-09-24T10:01:12Z"
+  "pushed_at": "2026-09-24T10:01:12Z",
+  "tier": "curated"
  },
  {
   "slug": "snarkos",
@@ -957,7 +1016,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-03T10:46:55Z"
+  "pushed_at": "2026-10-03T10:46:55Z",
+  "tier": "curated"
  },
  {
   "slug": "rainbow",
@@ -973,7 +1033,8 @@
   "topics": [],
   "status": "synced",
   "archived": false,
-  "pushed_at": "2026-10-04T06:30:05Z"
+  "pushed_at": "2026-10-04T06:30:05Z",
+  "tier": "curated"
  },
  {
   "slug": "rotki",
@@ -989,7 +1050,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-02T16:12:36Z"
+  "pushed_at": "2026-10-02T16:12:36Z",
+  "tier": "curated"
  },
  {
   "slug": "wallet",
@@ -1005,7 +1067,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-09-01T10:53:22Z"
+  "pushed_at": "2026-09-01T10:53:22Z",
+  "tier": "curated"
  },
  {
   "slug": "prysm",
@@ -1021,7 +1084,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-04T13:59:21Z"
+  "pushed_at": "2026-10-04T13:59:21Z",
+  "tier": "curated"
  },
  {
   "slug": "erigon",
@@ -1037,7 +1101,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-04T16:23:06Z"
+  "pushed_at": "2026-10-04T16:23:06Z",
+  "tier": "curated"
  },
  {
   "slug": "wallet-core",
@@ -1053,7 +1118,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-01T16:58:39Z"
+  "pushed_at": "2026-10-01T16:58:39Z",
+  "tier": "curated"
  },
  {
   "slug": "neo",
@@ -1069,7 +1135,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-04T09:22:30Z"
+  "pushed_at": "2026-10-04T09:22:30Z",
+  "tier": "curated"
  },
  {
   "slug": "nano-node",
@@ -1085,7 +1152,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-03T00:24:06Z"
+  "pushed_at": "2026-10-03T00:24:06Z",
+  "tier": "curated"
  },
  {
   "slug": "lighthouse",
@@ -1101,7 +1169,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-02T14:24:20Z"
+  "pushed_at": "2026-10-02T14:24:20Z",
+  "tier": "curated"
  },
  {
   "slug": "v2-core",
@@ -1117,7 +1186,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-07-21T20:02:45Z"
+  "pushed_at": "2026-07-21T20:02:45Z",
+  "tier": "curated"
  },
  {
   "slug": "bluewallet",
@@ -1133,7 +1203,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-04T14:45:32Z"
+  "pushed_at": "2026-10-04T14:45:32Z",
+  "tier": "curated"
  },
  {
   "slug": "bsc",
@@ -1149,7 +1220,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-09-29T08:00:22Z"
+  "pushed_at": "2026-09-29T08:00:22Z",
+  "tier": "curated"
  },
  {
   "slug": "extension",
@@ -1165,7 +1237,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-08-24T14:56:55Z"
+  "pushed_at": "2026-08-24T14:56:55Z",
+  "tier": "curated"
  },
  {
   "slug": "echidna",
@@ -1181,7 +1254,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-09-30T21:34:38Z"
+  "pushed_at": "2026-09-30T21:34:38Z",
+  "tier": "curated"
  },
  {
   "slug": "stacks-core",
@@ -1197,7 +1271,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-02T19:20:15Z"
+  "pushed_at": "2026-10-02T19:20:15Z",
+  "tier": "curated"
  },
  {
   "slug": "remix-project",
@@ -1213,7 +1288,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-02T09:59:48Z"
+  "pushed_at": "2026-10-02T09:59:48Z",
+  "tier": "curated"
  },
  {
   "slug": "solana-web3-js",
@@ -1229,7 +1305,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-02T03:13:36Z"
+  "pushed_at": "2026-10-02T03:13:36Z",
+  "tier": "curated"
  },
  {
   "slug": "brownie",
@@ -1245,7 +1322,8 @@
   "topics": [],
   "status": "synced-tracking-branch",
   "archived": false,
-  "pushed_at": "2026-08-05T06:41:17Z"
+  "pushed_at": "2026-08-05T06:41:17Z",
+  "tier": "curated"
  },
  {
   "slug": "nearcore",
@@ -1261,7 +1339,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-03T02:47:25Z"
+  "pushed_at": "2026-10-03T02:47:25Z",
+  "tier": "curated"
  },
  {
   "slug": "walletwasabi",
@@ -1277,7 +1356,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-03T18:52:34Z"
+  "pushed_at": "2026-10-03T18:52:34Z",
+  "tier": "curated"
  },
  {
   "slug": "fisco-bcos",
@@ -1293,7 +1373,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-09-30T09:34:40Z"
+  "pushed_at": "2026-09-30T09:34:40Z",
+  "tier": "curated"
  },
  {
   "slug": "js-libp2p",
@@ -1309,7 +1390,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-04T01:58:50Z"
+  "pushed_at": "2026-10-04T01:58:50Z",
+  "tier": "curated"
  },
  {
   "slug": "namada",
@@ -1325,7 +1407,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-02T13:25:40Z"
+  "pushed_at": "2026-10-02T13:25:40Z",
+  "tier": "curated"
  },
  {
   "slug": "ethernaut",
@@ -1341,7 +1424,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-02T18:00:30Z"
+  "pushed_at": "2026-10-02T18:00:30Z",
+  "tier": "curated"
  },
  {
   "slug": "nethereum",
@@ -1357,7 +1441,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-02T06:06:09Z"
+  "pushed_at": "2026-10-02T06:06:09Z",
+  "tier": "curated"
  },
  {
   "slug": "seaport",
@@ -1373,7 +1458,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-09-01T16:59:12Z"
+  "pushed_at": "2026-09-01T16:59:12Z",
+  "tier": "curated"
  },
  {
   "slug": "revm",
@@ -1389,7 +1475,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-01T16:05:23Z"
+  "pushed_at": "2026-10-01T16:05:23Z",
+  "tier": "curated"
  },
  {
   "slug": "helios",
@@ -1405,7 +1492,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-01T22:25:14Z"
+  "pushed_at": "2026-10-01T22:25:14Z",
+  "tier": "curated"
  },
  {
   "slug": "sparrow",
@@ -1421,7 +1509,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-02T11:57:47Z"
+  "pushed_at": "2026-10-02T11:57:47Z",
+  "tier": "curated"
  },
  {
   "slug": "mina",
@@ -1437,7 +1526,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-04T15:51:54Z"
+  "pushed_at": "2026-10-04T15:51:54Z",
+  "tier": "curated"
  },
  {
   "slug": "wallet-adapter",
@@ -1453,7 +1543,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-09-10T09:04:33Z"
+  "pushed_at": "2026-09-10T09:04:33Z",
+  "tier": "curated"
  },
  {
   "slug": "cake-wallet",
@@ -1469,7 +1560,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-04T14:46:02Z"
+  "pushed_at": "2026-10-04T14:46:02Z",
+  "tier": "curated"
  },
  {
   "slug": "cairo",
@@ -1485,7 +1577,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-04T13:54:10Z"
+  "pushed_at": "2026-10-04T13:54:10Z",
+  "tier": "curated"
  },
  {
   "slug": "besu",
@@ -1501,7 +1594,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-02T21:12:32Z"
+  "pushed_at": "2026-10-02T21:12:32Z",
+  "tier": "curated"
  },
  {
   "slug": "apps",
@@ -1517,7 +1611,8 @@
   "topics": [],
   "status": "synced",
   "archived": false,
-  "pushed_at": "2026-09-29T20:15:40Z"
+  "pushed_at": "2026-09-29T20:15:40Z",
+  "tier": "curated"
  },
  {
   "slug": "coinbase-wallet-sdk",
@@ -1533,7 +1628,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-09-28T21:44:02Z"
+  "pushed_at": "2026-09-28T21:44:02Z",
+  "tier": "curated"
  },
  {
   "slug": "gnark",
@@ -1549,7 +1645,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-03T17:49:03Z"
+  "pushed_at": "2026-10-03T17:49:03Z",
+  "tier": "curated"
  },
  {
   "slug": "plutus",
@@ -1565,7 +1662,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-03T13:11:47Z"
+  "pushed_at": "2026-10-03T13:11:47Z",
+  "tier": "curated"
  },
  {
   "slug": "heimdall-rs",
@@ -1581,7 +1679,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-04T01:01:26Z"
+  "pushed_at": "2026-10-04T01:01:26Z",
+  "tier": "curated"
  },
  {
   "slug": "iotex-core",
@@ -1597,7 +1696,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-04T05:30:54Z"
+  "pushed_at": "2026-10-04T05:30:54Z",
+  "tier": "curated"
  },
  {
   "slug": "nethermind",
@@ -1613,7 +1713,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-04T16:20:40Z"
+  "pushed_at": "2026-10-04T16:20:40Z",
+  "tier": "curated"
  },
  {
   "slug": "solana-go",
@@ -1629,7 +1730,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-09-25T22:02:52Z"
+  "pushed_at": "2026-09-25T22:02:52Z",
+  "tier": "curated"
  },
  {
   "slug": "myetherwallet",
@@ -1645,7 +1747,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-03T08:10:12Z"
+  "pushed_at": "2026-10-03T08:10:12Z",
+  "tier": "curated"
  },
  {
   "slug": "solc-js",
@@ -1661,7 +1764,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-09-10T09:45:50Z"
+  "pushed_at": "2026-09-10T09:45:50Z",
+  "tier": "curated"
  },
  {
   "slug": "bee",
@@ -1677,7 +1781,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-03T18:38:44Z"
+  "pushed_at": "2026-10-03T18:38:44Z",
+  "tier": "curated"
  },
  {
   "slug": "harmony",
@@ -1693,7 +1798,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-09-03T17:47:18Z"
+  "pushed_at": "2026-09-03T17:47:18Z",
+  "tier": "curated"
  },
  {
   "slug": "solana-py",
@@ -1709,7 +1815,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-03T14:05:48Z"
+  "pushed_at": "2026-10-03T14:05:48Z",
+  "tier": "curated"
  },
  {
   "slug": "program-examples",
@@ -1725,7 +1832,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-09-28T18:48:21Z"
+  "pushed_at": "2026-09-28T18:48:21Z",
+  "tier": "curated"
  },
  {
   "slug": "lodestar",
@@ -1741,7 +1849,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-04T14:19:22Z"
+  "pushed_at": "2026-10-04T14:19:22Z",
+  "tier": "curated"
  },
  {
   "slug": "electrs",
@@ -1757,7 +1866,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-09-28T20:14:47Z"
+  "pushed_at": "2026-09-28T20:14:47Z",
+  "tier": "curated"
  },
  {
   "slug": "go-stellar-sdk",
@@ -1773,7 +1883,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-02T20:05:51Z"
+  "pushed_at": "2026-10-02T20:05:51Z",
+  "tier": "curated"
  },
  {
   "slug": "solang",
@@ -1789,7 +1900,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-09-30T22:48:09Z"
+  "pushed_at": "2026-09-30T22:48:09Z",
+  "tier": "curated"
  },
  {
   "slug": "helia",
@@ -1805,7 +1917,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-09-29T15:00:03Z"
+  "pushed_at": "2026-09-29T15:00:03Z",
+  "tier": "curated"
  },
  {
   "slug": "eclair",
@@ -1821,7 +1934,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-02T13:32:34Z"
+  "pushed_at": "2026-10-02T13:32:34Z",
+  "tier": "curated"
  },
  {
   "slug": "squid-sdk",
@@ -1837,7 +1951,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-03T13:47:57Z"
+  "pushed_at": "2026-10-03T13:47:57Z",
+  "tier": "curated"
  },
  {
   "slug": "v3-periphery",
@@ -1853,7 +1968,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-07-30T19:37:42Z"
+  "pushed_at": "2026-07-30T19:37:42Z",
+  "tier": "curated"
  },
  {
   "slug": "alloy",
@@ -1869,7 +1985,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-04T15:50:50Z"
+  "pushed_at": "2026-10-04T15:50:50Z",
+  "tier": "curated"
  },
  {
   "slug": "bitcoin-abc",
@@ -1885,7 +2002,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-02T19:47:09Z"
+  "pushed_at": "2026-10-02T19:47:09Z",
+  "tier": "curated"
  },
  {
   "slug": "aelf",
@@ -1901,7 +2019,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-09-02T04:11:07Z"
+  "pushed_at": "2026-09-02T04:11:07Z",
+  "tier": "curated"
  },
  {
   "slug": "hardhat-deploy",
@@ -1917,7 +2036,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-09-07T07:13:04Z"
+  "pushed_at": "2026-09-07T07:13:04Z",
+  "tier": "curated"
  },
  {
   "slug": "v2-periphery",
@@ -1933,7 +2053,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-09-30T02:24:19Z"
+  "pushed_at": "2026-09-30T02:24:19Z",
+  "tier": "curated"
  },
  {
   "slug": "starknet-js",
@@ -1949,7 +2070,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-01T14:57:41Z"
+  "pushed_at": "2026-10-01T14:57:41Z",
+  "tier": "curated"
  },
  {
   "slug": "standards-sdk",
@@ -1965,7 +2087,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-01T15:50:37Z"
+  "pushed_at": "2026-10-01T15:50:37Z",
+  "tier": "curated"
  },
  {
   "slug": "lnbits",
@@ -1981,7 +2104,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-02T12:41:17Z"
+  "pushed_at": "2026-10-02T12:41:17Z",
+  "tier": "curated"
  },
  {
   "slug": "ckb",
@@ -1997,7 +2121,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-09-29T21:31:12Z"
+  "pushed_at": "2026-09-29T21:31:12Z",
+  "tier": "curated"
  },
  {
   "slug": "qtum",
@@ -2013,7 +2138,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-01T12:52:24Z"
+  "pushed_at": "2026-10-01T12:52:24Z",
+  "tier": "curated"
  },
  {
   "slug": "bip39",
@@ -2029,7 +2155,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-09-16T15:56:22Z"
+  "pushed_at": "2026-09-16T15:56:22Z",
+  "tier": "curated"
  },
  {
   "slug": "waves",
@@ -2045,7 +2172,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-09-02T15:35:48Z"
+  "pushed_at": "2026-09-02T15:35:48Z",
+  "tier": "curated"
  },
  {
   "slug": "snarkvm",
@@ -2061,7 +2189,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-02T22:53:29Z"
+  "pushed_at": "2026-10-02T22:53:29Z",
+  "tier": "curated"
  },
  {
   "slug": "whatsabi",
@@ -2077,7 +2206,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-09-27T19:44:39Z"
+  "pushed_at": "2026-09-27T19:44:39Z",
+  "tier": "curated"
  },
  {
   "slug": "starcoin",
@@ -2093,7 +2223,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-08-24T12:01:33Z"
+  "pushed_at": "2026-08-24T12:01:33Z",
+  "tier": "curated"
  },
  {
   "slug": "ant-design-web3",
@@ -2109,7 +2240,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-07-22T06:21:32Z"
+  "pushed_at": "2026-07-22T06:21:32Z",
+  "tier": "curated"
  },
  {
   "slug": "cosmwasm",
@@ -2125,7 +2257,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-09-28T18:43:23Z"
+  "pushed_at": "2026-09-28T18:43:23Z",
+  "tier": "curated"
  },
  {
   "slug": "solhint",
@@ -2141,7 +2274,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-04T15:37:31Z"
+  "pushed_at": "2026-10-04T15:37:31Z",
+  "tier": "curated"
  },
  {
   "slug": "ravencoin",
@@ -2157,7 +2291,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-08-18T20:07:36Z"
+  "pushed_at": "2026-08-18T20:07:36Z",
+  "tier": "curated"
  },
  {
   "slug": "node",
@@ -2173,7 +2308,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-09-27T04:55:57Z"
+  "pushed_at": "2026-09-27T04:55:57Z",
+  "tier": "curated"
  },
  {
   "slug": "polkadot-js-api",
@@ -2189,7 +2325,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-01T17:19:41Z"
+  "pushed_at": "2026-10-01T17:19:41Z",
+  "tier": "curated"
  },
  {
   "slug": "bor",
@@ -2205,7 +2342,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-04T10:57:51Z"
+  "pushed_at": "2026-10-04T10:57:51Z",
+  "tier": "curated"
  },
  {
   "slug": "trueblocks-core",
@@ -2221,7 +2359,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-07-18T19:20:25Z"
+  "pushed_at": "2026-07-18T19:20:25Z",
+  "tier": "curated"
  },
  {
   "slug": "aeternity",
@@ -2237,7 +2376,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-09-15T06:02:55Z"
+  "pushed_at": "2026-09-15T06:02:55Z",
+  "tier": "curated"
  },
  {
   "slug": "connectkit",
@@ -2253,7 +2393,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-08-13T22:59:19Z"
+  "pushed_at": "2026-08-13T22:59:19Z",
+  "tier": "curated"
  },
  {
   "slug": "ape",
@@ -2269,7 +2410,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-09-25T01:18:05Z"
+  "pushed_at": "2026-09-25T01:18:05Z",
+  "tier": "curated"
  },
  {
   "slug": "lndhub",
@@ -2285,7 +2427,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-07-21T05:40:14Z"
+  "pushed_at": "2026-07-21T05:40:14Z",
+  "tier": "curated"
  },
  {
   "slug": "jolt",
@@ -2301,7 +2444,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-03T01:28:37Z"
+  "pushed_at": "2026-10-03T01:28:37Z",
+  "tier": "curated"
  },
  {
   "slug": "tss-lib",
@@ -2317,7 +2461,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-09-23T03:22:27Z"
+  "pushed_at": "2026-09-23T03:22:27Z",
+  "tier": "curated"
  },
  {
   "slug": "robosats",
@@ -2333,7 +2478,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-03T11:28:48Z"
+  "pushed_at": "2026-10-03T11:28:48Z",
+  "tier": "curated"
  },
  {
   "slug": "extension-1",
@@ -2349,7 +2495,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-09-23T18:44:52Z"
+  "pushed_at": "2026-09-23T18:44:52Z",
+  "tier": "curated"
  },
  {
   "slug": "ibc",
@@ -2365,7 +2512,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-02T19:08:41Z"
+  "pushed_at": "2026-10-02T19:08:41Z",
+  "tier": "curated"
  },
  {
   "slug": "prb-math",
@@ -2381,7 +2529,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-09-21T12:32:15Z"
+  "pushed_at": "2026-09-21T12:32:15Z",
+  "tier": "curated"
  },
  {
   "slug": "yellowstone-grpc",
@@ -2397,7 +2546,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-03T14:39:39Z"
+  "pushed_at": "2026-10-03T14:39:39Z",
+  "tier": "curated"
  },
  {
   "slug": "eliza",
@@ -2413,7 +2563,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-04T12:55:36Z"
+  "pushed_at": "2026-10-04T12:55:36Z",
+  "tier": "curated"
  },
  {
   "slug": "intentkit",
@@ -2429,7 +2580,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-09-16T12:17:32Z"
+  "pushed_at": "2026-09-16T12:17:32Z",
+  "tier": "curated"
  },
  {
   "slug": "uniswap-python",
@@ -2445,7 +2597,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-08-05T18:10:35Z"
+  "pushed_at": "2026-08-05T18:10:35Z",
+  "tier": "curated"
  },
  {
   "slug": "rango-sdk",
@@ -2461,7 +2614,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-09-30T21:04:53Z"
+  "pushed_at": "2026-09-30T21:04:53Z",
+  "tier": "curated"
  },
  {
   "slug": "darkfi",
@@ -2477,7 +2631,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-03T11:16:19Z"
+  "pushed_at": "2026-10-03T11:16:19Z",
+  "tier": "curated"
  },
  {
   "slug": "haveno",
@@ -2493,7 +2648,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-04T11:24:03Z"
+  "pushed_at": "2026-10-04T11:24:03Z",
+  "tier": "curated"
  },
  {
   "slug": "vyper",
@@ -2509,7 +2665,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-02T15:59:35Z"
+  "pushed_at": "2026-10-02T15:59:35Z",
+  "tier": "curated"
  },
  {
   "slug": "web3j",
@@ -2525,7 +2682,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-02T15:24:30Z"
+  "pushed_at": "2026-10-02T15:24:30Z",
+  "tier": "curated"
  },
  {
   "slug": "taiko-mono",
@@ -2541,7 +2699,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-04T16:20:22Z"
+  "pushed_at": "2026-10-04T16:20:22Z",
+  "tier": "curated"
  },
  {
   "slug": "wormhole",
@@ -2557,7 +2716,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-01T20:52:56Z"
+  "pushed_at": "2026-10-01T20:52:56Z",
+  "tier": "curated"
  },
  {
   "slug": "kubo",
@@ -2573,7 +2733,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-01T21:34:46Z"
+  "pushed_at": "2026-10-01T21:34:46Z",
+  "tier": "curated"
  },
  {
   "slug": "lightning",
@@ -2589,7 +2750,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-02T13:26:29Z"
+  "pushed_at": "2026-10-02T13:26:29Z",
+  "tier": "curated"
  },
  {
   "slug": "lotus",
@@ -2605,7 +2767,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-02T15:15:42Z"
+  "pushed_at": "2026-10-02T15:15:42Z",
+  "tier": "curated"
  },
  {
   "slug": "rust-lightning",
@@ -2621,7 +2784,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-04T01:22:10Z"
+  "pushed_at": "2026-10-04T01:22:10Z",
+  "tier": "curated"
  },
  {
   "slug": "cli",
@@ -2637,7 +2801,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-01T00:18:56Z"
+  "pushed_at": "2026-10-01T00:18:56Z",
+  "tier": "curated"
  },
  {
   "slug": "monero",
@@ -2653,7 +2818,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-02T19:55:51Z"
+  "pushed_at": "2026-10-02T19:55:51Z",
+  "tier": "curated"
  },
  {
   "slug": "firedancer",
@@ -2669,7 +2835,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-04T15:31:58Z"
+  "pushed_at": "2026-10-04T15:31:58Z",
+  "tier": "curated"
  },
  {
   "slug": "mempool",
@@ -2685,7 +2852,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-04T06:58:59Z"
+  "pushed_at": "2026-10-04T06:58:59Z",
+  "tier": "curated"
  },
  {
   "slug": "0x-monorepo",
@@ -2701,7 +2869,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-09-11T16:28:57Z"
+  "pushed_at": "2026-09-11T16:28:57Z",
+  "tier": "curated"
  },
  {
   "slug": "cometbft",
@@ -2717,7 +2886,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-09-28T14:57:30Z"
+  "pushed_at": "2026-09-28T14:57:30Z",
+  "tier": "curated"
  },
  {
   "slug": "openzeppelin-contracts-upgradeable",
@@ -2733,7 +2903,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-01T13:15:08Z"
+  "pushed_at": "2026-10-01T13:15:08Z",
+  "tier": "curated"
  },
  {
   "slug": "hiero-mirror-node",
@@ -2749,7 +2920,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-04T08:57:45Z"
+  "pushed_at": "2026-10-04T08:57:45Z",
+  "tier": "curated"
  },
  {
   "slug": "holochain",
@@ -2765,7 +2937,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-02T13:27:07Z"
+  "pushed_at": "2026-10-02T13:27:07Z",
+  "tier": "curated"
  },
  {
   "slug": "morpho-blue",
@@ -2781,7 +2954,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-09-24T10:26:53Z"
+  "pushed_at": "2026-09-24T10:26:53Z",
+  "tier": "curated"
  },
  {
   "slug": "uniswap-hooks",
@@ -2797,7 +2971,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-02T18:28:14Z"
+  "pushed_at": "2026-10-02T18:28:14Z",
+  "tier": "curated"
  },
  {
   "slug": "semaphore",
@@ -2813,7 +2988,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-09-18T10:02:18Z"
+  "pushed_at": "2026-09-18T10:02:18Z",
+  "tier": "curated"
  },
  {
   "slug": "hiero-json-rpc-relay",
@@ -2829,7 +3005,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-04T12:32:29Z"
+  "pushed_at": "2026-10-04T12:32:29Z",
+  "tier": "curated"
  },
  {
   "slug": "union",
@@ -2845,7 +3022,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-07-25T18:20:02Z"
+  "pushed_at": "2026-07-25T18:20:02Z",
+  "tier": "curated"
  },
  {
   "slug": "diem",
@@ -2861,7 +3039,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-02T05:52:37Z"
+  "pushed_at": "2026-10-02T05:52:37Z",
+  "tier": "curated"
  },
  {
   "slug": "ethereum-org-website",
@@ -2877,7 +3056,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-04T15:52:20Z"
+  "pushed_at": "2026-10-04T15:52:20Z",
+  "tier": "curated"
  },
  {
   "slug": "tendermint",
@@ -2893,7 +3073,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-09-25T19:44:26Z"
+  "pushed_at": "2026-09-25T19:44:26Z",
+  "tier": "curated"
  },
  {
   "slug": "powfaucet",
@@ -2909,7 +3090,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-09-28T17:44:42Z"
+  "pushed_at": "2026-09-28T17:44:42Z",
+  "tier": "curated"
  },
  {
   "slug": "leo",
@@ -2925,7 +3107,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-02T18:27:25Z"
+  "pushed_at": "2026-10-02T18:27:25Z",
+  "tier": "curated"
  },
  {
   "slug": "lbry-desktop",
@@ -2941,7 +3124,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-02T05:52:34Z"
+  "pushed_at": "2026-10-02T05:52:34Z",
+  "tier": "curated"
  },
  {
   "slug": "remix-ide",
@@ -2957,7 +3141,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-02T02:35:19Z"
+  "pushed_at": "2026-10-02T02:35:19Z",
+  "tier": "curated"
  },
  {
   "slug": "chainquery",
@@ -2973,7 +3158,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-08-31T19:18:00Z"
+  "pushed_at": "2026-08-31T19:18:00Z",
+  "tier": "curated"
  },
  {
   "slug": "damus",
@@ -2989,7 +3175,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-09-11T17:11:07Z"
+  "pushed_at": "2026-09-11T17:11:07Z",
+  "tier": "curated"
  },
  {
   "slug": "planet",
@@ -3005,7 +3192,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-09-20T12:39:38Z"
+  "pushed_at": "2026-09-20T12:39:38Z",
+  "tier": "curated"
  },
  {
   "slug": "bitcoin-org",
@@ -3021,7 +3209,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-09-25T21:00:48Z"
+  "pushed_at": "2026-09-25T21:00:48Z",
+  "tier": "curated"
  },
  {
   "slug": "verge",
@@ -3037,7 +3226,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-02T13:20:23Z"
+  "pushed_at": "2026-10-02T13:20:23Z",
+  "tier": "curated"
  },
  {
   "slug": "p2pool",
@@ -3053,7 +3243,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-04T14:03:00Z"
+  "pushed_at": "2026-10-04T14:03:00Z",
+  "tier": "curated"
  },
  {
   "slug": "node-1",
@@ -3069,7 +3260,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-09-30T07:35:28Z"
+  "pushed_at": "2026-09-30T07:35:28Z",
+  "tier": "curated"
  },
  {
   "slug": "raspibolt",
@@ -3085,7 +3277,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-02T15:59:19Z"
+  "pushed_at": "2026-10-02T15:59:19Z",
+  "tier": "curated"
  },
  {
   "slug": "icefiredb",
@@ -3101,7 +3294,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-09-28T11:45:01Z"
+  "pushed_at": "2026-09-28T11:45:01Z",
+  "tier": "curated"
  },
  {
   "slug": "rango-client",
@@ -3117,7 +3311,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-04T12:05:58Z"
+  "pushed_at": "2026-10-04T12:05:58Z",
+  "tier": "curated"
  },
  {
   "slug": "intellij-solidity",
@@ -3133,7 +3328,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-03T09:07:39Z"
+  "pushed_at": "2026-10-03T09:07:39Z",
+  "tier": "curated"
  },
  {
   "slug": "eips",
@@ -3149,7 +3345,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-04T15:20:07Z"
+  "pushed_at": "2026-10-04T15:20:07Z",
+  "tier": "curated"
  },
  {
   "slug": "ipfs-desktop",
@@ -3165,7 +3362,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-01T04:55:03Z"
+  "pushed_at": "2026-10-01T04:55:03Z",
+  "tier": "curated"
  },
  {
   "slug": "web3-py",
@@ -3181,7 +3379,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-09-29T16:23:04Z"
+  "pushed_at": "2026-09-29T16:23:04Z",
+  "tier": "curated"
  },
  {
   "slug": "java-tron",
@@ -3197,7 +3396,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-02T01:15:07Z"
+  "pushed_at": "2026-10-02T01:15:07Z",
+  "tier": "curated"
  },
  {
   "slug": "consensus-specs",
@@ -3213,7 +3413,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-01T17:12:10Z"
+  "pushed_at": "2026-10-01T17:12:10Z",
+  "tier": "curated"
  },
  {
   "slug": "cardano-node",
@@ -3229,7 +3430,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-04T05:27:18Z"
+  "pushed_at": "2026-10-04T05:27:18Z",
+  "tier": "curated"
  },
  {
   "slug": "fabric-samples",
@@ -3245,7 +3447,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-09-18T09:27:40Z"
+  "pushed_at": "2026-09-18T09:27:40Z",
+  "tier": "curated"
  },
  {
   "slug": "sei-chain",
@@ -3261,7 +3464,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-03T02:52:32Z"
+  "pushed_at": "2026-10-03T02:52:32Z",
+  "tier": "curated"
  },
  {
   "slug": "avalanchego",
@@ -3277,7 +3481,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-04T15:09:19Z"
+  "pushed_at": "2026-10-04T15:09:19Z",
+  "tier": "curated"
  },
  {
   "slug": "ipfs-companion",
@@ -3293,7 +3498,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-01T08:53:14Z"
+  "pushed_at": "2026-10-01T08:53:14Z",
+  "tier": "curated"
  },
  {
   "slug": "arbitrum-classic",
@@ -3309,7 +3515,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-09-09T15:12:35Z"
+  "pushed_at": "2026-09-09T15:12:35Z",
+  "tier": "curated"
  },
  {
   "slug": "pay",
@@ -3325,7 +3532,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-04T05:06:22Z"
+  "pushed_at": "2026-10-04T05:06:22Z",
+  "tier": "curated"
  },
  {
   "slug": "fe",
@@ -3341,7 +3549,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-04T16:37:52Z"
+  "pushed_at": "2026-10-04T16:37:52Z",
+  "tier": "curated"
  },
  {
   "slug": "ipfs-webui",
@@ -3357,7 +3566,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-04T16:32:31Z"
+  "pushed_at": "2026-10-04T16:32:31Z",
+  "tier": "curated"
  },
  {
   "slug": "reentrancy-attacks",
@@ -3373,7 +3583,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-07-20T10:51:41Z"
+  "pushed_at": "2026-07-20T10:51:41Z",
+  "tier": "curated"
  },
  {
   "slug": "cairo-lang",
@@ -3389,7 +3600,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-07-28T13:21:55Z"
+  "pushed_at": "2026-07-28T13:21:55Z",
+  "tier": "curated"
  },
  {
   "slug": "esplora",
@@ -3405,7 +3617,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-09-25T13:38:49Z"
+  "pushed_at": "2026-09-25T13:38:49Z",
+  "tier": "curated"
  },
  {
   "slug": "daedalus",
@@ -3421,7 +3634,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-04T00:28:16Z"
+  "pushed_at": "2026-10-04T00:28:16Z",
+  "tier": "curated"
  },
  {
   "slug": "execution-specs",
@@ -3437,7 +3651,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-03T23:57:39Z"
+  "pushed_at": "2026-10-03T23:57:39Z",
+  "tier": "curated"
  },
  {
   "slug": "elements",
@@ -3453,7 +3668,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-09-23T12:27:13Z"
+  "pushed_at": "2026-09-23T12:27:13Z",
+  "tier": "curated"
  },
  {
   "slug": "ponder",
@@ -3469,7 +3685,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-02T20:31:01Z"
+  "pushed_at": "2026-10-02T20:31:01Z",
+  "tier": "curated"
  },
  {
   "slug": "execution-apis",
@@ -3485,7 +3702,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-09-22T19:13:12Z"
+  "pushed_at": "2026-09-22T19:13:12Z",
+  "tier": "curated"
  },
  {
   "slug": "simple-taiko-node",
@@ -3501,7 +3719,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-09-29T13:53:10Z"
+  "pushed_at": "2026-09-29T13:53:10Z",
+  "tier": "curated"
  },
  {
   "slug": "celestia-node",
@@ -3517,7 +3736,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-02T13:01:50Z"
+  "pushed_at": "2026-10-02T13:01:50Z",
+  "tier": "curated"
  },
  {
   "slug": "go-libp2p",
@@ -3533,7 +3753,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-09-21T14:17:27Z"
+  "pushed_at": "2026-09-21T14:17:27Z",
+  "tier": "curated"
  },
  {
   "slug": "rust-libp2p",
@@ -3549,7 +3770,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-03T22:22:02Z"
+  "pushed_at": "2026-10-03T22:22:02Z",
+  "tier": "curated"
  },
  {
   "slug": "amethyst",
@@ -3565,7 +3787,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-04T15:43:49Z"
+  "pushed_at": "2026-10-04T15:43:49Z",
+  "tier": "curated"
  },
  {
   "slug": "clawrouter",
@@ -3581,7 +3804,8 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-03T09:43:24Z"
+  "pushed_at": "2026-10-03T09:43:24Z",
+  "tier": "curated"
  },
  {
   "slug": "assets",
@@ -3597,6 +3821,241 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-02T04:03:51Z"
+  "pushed_at": "2026-10-02T04:03:51Z",
+  "tier": "curated"
+ },
+ {
+  "slug": "marketplace",
+  "fork": "Blockchains/marketplace",
+  "branch": "master",
+  "upstream": "decentraland/marketplace",
+  "category": "nft",
+  "license_note": "Apache-2.0 (LICENSE text; GitHub API reports NOASSERTION)",
+  "license_spdx": "Apache-2.0",
+  "stars": 1199,
+  "description": "\ud83c\udfdb\ufe0f Decentraland's NFT Marketplace",
+  "wave": "extended-2026-10-04",
+  "topics": [
+   "dapp"
+  ],
+  "status": "synced",
+  "archived": false,
+  "pushed_at": "2026-10-02T16:04:38Z",
+  "tier": "extended"
+ },
+ {
+  "slug": "builder",
+  "fork": "Blockchains/builder",
+  "branch": "master",
+  "upstream": "decentraland/builder",
+  "category": "dev-tooling",
+  "license_note": "Apache-2.0 (LICENSE text; GitHub API reports NOASSERTION)",
+  "license_spdx": "Apache-2.0",
+  "stars": 157,
+  "description": "\ud83c\udf49 Build scenes for Decentraland",
+  "wave": "extended-2026-10-04",
+  "topics": [
+   "builder",
+   "decentraland",
+   "land",
+   "dapp",
+   "3d-editor"
+  ],
+  "status": "synced",
+  "archived": false,
+  "pushed_at": "2026-10-02T16:05:24Z",
+  "tier": "extended"
+ },
+ {
+  "slug": "decentraland-dapps",
+  "fork": "Blockchains/decentraland-dapps",
+  "branch": "master",
+  "upstream": "decentraland/decentraland-dapps",
+  "category": "dev-tooling",
+  "license_note": null,
+  "license_spdx": "Apache-2.0",
+  "stars": 115,
+  "description": "\ud83d\udee0 Common modules for dApps",
+  "wave": "extended-2026-10-04",
+  "topics": [
+   "decentraland",
+   "dapps",
+   "modules",
+   "redux"
+  ],
+  "status": "synced",
+  "archived": false,
+  "pushed_at": "2026-09-21T12:23:08Z",
+  "tier": "extended"
+ },
+ {
+  "slug": "ui",
+  "fork": "Blockchains/ui",
+  "branch": "master",
+  "upstream": "decentraland/ui",
+  "category": "dev-tooling",
+  "license_note": "Apache-2.0 (LICENSE text; GitHub API reports NOASSERTION)",
+  "license_spdx": "Apache-2.0",
+  "stars": 212,
+  "description": "\ud83e\udd84 Decentraland UI",
+  "wave": "extended-2026-10-04",
+  "topics": [
+   "ui",
+   "react",
+   "semantic-ui",
+   "decentraland",
+   "components"
+  ],
+  "status": "synced",
+  "archived": false,
+  "pushed_at": "2026-08-24T14:02:24Z",
+  "tier": "extended"
+ },
+ {
+  "slug": "catalyst",
+  "fork": "Blockchains/catalyst",
+  "branch": "upstream-main",
+  "upstream": "decentraland/catalyst",
+  "category": "p2p-storage",
+  "license_note": null,
+  "license_spdx": "Apache-2.0",
+  "stars": 52,
+  "description": "\ud83d\udc27 Content server for Decentraland",
+  "wave": "extended-2026-10-04",
+  "topics": [],
+  "status": "synced-tracking-branch",
+  "archived": false,
+  "pushed_at": "2026-09-30T19:15:09Z",
+  "tier": "extended"
+ },
+ {
+  "slug": "awesome-nft",
+  "fork": "Blockchains/awesome-nft",
+  "branch": "master",
+  "upstream": "gianni-dalerta/awesome-nft",
+  "category": "nft",
+  "license_note": null,
+  "license_spdx": "MIT",
+  "stars": 971,
+  "description": "A curated list of awesome Non Fungible Token (NFT, ERC721) frameworks, libraries and software",
+  "wave": "extended-2026-10-04",
+  "topics": [],
+  "status": "synced",
+  "archived": false,
+  "pushed_at": "2026-09-02T13:49:56Z",
+  "tier": "extended"
+ },
+ {
+  "slug": "ufragments",
+  "fork": "Blockchains/uFragments",
+  "branch": "master",
+  "upstream": "fragmentsorg/ampleforth-contracts",
+  "category": "defi",
+  "license_note": null,
+  "license_spdx": "GPL-3.0",
+  "stars": 280,
+  "description": "Smart contracts for Ampleforth Protocol (working name uFragments)",
+  "wave": "extended-2026-10-04",
+  "topics": [
+   "solidity",
+   "smart-contracts",
+   "ethereum",
+   "protocol",
+   "ampleforth-protocol"
+  ],
+  "status": "synced",
+  "archived": false,
+  "pushed_at": "2026-06-30T21:52:05Z",
+  "tier": "extended"
+ },
+ {
+  "slug": "soulbyte",
+  "fork": "Blockchains/Soulbyte",
+  "branch": "main",
+  "upstream": "web3devz/Soulbyte",
+  "category": "ai-agents",
+  "license_note": null,
+  "license_spdx": "MIT",
+  "stars": 2,
+  "description": "Autonomous AI Life Simulation",
+  "wave": "extended-2026-10-04",
+  "topics": [],
+  "status": "synced",
+  "archived": false,
+  "pushed_at": "2026-06-17T01:08:35Z",
+  "tier": "extended"
+ },
+ {
+  "slug": "synthetix-assets",
+  "fork": "Blockchains/synthetix-assets",
+  "branch": "master",
+  "upstream": "Synthetixio/synthetix-assets",
+  "category": "data-registries",
+  "license_note": null,
+  "license_spdx": "MIT",
+  "stars": 10,
+  "description": "Synthetix Assets",
+  "wave": "extended-2026-10-04",
+  "topics": [
+   "defi",
+   "synthetix",
+   "ethereum"
+  ],
+  "status": "synced",
+  "archived": false,
+  "pushed_at": "2026-06-04T07:14:19Z",
+  "tier": "extended"
+ },
+ {
+  "slug": "zksync",
+  "fork": "Blockchains/zksync",
+  "branch": "master",
+  "upstream": "matter-labs/zksync",
+  "category": "l2-rollups",
+  "license_note": null,
+  "license_spdx": "Apache-2.0",
+  "stars": 4923,
+  "description": "zkSync: trustless scaling and privacy engine for Ethereum",
+  "wave": "extended-2026-10-04",
+  "topics": [
+   "team-core"
+  ],
+  "status": "synced",
+  "archived": false,
+  "pushed_at": "2026-05-08T09:04:17Z",
+  "tier": "extended"
+ },
+ {
+  "slug": "defi-sdk",
+  "fork": "Blockchains/defi-sdk",
+  "branch": "upstream-router",
+  "upstream": "zeriontech/defi-sdk",
+  "category": "defi",
+  "license_note": null,
+  "license_spdx": "LGPL-3.0",
+  "stars": 844,
+  "description": "DeFi SDK Makes Money Lego Work",
+  "wave": "extended-2026-10-04",
+  "topics": [
+   "solidity",
+   "defi",
+   "ethereum",
+   "truffle",
+   "defi-sdk",
+   "defi-protocols",
+   "aave-protocol",
+   "compound",
+   "ctokens",
+   "uniswap",
+   "0x",
+   "curve",
+   "balancer",
+   "maker",
+   "dai"
+  ],
+  "status": "synced-tracking-branch",
+  "archived": false,
+  "pushed_at": "2026-02-06T18:27:30Z",
+  "tier": "extended"
  }
 ]
