@@ -1,0 +1,1 @@
+{"consensus/qbft-core/src/integration-test/resources/validator_contract.sol:Validators":[{"type":"function","name":"getValidators","inputs":[],"outputs":[{"type":"address[]","name":""}],"stateMutability":"view"}]}

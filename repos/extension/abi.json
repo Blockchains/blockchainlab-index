@@ -1,0 +1,1 @@
+{"dev-utils/local-chain/contracts/Greeter.sol:Greeter":[{"type":"function","name":"greet","inputs":[],"outputs":[{"type":"string","name":""}],"stateMutability":"view"},{"type":"function","name":"setGreeting","inputs":[{"type":"string","name":"_greeting"}],"outputs":[],"stateMutability":"nonpayable"}]}
