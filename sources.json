@@ -7,7 +7,7 @@
   "category": "clients-nodes",
   "license_note": "LGPL-3.0 (library) / GPL-3.0 (binaries)",
   "license_spdx": "LGPL-3.0",
-  "stars": 51384,
+  "stars": 51385,
   "description": "Go implementation of the Ethereum protocol",
   "wave": "wave0-curated",
   "topics": [],
@@ -30,7 +30,7 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-04T15:57:57Z",
+  "pushed_at": "2026-10-04T17:23:13Z",
   "tier": "curated"
  },
  {
@@ -41,7 +41,7 @@
   "category": "clients-nodes",
   "license_note": "MIT",
   "license_spdx": "MIT",
-  "stars": 90308,
+  "stars": 90309,
   "description": "Bitcoin Core integration/staging tree",
   "wave": "wave0-curated",
   "topics": [],
@@ -149,7 +149,7 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-04T16:31:14Z",
+  "pushed_at": "2026-10-04T17:14:40Z",
   "tier": "curated"
  },
  {
@@ -336,7 +336,7 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-04T16:06:25Z",
+  "pushed_at": "2026-10-04T17:22:47Z",
   "tier": "curated"
  },
  {
@@ -585,7 +585,7 @@
   "category": "wallets",
   "license_note": "MIT",
   "license_spdx": "MIT",
-  "stars": 2835,
+  "stars": 2836,
   "description": "The best way to connect a wallet \ud83c\udf08 \ud83e\uddf0",
   "wave": "wave0-curated",
   "topics": [],
@@ -874,7 +874,7 @@
   "category": "security",
   "license_note": "Apache-2.0",
   "license_spdx": "Apache-2.0",
-  "stars": 6803,
+  "stars": 6804,
   "description": "Reproduce DeFi hacked incidents using Foundry.",
   "wave": "wave1",
   "topics": [],
@@ -965,7 +965,7 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-04T16:30:21Z",
+  "pushed_at": "2026-10-04T17:09:35Z",
   "tier": "curated"
  },
  {
@@ -1033,7 +1033,7 @@
   "topics": [],
   "status": "synced",
   "archived": false,
-  "pushed_at": "2026-10-04T06:30:05Z",
+  "pushed_at": "2026-10-04T16:50:44Z",
   "tier": "curated"
  },
  {
@@ -1101,7 +1101,7 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-04T16:23:06Z",
+  "pushed_at": "2026-10-04T17:05:05Z",
   "tier": "curated"
  },
  {
@@ -1713,7 +1713,7 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-04T16:20:40Z",
+  "pushed_at": "2026-10-04T16:41:57Z",
   "tier": "curated"
  },
  {
@@ -2189,7 +2189,7 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-02T22:53:29Z",
+  "pushed_at": "2026-10-04T17:10:59Z",
   "tier": "curated"
  },
  {
@@ -2557,7 +2557,7 @@
   "category": "ai-agents",
   "license_note": null,
   "license_spdx": "MIT",
-  "stars": 19539,
+  "stars": 19540,
   "description": "Open source agentic operating system",
   "wave": "wave3-retry",
   "topics": [],
@@ -2699,7 +2699,7 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-04T16:20:22Z",
+  "pushed_at": "2026-10-04T17:19:11Z",
   "tier": "curated"
  },
  {
@@ -2767,7 +2767,7 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-02T15:15:42Z",
+  "pushed_at": "2026-10-04T17:04:57Z",
   "tier": "curated"
  },
  {
@@ -2920,7 +2920,7 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-04T08:57:45Z",
+  "pushed_at": "2026-10-04T17:11:27Z",
   "tier": "curated"
  },
  {
@@ -3084,7 +3084,7 @@
   "category": "ethereum-evm",
   "license_note": "AGPL-3.0",
   "license_spdx": "AGPL-3.0",
-  "stars": 5631,
+  "stars": 5632,
   "description": "Modularized faucet for EVM chains with different protection methods (Captcha, Mining, IP, Mainnet Balance, Gitcoin Passport and more)",
   "wave": "wave3-topup",
   "topics": [],
@@ -3549,7 +3549,7 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-04T16:37:52Z",
+  "pushed_at": "2026-10-04T17:13:59Z",
   "tier": "curated"
  },
  {
@@ -3787,7 +3787,7 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-04T15:43:49Z",
+  "pushed_at": "2026-10-04T16:47:54Z",
   "tier": "curated"
  },
  {

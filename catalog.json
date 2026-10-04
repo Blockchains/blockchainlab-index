@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-04T17:23:02Z",
+ "generated_at": "2026-10-04T17:40:00Z",
  "owner": "Blockchains",
  "repo_count": 236,
  "component_count": 14574,
@@ -1242,7 +1242,7 @@
    "license": "MIT",
    "license_class": "permissive",
    "license_spdx_github": "MIT",
-   "stars": 90308,
+   "stars": 90309,
    "description": "Bitcoin Core integration/staging tree",
    "readme_summary": "Bitcoin Core integration/staging tree ===================================== For an immediately usable, binary version of the Bitcoin Core software, see https://bitcoincore.org/en/download/. Bitcoin Core connects to the Bitcoin peer-to-peer network to download and fully validate blocks and transactions. It also includes a wallet and graphical user interface, which can be optionally built. Further information about Bitcoin Core is available in the doc folder. Bitcoin Core is released under the terms of the MIT license. See COPYING for more information or see https://opensource.org/license/MIT. The `master` branch is regularly built (see `doc/build-*.md` for instructions) and tested, but it is not guaranteed to be completely stable. Tags are created regularly from release branches to indicate new official, stable release versions of Bitcoin Core.",
    "install_commands": [],
@@ -3166,7 +3166,7 @@
    "license": "Apache-2.0",
    "license_class": "permissive",
    "license_spdx_github": "Apache-2.0",
-   "stars": 6803,
+   "stars": 6804,
    "description": "Reproduce DeFi hacked incidents using Foundry.",
    "readme_summary": "Notion: 101 root cause analysis of past DeFi hacked incidents **Disclaimer:** This content serves solely as a proof of concept showcasing past DeFi hacking incidents. It is strictly intended for educational purposes and should not be interpreted as encouraging or endorsing any form of illegal activities or actual hacking attempts. The provided information is for informational and learning purposes only, and any actions taken based on this content are solely the responsibility of the individual. The usage of this information should adhere to applicable laws, regulations, and ethical standards. - Clone and install dependencies:`git submodule update --init --recursive` - Contributing Guidelines - Lesson 1: Tools ( English | \u4e2d\u6587 | Vietnamese | Korean | Spanish | \u65e5\u672c\u8a9e ) - Lesson 2: Warm up ( English | \u4e2d\u6587 | Korean | Spanish | \u65e5\u672c\u8a9e ) - Lesson 3: Write Your Own PoC (Price Oracle Manipulation) ( Eng",
    "install_commands": [
@@ -3660,7 +3660,7 @@
    "license": "MIT",
    "license_class": "permissive",
    "license_spdx_github": "MIT",
-   "stars": 19539,
+   "stars": 19540,
    "description": "Open source agentic operating system",
    "readme_summary": "elizaOS Your agentic operating system. Eliza \u00b7 Eliza Cloud \u00b7 elizaOS downloads \u00b7 Documentation elizaOS is an open-source TypeScript framework and product stack for autonomous AI agents. This monorepo contains the core runtime, the Eliza app, the CLI, cloud services, native bridges, and first-party plugins. Linux and Android distribution tooling lives in `packages/os`. The repository pins Bun and Node versions in `package.json`. Install those versions, then: `bun install` also prepares submodules and patches, provisions supported host build prerequisites, and builds or verifies the staged desktop `libelizainference`. The embedding GGUF remains runtime-managed and downloads automatically during local-inference warmup. Fetch archived artifact fixtures explicitly with `bun packages/scripts/fetch-archive-artifacts.ts` when needed.",
    "install_commands": [
@@ -4692,7 +4692,7 @@
    "license": "LGPL-3.0 (library) / GPL-3.0 (binaries)",
    "license_class": "strong-copyleft",
    "license_spdx_github": "LGPL-3.0",
-   "stars": 51384,
+   "stars": 51385,
    "description": "Go implementation of the Ethereum protocol",
    "readme_summary": "Golang execution layer implementation of the Ethereum protocol. Automated builds are available for stable releases and the unstable master branch. Binary archives are published at https://geth.ethereum.org/downloads/. For prerequisites and detailed build instructions please read the Installation Instructions. Building `geth` requires both a Go (version 1.25 or later) and a C compiler. You can install them using your favourite package manager. Once the dependencies are installed, run The go-ethereum project comes with several wrappers/executables found in the `cmd` directory. Going through all the possible command line flags is out of scope here (please consult our CLI Wiki page), but we've enumerated a few common parameter combos to get you up to speed quickly on how you can run your own `geth` instance.",
    "install_commands": [
@@ -8288,7 +8288,7 @@
    "license": "AGPL-3.0",
    "license_class": "strong-copyleft",
    "license_spdx_github": "AGPL-3.0",
-   "stars": 5631,
+   "stars": 5632,
    "description": "Modularized faucet for EVM chains with different protection methods (Captcha, Mining, IP, Mainnet Balance, Gitcoin Passport and more)",
    "readme_summary": "Modularized faucet for EVM chains with different protection methods (Captcha, Mining, IP, Mainnet Balance, Gitcoin Passport and more) Faucets for ETH Testnets are spammed by bots. This faucet tries to reduce the efficiency of these automated requests by various protection methods. This faucet is mostly known for its proof-of-work based protection, which is currently the best and most reliable way to distribute funds on a network that got low on fund reserves. For clarification: This faucet does NOT generate new coins with the \"mining\" process. It's just one of the protection methods the faucet uses to prevent anyone from requesting big amount of funds and draining the faucet wallet. If you want to run your own instance you need to transfer the funds you want to distribute to the faucet wallet yourself!",
    "install_commands": [],
@@ -8609,7 +8609,7 @@
    "license": "MIT",
    "license_class": "permissive",
    "license_spdx_github": "MIT",
-   "stars": 2835,
+   "stars": 2836,
    "description": "The best way to connect a wallet \ud83c\udf08 \ud83e\uddf0",
    "readme_summary": "RainbowKit is a React library that makes it easy to add wallet connection to your dapp. - \ud83d\udd25 Out-of-the-box wallet management - \u2705 Easily customizable - \ud83e\udd84 Built on top of wagmi and viem You can scaffold a new RainbowKit + wagmi + Next.js app with one of the following commands, using your package manager of choice: You can use the CodeSandbox links below to try out RainbowKit: - with Create React App - with Next.js - with Next.js App Router - with Remix - with Vite - with React Router The following examples are provided in the examples folder of this repo. - `with-create-react-app` - `with-next` - `with-next-app` - `with-next-custom-button` - `with-next-mint-nft` - `with-next-siwe-next-auth` - `with-next-siwe-iron-session` - `with-remix` - `with-vite` - `with-react-router`",
    "install_commands": [
