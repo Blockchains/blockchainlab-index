@@ -27,6 +27,10 @@ BL_INDEX=. python3 indexer/compose.py fetch plan.json out/
 ```
 Raw files: `https://raw.githubusercontent.com/Blockchains/blockchainlab-index/main/catalog.json`.
 
+**Fully automated composition:** [blockchainlab-compose](https://github.com/Blockchains/blockchainlab-compose) (CLI + `compose.yml` Action) turns an idea into a new Blockchains repo: capabilities → components from this index → pragma/licence checks → generated glue, tests, deploy script, CI → `forge test` → repo → CI result. Composed by it with no hand edits:
+- [forge-dao-governance-token](https://github.com/Blockchains/forge-dao-governance-token)
+- [forge-usd-priced-membership-nft](https://github.com/Blockchains/forge-usd-priced-membership-nft)
+
 Composed with this index (CI green, deployed to Pages):
 - [forge-example-usd-savings-vault](https://github.com/Blockchains/forge-example-usd-savings-vault)
 - [forge-example-gasless-membership](https://github.com/Blockchains/forge-example-gasless-membership)
