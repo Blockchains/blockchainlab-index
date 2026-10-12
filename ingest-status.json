@@ -1569,10 +1569,10 @@
  },
  "assets": {
   "status": "ok",
-  "commit": "557279c741661b1bff49d1b2c448ba502eff5792",
-  "files": 6948,
+  "commit": "0b78a77c9c97bb06f98f8eb66f5ab0a231f421cd",
+  "files": 32630,
   "contracts": 0,
-  "secs": 2.3
+  "secs": 6.7
  },
  "marketplace": {
   "status": "ok",
