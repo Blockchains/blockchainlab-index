@@ -1177,10 +1177,10 @@
  },
  "0x-monorepo": {
   "status": "ok",
-  "commit": "53b5bb16d8b4c9050a46978b6f347ef7595fe103",
-  "files": 2430,
+  "commit": "74dd2a2deaf032c3ac724074f13fcc15a0bea665",
+  "files": 2449,
   "contracts": 341,
-  "secs": 1.6
+  "secs": 1.5
  },
  "cometbft": {
   "status": "ok",
