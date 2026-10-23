@@ -7,13 +7,13 @@
   "category": "clients-nodes",
   "license_note": "LGPL-3.0 (library) / GPL-3.0 (binaries)",
   "license_spdx": "LGPL-3.0",
-  "stars": 51403,
+  "stars": 51406,
   "description": "Go implementation of the Ethereum protocol",
   "wave": "wave0-curated",
   "topics": [],
   "status": "synced-tracking-branch",
   "archived": false,
-  "pushed_at": "2026-10-22T08:41:50Z",
+  "pushed_at": "2026-10-23T05:01:45Z",
   "tier": "curated"
  },
  {
@@ -24,13 +24,13 @@
   "category": "clients-nodes",
   "license_note": "Apache-2.0 OR MIT",
   "license_spdx": "Apache-2.0",
-  "stars": 5839,
+  "stars": 5840,
   "description": "Modular, contributor-friendly and blazing-fast implementation of the Ethereum protocol, in Rust",
   "wave": "wave0-curated",
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-22T08:16:02Z",
+  "pushed_at": "2026-10-23T08:25:32Z",
   "tier": "curated"
  },
  {
@@ -41,13 +41,13 @@
   "category": "clients-nodes",
   "license_note": "MIT",
   "license_spdx": "MIT",
-  "stars": 90458,
+  "stars": 90468,
   "description": "Bitcoin Core integration/staging tree",
   "wave": "wave0-curated",
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-22T07:40:44Z",
+  "pushed_at": "2026-10-22T17:01:17Z",
   "tier": "curated"
  },
  {
@@ -58,13 +58,13 @@
   "category": "clients-nodes",
   "license_note": "Apache-2.0",
   "license_spdx": "Apache-2.0",
-  "stars": 1963,
+  "stars": 1965,
   "description": "Web-Scale Blockchain for fast, secure, scalable, decentralized apps and marketplaces.",
   "wave": "wave0-curated",
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-22T08:17:01Z",
+  "pushed_at": "2026-10-23T08:31:46Z",
   "tier": "curated"
  },
  {
@@ -75,13 +75,13 @@
   "category": "smart-contract-libraries",
   "license_note": "MIT",
   "license_spdx": "MIT",
-  "stars": 27292,
+  "stars": 27296,
   "description": "OpenZeppelin Contracts is a library for secure smart contract development.",
   "wave": "wave0-curated",
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-21T21:55:31Z",
+  "pushed_at": "2026-10-22T19:34:11Z",
   "tier": "curated"
  },
  {
@@ -92,7 +92,7 @@
   "category": "smart-contract-libraries",
   "license_note": "MIT",
   "license_spdx": "MIT",
-  "stars": 3384,
+  "stars": 3387,
   "description": "Optimized Solidity snippets.",
   "wave": "wave0-curated",
   "topics": [],
@@ -109,7 +109,7 @@
   "category": "smart-contract-libraries",
   "license_note": "LGPL-3.0",
   "license_spdx": "LGPL-3.0",
-  "stars": 2183,
+  "stars": 2184,
   "description": "Safe allows secure management of blockchain assets. ",
   "wave": "wave0-curated",
   "topics": [],
@@ -132,7 +132,7 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-22T07:21:17Z",
+  "pushed_at": "2026-10-23T07:55:02Z",
   "tier": "curated"
  },
  {
@@ -143,13 +143,13 @@
   "category": "dev-tooling",
   "license_note": "Apache-2.0 OR MIT",
   "license_spdx": "Apache-2.0",
-  "stars": 10685,
+  "stars": 10688,
   "description": "Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.",
   "wave": "wave0-curated",
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-22T07:47:35Z",
+  "pushed_at": "2026-10-23T08:47:41Z",
   "tier": "curated"
  },
  {
@@ -160,13 +160,13 @@
   "category": "dev-tooling",
   "license_note": "MIT (per package)",
   "license_spdx": "NOASSERTION",
-  "stars": 8516,
+  "stars": 8518,
   "description": "Hardhat is a development environment to compile, deploy, test, and debug your Ethereum software. ",
   "wave": "wave0-curated",
   "topics": [],
   "status": "synced-tracking-branch",
   "archived": false,
-  "pushed_at": "2026-10-22T08:25:22Z",
+  "pushed_at": "2026-10-22T21:36:07Z",
   "tier": "curated"
  },
  {
@@ -177,13 +177,13 @@
   "category": "dev-tooling",
   "license_note": "MIT",
   "license_spdx": "NOASSERTION",
-  "stars": 3591,
+  "stars": 3593,
   "description": "TypeScript Interface for Ethereum",
   "wave": "wave0-curated",
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-22T07:19:49Z",
+  "pushed_at": "2026-10-23T04:29:11Z",
   "tier": "curated"
  },
  {
@@ -194,7 +194,7 @@
   "category": "dev-tooling",
   "license_note": "MIT",
   "license_spdx": "MIT",
-  "stars": 8718,
+  "stars": 8717,
   "description": "Complete Ethereum library and wallet implementation in JavaScript.",
   "wave": "wave0-curated",
   "topics": [],
@@ -211,13 +211,13 @@
   "category": "dev-tooling",
   "license_note": "MIT",
   "license_spdx": "MIT",
-  "stars": 6763,
+  "stars": 6762,
   "description": "Reactive primitives for Ethereum apps",
   "wave": "wave0-curated",
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-21T04:25:42Z",
+  "pushed_at": "2026-10-22T16:52:00Z",
   "tier": "curated"
  },
  {
@@ -245,13 +245,13 @@
   "category": "defi",
   "license_note": "BUSL-1.1 (core) / MIT (interfaces, tests)",
   "license_spdx": null,
-  "stars": 2548,
+  "stars": 2549,
   "description": "\ud83e\udd84 \ud83e\udd84 \ud83e\udd84 \ud83e\udd84 Core smart contracts of Uniswap v4",
   "wave": "wave0-curated",
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-04-24T19:50:04Z",
+  "pushed_at": "2026-10-22T17:59:34Z",
   "tier": "curated"
  },
  {
@@ -268,7 +268,7 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-16T16:51:24Z",
+  "pushed_at": "2026-10-22T21:57:16Z",
   "tier": "curated"
  },
  {
@@ -302,7 +302,7 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-14T13:56:19Z",
+  "pushed_at": "2026-10-22T17:59:26Z",
   "tier": "curated"
  },
  {
@@ -319,7 +319,7 @@
   "topics": [],
   "status": "synced-tracking-branch",
   "archived": false,
-  "pushed_at": "2026-10-22T06:43:21Z",
+  "pushed_at": "2026-10-23T08:42:29Z",
   "tier": "curated"
  },
  {
@@ -336,7 +336,7 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-22T08:55:26Z",
+  "pushed_at": "2026-10-23T08:39:23Z",
   "tier": "curated"
  },
  {
@@ -387,7 +387,7 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-21T15:48:13Z",
+  "pushed_at": "2026-10-23T08:25:55Z",
   "tier": "curated"
  },
  {
@@ -415,13 +415,13 @@
   "category": "zk",
   "license_note": "Apache-2.0 OR MIT",
   "license_spdx": "Apache-2.0",
-  "stars": 1416,
+  "stars": 1415,
   "description": "Noir is a domain specific language for zero knowledge proofs",
   "wave": "wave0-curated",
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-22T02:20:16Z",
+  "pushed_at": "2026-10-23T03:28:20Z",
   "tier": "curated"
  },
  {
@@ -455,7 +455,7 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-22T08:32:35Z",
+  "pushed_at": "2026-10-23T08:15:54Z",
   "tier": "curated"
  },
  {
@@ -472,7 +472,7 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-22T07:44:26Z",
+  "pushed_at": "2026-10-22T13:17:19Z",
   "tier": "curated"
  },
  {
@@ -489,7 +489,7 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-22T08:06:54Z",
+  "pushed_at": "2026-10-22T12:41:49Z",
   "tier": "curated"
  },
  {
@@ -506,7 +506,7 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-22T07:55:10Z",
+  "pushed_at": "2026-10-23T08:23:57Z",
   "tier": "curated"
  },
  {
@@ -517,7 +517,7 @@
   "category": "account-abstraction",
   "license_note": "GPL-3.0",
   "license_spdx": "GPL-3.0",
-  "stars": 1942,
+  "stars": 1941,
   "description": null,
   "wave": "wave0-curated",
   "topics": [],
@@ -557,7 +557,7 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-20T20:21:32Z",
+  "pushed_at": "2026-10-22T13:28:40Z",
   "tier": "curated"
  },
  {
@@ -574,7 +574,7 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-21T05:24:19Z",
+  "pushed_at": "2026-10-22T13:49:23Z",
   "tier": "curated"
  },
  {
@@ -585,7 +585,7 @@
   "category": "wallets",
   "license_note": "MIT",
   "license_spdx": "MIT",
-  "stars": 2836,
+  "stars": 2835,
   "description": "The best way to connect a wallet \ud83c\udf08 \ud83e\uddf0",
   "wave": "wave0-curated",
   "topics": [],
@@ -608,7 +608,7 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-22T06:19:57Z",
+  "pushed_at": "2026-10-22T22:52:49Z",
   "tier": "curated"
  },
  {
@@ -625,7 +625,7 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-22T03:55:12Z",
+  "pushed_at": "2026-10-23T08:02:07Z",
   "tier": "curated"
  },
  {
@@ -636,13 +636,13 @@
   "category": "solana",
   "license_note": "Apache-2.0",
   "license_spdx": "Apache-2.0",
-  "stars": 5159,
+  "stars": 5160,
   "description": "\u2693 Solana Program Framework",
   "wave": "wave0-curated",
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-21T18:08:52Z",
+  "pushed_at": "2026-10-22T15:05:11Z",
   "tier": "curated"
  },
  {
@@ -659,7 +659,7 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-21T17:00:49Z",
+  "pushed_at": "2026-10-23T03:48:41Z",
   "tier": "curated"
  },
  {
@@ -670,7 +670,7 @@
   "category": "bitcoin-lightning",
   "license_note": "Apache-2.0 OR MIT",
   "license_spdx": "NOASSERTION",
-  "stars": 1075,
+  "stars": 1077,
   "description": "A modern, lightweight, descriptor-based wallet library written in Rust!",
   "wave": "wave0-curated",
   "topics": [],
@@ -687,13 +687,13 @@
   "category": "polkadot",
   "license_note": "Apache-2.0 / GPL-3.0-with-Classpath (per crate)",
   "license_spdx": null,
-  "stars": 2815,
+  "stars": 2814,
   "description": "The Parity Polkadot Blockchain SDK",
   "wave": "wave0-curated",
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-22T08:54:34Z",
+  "pushed_at": "2026-10-23T08:44:02Z",
   "tier": "curated"
  },
  {
@@ -710,7 +710,7 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-21T20:13:41Z",
+  "pushed_at": "2026-10-23T08:24:31Z",
   "tier": "curated"
  },
  {
@@ -738,13 +738,13 @@
   "category": "dev-tooling",
   "license_note": "Apache-2.0 OR MIT",
   "license_spdx": "Apache-2.0",
-  "stars": 1060,
+  "stars": 1062,
   "description": "A collection of helpful contracts and libraries for use with Forge and Foundry",
   "wave": "wave1",
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-16T21:47:41Z",
+  "pushed_at": "2026-10-23T07:16:00Z",
   "tier": "curated"
  },
  {
@@ -755,7 +755,7 @@
   "category": "clients-nodes",
   "license_note": "Apache-2.0",
   "license_spdx": "Apache-2.0",
-  "stars": 32053,
+  "stars": 32050,
   "description": "Main repository for the Linera protocol",
   "wave": "wave1",
   "topics": [],
@@ -772,13 +772,13 @@
   "category": "enterprise-ledgers",
   "license_note": "Apache-2.0",
   "license_spdx": "Apache-2.0",
-  "stars": 16747,
+  "stars": 16748,
   "description": "Hyperledger Fabric is an enterprise-grade permissioned distributed ledger framework for developing solutions and applications. Its modular and versatile design satisfies a broad range of industry use cases. It offers a unique approach to consensus that enables performance at scale while preserving privacy.",
   "wave": "wave1",
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-22T07:35:27Z",
+  "pushed_at": "2026-10-23T07:32:54Z",
   "tier": "curated"
  },
  {
@@ -789,7 +789,7 @@
   "category": "clients-nodes",
   "license_note": "MIT",
   "license_spdx": "MIT",
-  "stars": 15211,
+  "stars": 15210,
   "description": "very currency",
   "wave": "wave1",
   "topics": [],
@@ -812,7 +812,7 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-21T23:19:11Z",
+  "pushed_at": "2026-10-23T08:48:23Z",
   "tier": "curated"
  },
  {
@@ -823,13 +823,13 @@
   "category": "data-registries",
   "license_note": "MIT",
   "license_spdx": "MIT",
-  "stars": 9833,
+  "stars": 9831,
   "description": "provides metadata for chains",
   "wave": "wave1",
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-21T03:16:12Z",
+  "pushed_at": "2026-10-23T03:03:59Z",
   "tier": "curated"
  },
  {
@@ -840,13 +840,13 @@
   "category": "wallets",
   "license_note": "MIT",
   "license_spdx": "MIT",
-  "stars": 8631,
+  "stars": 8632,
   "description": "Electrum Bitcoin Wallet",
   "wave": "wave1",
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-21T16:02:47Z",
+  "pushed_at": "2026-10-22T12:31:53Z",
   "tier": "curated"
  },
  {
@@ -857,13 +857,13 @@
   "category": "payments",
   "license_note": "MIT",
   "license_spdx": "MIT",
-  "stars": 7817,
+  "stars": 7823,
   "description": "Accept Bitcoin payments. Free, open-source & self-hosted, Bitcoin payment processor. ",
   "wave": "wave1",
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-22T06:11:13Z",
+  "pushed_at": "2026-10-23T03:15:30Z",
   "tier": "curated"
  },
  {
@@ -874,7 +874,7 @@
   "category": "security",
   "license_note": "Apache-2.0",
   "license_spdx": "Apache-2.0",
-  "stars": 6826,
+  "stars": 6824,
   "description": "Reproduce DeFi hacked incidents using Foundry.",
   "wave": "wave1",
   "topics": [],
@@ -891,7 +891,7 @@
   "category": "clients-nodes",
   "license_note": "ISC",
   "license_spdx": "ISC",
-  "stars": 6716,
+  "stars": 6717,
   "description": "An alternative full node bitcoin implementation written in Go (golang)",
   "wave": "wave1",
   "topics": [],
@@ -908,13 +908,13 @@
   "category": "security",
   "license_note": "AGPL-3.0",
   "license_spdx": "AGPL-3.0",
-  "stars": 6384,
+  "stars": 6385,
   "description": "Static Analyzer for Solidity and Vyper",
   "wave": "wave1",
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-21T22:56:06Z",
+  "pushed_at": "2026-10-23T00:17:27Z",
   "tier": "curated"
  },
  {
@@ -925,13 +925,13 @@
   "category": "defi",
   "license_note": "GPL-3.0",
   "license_spdx": "GPL-3.0",
-  "stars": 5541,
+  "stars": 5542,
   "description": "\ud83e\udd84 Open source interfaces for the Uniswap protocol",
   "wave": "wave1",
   "topics": [],
   "status": "synced-tracking-branch",
   "archived": false,
-  "pushed_at": "2026-10-21T19:41:53Z",
+  "pushed_at": "2026-10-22T17:17:19Z",
   "tier": "curated"
  },
  {
@@ -965,7 +965,7 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-21T19:00:42Z",
+  "pushed_at": "2026-10-22T20:18:20Z",
   "tier": "curated"
  },
  {
@@ -976,13 +976,13 @@
   "category": "defi",
   "license_note": "AGPL-3.0",
   "license_spdx": "AGPL-3.0",
-  "stars": 5147,
+  "stars": 5146,
   "description": "A decentralized bitcoin exchange network",
   "wave": "wave1",
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-22T07:41:25Z",
+  "pushed_at": "2026-10-23T02:04:20Z",
   "tier": "curated"
  },
  {
@@ -1010,13 +1010,13 @@
   "category": "zk",
   "license_note": "Apache-2.0",
   "license_spdx": "Apache-2.0",
-  "stars": 4532,
+  "stars": 4531,
   "description": "A Decentralized Operating System for ZK Applications",
   "wave": "wave1",
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-22T00:49:23Z",
+  "pushed_at": "2026-10-22T12:56:36Z",
   "tier": "curated"
  },
  {
@@ -1027,13 +1027,13 @@
   "category": "wallets",
   "license_note": "GPL-3.0",
   "license_spdx": "GPL-3.0",
-  "stars": 4398,
+  "stars": 4397,
   "description": "\ud83c\udf08\u2012 the Ethereum wallet that lives in your pocket ",
   "wave": "wave1",
   "topics": [],
   "status": "synced",
   "archived": false,
-  "pushed_at": "2026-10-21T23:45:59Z",
+  "pushed_at": "2026-10-23T04:09:29Z",
   "tier": "curated"
  },
  {
@@ -1044,13 +1044,13 @@
   "category": "analytics",
   "license_note": "AGPL-3.0",
   "license_spdx": "AGPL-3.0",
-  "stars": 4053,
+  "stars": 4054,
   "description": "A portfolio tracking, analytics, accounting and management application that protects your privacy",
   "wave": "wave1",
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-21T15:22:53Z",
+  "pushed_at": "2026-10-23T08:29:04Z",
   "tier": "curated"
  },
  {
@@ -1084,7 +1084,7 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-22T08:44:29Z",
+  "pushed_at": "2026-10-23T08:20:19Z",
   "tier": "curated"
  },
  {
@@ -1095,13 +1095,13 @@
   "category": "clients-nodes",
   "license_note": "LGPL-3.0",
   "license_spdx": "LGPL-3.0",
-  "stars": 3590,
+  "stars": 3589,
   "description": "Ethereum implementation on the efficiency frontier ",
   "wave": "wave1",
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-22T08:55:46Z",
+  "pushed_at": "2026-10-23T08:50:45Z",
   "tier": "curated"
  },
  {
@@ -1112,13 +1112,13 @@
   "category": "wallets",
   "license_note": "Apache-2.0",
   "license_spdx": "Apache-2.0",
-  "stars": 3573,
+  "stars": 3574,
   "description": "Cross-platform, cross-blockchain wallet library.",
   "wave": "wave1",
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-22T08:28:42Z",
+  "pushed_at": "2026-10-23T00:48:08Z",
   "tier": "curated"
  },
  {
@@ -1129,13 +1129,13 @@
   "category": "clients-nodes",
   "license_note": "MIT",
   "license_spdx": "MIT",
-  "stars": 3536,
+  "stars": 3537,
   "description": "NEO Smart Economy",
   "wave": "wave1",
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-21T17:06:32Z",
+  "pushed_at": "2026-10-22T14:21:58Z",
   "tier": "curated"
  },
  {
@@ -1152,7 +1152,7 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-21T20:10:45Z",
+  "pushed_at": "2026-10-22T17:40:24Z",
   "tier": "curated"
  },
  {
@@ -1169,7 +1169,7 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-22T05:41:39Z",
+  "pushed_at": "2026-10-22T23:37:39Z",
   "tier": "curated"
  },
  {
@@ -1203,7 +1203,7 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-22T07:25:01Z",
+  "pushed_at": "2026-10-23T07:00:32Z",
   "tier": "curated"
  },
  {
@@ -1214,7 +1214,7 @@
   "category": "clients-nodes",
   "license_note": "LGPL-3.0",
   "license_spdx": "LGPL-3.0",
-  "stars": 3298,
+  "stars": 3297,
   "description": "A BNB Smart Chain client based on the go-ethereum fork",
   "wave": "wave1",
   "topics": [],
@@ -1237,7 +1237,7 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-19T17:08:42Z",
+  "pushed_at": "2026-10-22T19:58:16Z",
   "tier": "curated"
  },
  {
@@ -1248,7 +1248,7 @@
   "category": "security",
   "license_note": "AGPL-3.0",
   "license_spdx": "AGPL-3.0",
-  "stars": 3185,
+  "stars": 3186,
   "description": "Ethereum smart contract fuzzer",
   "wave": "wave1",
   "topics": [],
@@ -1271,7 +1271,7 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-21T20:33:20Z",
+  "pushed_at": "2026-10-22T16:07:08Z",
   "tier": "curated"
  },
  {
@@ -1288,7 +1288,7 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-22T08:15:28Z",
+  "pushed_at": "2026-10-22T14:53:08Z",
   "tier": "curated"
  },
  {
@@ -1305,7 +1305,7 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-21T20:03:56Z",
+  "pushed_at": "2026-10-22T20:53:17Z",
   "tier": "curated"
  },
  {
@@ -1316,7 +1316,7 @@
   "category": "dev-tooling",
   "license_note": "MIT",
   "license_spdx": "MIT",
-  "stars": 2719,
+  "stars": 2718,
   "description": "A Python-based development and testing framework for smart contracts targeting the Ethereum Virtual Machine.",
   "wave": "wave1",
   "topics": [],
@@ -1339,7 +1339,7 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-22T08:44:23Z",
+  "pushed_at": "2026-10-23T07:22:41Z",
   "tier": "curated"
  },
  {
@@ -1356,7 +1356,7 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-21T02:50:42Z",
+  "pushed_at": "2026-10-23T01:16:30Z",
   "tier": "curated"
  },
  {
@@ -1367,13 +1367,13 @@
   "category": "enterprise-ledgers",
   "license_note": null,
   "license_spdx": "Apache-2.0",
-  "stars": 2612,
+  "stars": 2613,
   "description": "FISCO BCOS\uff08\u53d1\u97f3\u4e3a/\u02c8f\u026askl bi:\u02c8k\u0252z/\uff09\u662f\u4e00\u4e2a\u7a33\u5b9a\u3001\u9ad8\u6548\u3001\u5b89\u5168\u7684\u8bb8\u53ef\u533a\u5757\u94fe\u5e73\u53f0\uff0c\u5df2\u88ab\u5e7f\u6cdb\u5e94\u7528\u4e8e\u73b0\u5b9e\u7684\u884c\u4e1a\u5e94\u7528\u3002\u622a\u81f3\u76ee\u524d\uff0c\u5df2\u62e5\u67095000\u591a\u5bb6\u4f01\u4e8b\u4e1a\u5355\u4f4d\uff0c400\u591a\u4e2a\u4ea7\u4e1a\u6570\u5b57\u5316\u6807\u6746\u5e94\u7528\uff0c\u6db5\u76d6\u6587\u5316\u7248\u6743\u3001\u53f8\u6cd5\u670d\u52a1\u3001\u653f\u5e9c\u670d\u52a1\u3001\u7269\u8054\u7f51\u3001\u91d1\u878d\u3001\u667a\u6167\u793e\u533a\u3001\u623f\u5730\u4ea7\u5efa\u8bbe\u3001\u793e\u533a\u6cbb\u7406\u3001\u4e61\u6751\u632f\u5174\u7b49\u9886\u57df\u3002FISCO BCOS (pronounced /\u02c8f\u026askl bi:\u02c8k\u0252z/) is a stable, efficient, and secure permissioned blockchain platform that has been widely used in real-world industry applications. ",
   "wave": "wave3-retry",
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-22T07:53:19Z",
+  "pushed_at": "2026-10-23T07:49:18Z",
   "tier": "curated"
  },
  {
@@ -1452,7 +1452,7 @@
   "category": "nft",
   "license_note": null,
   "license_spdx": "MIT",
-  "stars": 2260,
+  "stars": 2259,
   "description": "Seaport is a marketplace protocol for safely and efficiently buying and selling NFTs.",
   "wave": "wave3-retry",
   "topics": [],
@@ -1469,7 +1469,7 @@
   "category": "clients-nodes",
   "license_note": null,
   "license_spdx": "MIT",
-  "stars": 2253,
+  "stars": 2252,
   "description": "Rust implementation of the Ethereum Virtual Machine.",
   "wave": "wave3-retry",
   "topics": [],
@@ -1503,7 +1503,7 @@
   "category": "wallets",
   "license_note": null,
   "license_spdx": "Apache-2.0",
-  "stars": 2166,
+  "stars": 2167,
   "description": "Desktop Bitcoin Wallet focused on security and privacy. Free and open source.",
   "wave": "wave3-retry",
   "topics": [],
@@ -1526,7 +1526,7 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-22T07:35:11Z",
+  "pushed_at": "2026-10-23T07:59:00Z",
   "tier": "curated"
  },
  {
@@ -1537,7 +1537,7 @@
   "category": "solana",
   "license_note": null,
   "license_spdx": "Apache-2.0",
-  "stars": 2031,
+  "stars": 2030,
   "description": "Modular TypeScript wallet adapters and components for Solana applications.",
   "wave": "wave3-retry",
   "topics": [],
@@ -1554,13 +1554,13 @@
   "category": "wallets",
   "license_note": null,
   "license_spdx": "MIT",
-  "stars": 1990,
+  "stars": 1991,
   "description": "The open source repository for Cake Wallet, a noncustodial multi-currency wallet, and Monero.com, a noncustodial Monero-only wallet. Need help? Check out https://docs.cakewallet.com",
   "wave": "wave3-retry",
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-21T20:45:56Z",
+  "pushed_at": "2026-10-22T23:47:35Z",
   "tier": "curated"
  },
  {
@@ -1571,13 +1571,13 @@
   "category": "languages-compilers",
   "license_note": null,
   "license_spdx": "Apache-2.0",
-  "stars": 1912,
+  "stars": 1913,
   "description": "Cairo is the first Turing-complete language for creating provable programs for general computation.",
   "wave": "wave3-retry",
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-22T08:47:43Z",
+  "pushed_at": "2026-10-23T08:13:08Z",
   "tier": "curated"
  },
  {
@@ -1588,13 +1588,13 @@
   "category": "clients-nodes",
   "license_note": null,
   "license_spdx": "Apache-2.0",
-  "stars": 1856,
+  "stars": 1858,
   "description": "An enterprise-grade Java-based, Apache 2.0 licensed Ethereum client https://github.com/besu-eth/besu/wiki",
   "wave": "wave3-retry",
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-22T08:51:33Z",
+  "pushed_at": "2026-10-23T08:07:01Z",
   "tier": "curated"
  },
  {
@@ -1662,7 +1662,7 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-22T07:04:57Z",
+  "pushed_at": "2026-10-22T17:04:44Z",
   "tier": "curated"
  },
  {
@@ -1696,7 +1696,7 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-21T04:23:39Z",
+  "pushed_at": "2026-10-22T18:54:04Z",
   "tier": "curated"
  },
  {
@@ -1707,13 +1707,13 @@
   "category": "clients-nodes",
   "license_note": null,
   "license_spdx": "GPL-3.0",
-  "stars": 1623,
+  "stars": 1624,
   "description": "A robust, high-performance execution client for Ethereum node operators.",
   "wave": "wave3-retry",
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-22T08:38:17Z",
+  "pushed_at": "2026-10-23T08:48:47Z",
   "tier": "curated"
  },
  {
@@ -1747,7 +1747,7 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-21T20:10:19Z",
+  "pushed_at": "2026-10-22T23:26:11Z",
   "tier": "curated"
  },
  {
@@ -1764,7 +1764,7 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-07T12:05:36Z",
+  "pushed_at": "2026-10-22T09:34:58Z",
   "tier": "curated"
  },
  {
@@ -1781,7 +1781,7 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-22T07:28:39Z",
+  "pushed_at": "2026-10-23T06:44:27Z",
   "tier": "curated"
  },
  {
@@ -1815,7 +1815,7 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-19T14:53:23Z",
+  "pushed_at": "2026-10-22T17:27:27Z",
   "tier": "curated"
  },
  {
@@ -1826,13 +1826,13 @@
   "category": "solana",
   "license_note": null,
   "license_spdx": "MIT",
-  "stars": 1436,
+  "stars": 1434,
   "description": "A repository of Solana program examples",
   "wave": "wave3-retry",
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-21T17:54:07Z",
+  "pushed_at": "2026-10-22T20:41:11Z",
   "tier": "curated"
  },
  {
@@ -1849,7 +1849,7 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-21T12:36:33Z",
+  "pushed_at": "2026-10-23T08:41:56Z",
   "tier": "curated"
  },
  {
@@ -1860,7 +1860,7 @@
   "category": "bitcoin-lightning",
   "license_note": null,
   "license_spdx": "MIT",
-  "stars": 1396,
+  "stars": 1397,
   "description": "An efficient re-implementation of Electrum Server in Rust",
   "wave": "wave3-retry",
   "topics": [],
@@ -1883,7 +1883,7 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-20T22:00:10Z",
+  "pushed_at": "2026-10-23T05:37:49Z",
   "tier": "curated"
  },
  {
@@ -1894,7 +1894,7 @@
   "category": "languages-compilers",
   "license_note": null,
   "license_spdx": "Apache-2.0",
-  "stars": 1382,
+  "stars": 1380,
   "description": "Solidity Compiler for Solana, Polkadot and Stellar",
   "wave": "wave3-retry",
   "topics": [],
@@ -1934,7 +1934,7 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-20T16:22:43Z",
+  "pushed_at": "2026-10-22T16:50:04Z",
   "tier": "curated"
  },
  {
@@ -1945,13 +1945,13 @@
   "category": "indexing",
   "license_note": null,
   "license_spdx": "Apache-2.0",
-  "stars": 1340,
+  "stars": 1341,
   "description": "TypeScript ETL toolkit for indexing Ethereum, Solana, and Substrate data, sourced from SQD Network.",
   "wave": "wave3-retry",
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-21T14:17:33Z",
+  "pushed_at": "2026-10-22T13:03:40Z",
   "tier": "curated"
  },
  {
@@ -1962,13 +1962,13 @@
   "category": "defi",
   "license_note": null,
   "license_spdx": "GPL-2.0",
-  "stars": 1336,
+  "stars": 1335,
   "description": "\ud83e\udd84 \ud83e\udd84 \ud83e\udd84 Peripheral smart contracts for interacting with Uniswap v3",
   "wave": "wave3-retry",
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-14T13:55:08Z",
+  "pushed_at": "2026-10-22T17:59:29Z",
   "tier": "curated"
  },
  {
@@ -1979,13 +1979,13 @@
   "category": "dev-tooling",
   "license_note": null,
   "license_spdx": "Apache-2.0",
-  "stars": 1342,
+  "stars": 1343,
   "description": "Transports, Middleware, and Networks for the Alloy project",
   "wave": "wave3-retry",
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-21T13:08:00Z",
+  "pushed_at": "2026-10-23T05:35:17Z",
   "tier": "curated"
  },
  {
@@ -2002,7 +2002,7 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-22T08:24:16Z",
+  "pushed_at": "2026-10-22T14:09:34Z",
   "tier": "curated"
  },
  {
@@ -2104,7 +2104,7 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-22T07:25:31Z",
+  "pushed_at": "2026-10-23T08:34:18Z",
   "tier": "curated"
  },
  {
@@ -2121,7 +2121,7 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-22T08:09:50Z",
+  "pushed_at": "2026-10-22T12:54:18Z",
   "tier": "curated"
  },
  {
@@ -2189,7 +2189,7 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-22T07:22:20Z",
+  "pushed_at": "2026-10-22T20:01:33Z",
   "tier": "curated"
  },
  {
@@ -2251,7 +2251,7 @@
   "category": "cosmos",
   "license_note": null,
   "license_spdx": "Apache-2.0",
-  "stars": 1143,
+  "stars": 1142,
   "description": "WebAssembly Smart Contracts for the Cosmos SDK",
   "wave": "wave3-retry",
   "topics": [],
@@ -2308,7 +2308,7 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-06T14:43:49Z",
+  "pushed_at": "2026-10-22T15:56:11Z",
   "tier": "curated"
  },
  {
@@ -2342,7 +2342,7 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-22T08:45:41Z",
+  "pushed_at": "2026-10-23T08:33:53Z",
   "tier": "curated"
  },
  {
@@ -2353,7 +2353,7 @@
   "category": "indexing",
   "license_note": null,
   "license_spdx": "GPL-3.0",
-  "stars": 1093,
+  "stars": 1094,
   "description": "The main repository for the TrueBlocks system",
   "wave": "wave3-retry",
   "topics": [],
@@ -2421,7 +2421,7 @@
   "category": "bitcoin-lightning",
   "license_note": null,
   "license_spdx": "MIT",
-  "stars": 1058,
+  "stars": 1060,
   "description": "Wrapper for Lightning Network Daemon. It provides separate accounts for end-users",
   "wave": "wave3-retry",
   "topics": [],
@@ -2444,7 +2444,7 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-22T06:23:07Z",
+  "pushed_at": "2026-10-23T03:20:31Z",
   "tier": "curated"
  },
  {
@@ -2455,7 +2455,7 @@
   "category": "cryptography-mpc",
   "license_note": null,
   "license_spdx": "MIT",
-  "stars": 1052,
+  "stars": 1053,
   "description": "Threshold Signature Scheme, for ECDSA and EDDSA",
   "wave": "wave3-retry",
   "topics": [],
@@ -2472,7 +2472,7 @@
   "category": "bitcoin-lightning",
   "license_note": null,
   "license_spdx": "AGPL-3.0",
-  "stars": 1037,
+  "stars": 1036,
   "description": "A simple and private bitcoin exchange",
   "wave": "wave3-retry",
   "topics": [],
@@ -2512,7 +2512,7 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-22T08:32:58Z",
+  "pushed_at": "2026-10-23T05:19:35Z",
   "tier": "curated"
  },
  {
@@ -2540,13 +2540,13 @@
   "category": "solana",
   "license_note": null,
   "license_spdx": "AGPL-3.0",
-  "stars": 1015,
+  "stars": 1016,
   "description": "Triton's Dragon's Mouth Yellowstone gRPC service for high-performance Solana streaming",
   "wave": "wave3-retry",
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-21T08:20:01Z",
+  "pushed_at": "2026-10-22T09:47:59Z",
   "tier": "curated"
  },
  {
@@ -2557,13 +2557,13 @@
   "category": "ai-agents",
   "license_note": null,
   "license_spdx": "MIT",
-  "stars": 19636,
+  "stars": 19638,
   "description": "Open source agentic operating system",
   "wave": "wave3-retry",
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-22T08:50:25Z",
+  "pushed_at": "2026-10-23T08:49:14Z",
   "tier": "curated"
  },
  {
@@ -2597,7 +2597,7 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-21T11:32:33Z",
+  "pushed_at": "2026-10-22T11:32:35Z",
   "tier": "curated"
  },
  {
@@ -2642,13 +2642,13 @@
   "category": "defi",
   "license_note": null,
   "license_spdx": "AGPL-3.0",
-  "stars": 1409,
+  "stars": 1408,
   "description": "Decentralized P2P exchange platform built on Monero and Tor",
   "wave": "wave3-retry",
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-22T00:09:38Z",
+  "pushed_at": "2026-10-22T21:11:25Z",
   "tier": "curated"
  },
  {
@@ -2659,13 +2659,13 @@
   "category": "languages-compilers",
   "license_note": null,
   "license_spdx": "NOASSERTION",
-  "stars": 5182,
+  "stars": 5184,
   "description": "Pythonic Smart Contract Language for the EVM",
   "wave": "wave3-retry",
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-21T08:56:16Z",
+  "pushed_at": "2026-10-22T13:03:27Z",
   "tier": "curated"
  },
  {
@@ -2710,13 +2710,13 @@
   "category": "bridges-interop",
   "license_note": null,
   "license_spdx": "NOASSERTION",
-  "stars": 1901,
+  "stars": 1902,
   "description": "A reference implementation for the Wormhole blockchain interoperability protocol.",
   "wave": "wave3-retry",
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-21T22:03:18Z",
+  "pushed_at": "2026-10-22T13:28:07Z",
   "tier": "curated"
  },
  {
@@ -2727,7 +2727,7 @@
   "category": "p2p-storage",
   "license_note": null,
   "license_spdx": "NOASSERTION",
-  "stars": 17151,
+  "stars": 17155,
   "description": "IPFS implementation in Go: a daemon that stores and serves content-addressed data, with a CLI, HTTP Gateway, and RPC API",
   "wave": "wave3-retry",
   "topics": [],
@@ -2744,13 +2744,13 @@
   "category": "bitcoin-lightning",
   "license_note": null,
   "license_spdx": "NOASSERTION",
-  "stars": 3103,
+  "stars": 3102,
   "description": "Core Lightning \u2014 Lightning Network implementation focusing on spec compliance and performance",
   "wave": "wave3-retry",
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-22T08:32:17Z",
+  "pushed_at": "2026-10-22T10:20:12Z",
   "tier": "curated"
  },
  {
@@ -2767,7 +2767,7 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-22T04:41:35Z",
+  "pushed_at": "2026-10-23T06:25:32Z",
   "tier": "curated"
  },
  {
@@ -2784,7 +2784,7 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-21T22:09:58Z",
+  "pushed_at": "2026-10-22T20:45:02Z",
   "tier": "curated"
  },
  {
@@ -2812,7 +2812,7 @@
   "category": "clients-nodes",
   "license_note": null,
   "license_spdx": "NOASSERTION",
-  "stars": 10944,
+  "stars": 10947,
   "description": "Monero: the secure, private, untraceable cryptocurrency",
   "wave": "wave3-retry",
   "topics": [],
@@ -2829,13 +2829,13 @@
   "category": "solana",
   "license_note": null,
   "license_spdx": "NOASSERTION",
-  "stars": 1532,
+  "stars": 1534,
   "description": "Firedancer is Jump Crypto's Solana validator software.",
   "wave": "wave3-retry",
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-22T07:22:02Z",
+  "pushed_at": "2026-10-23T00:06:47Z",
   "tier": "curated"
  },
  {
@@ -2846,13 +2846,13 @@
   "category": "analytics",
   "license_note": null,
   "license_spdx": "NOASSERTION",
-  "stars": 2869,
+  "stars": 2870,
   "description": "Explore the full Bitcoin ecosystem with mempool.space, or be your own explorer and self-host your own instance with one-click installation on popular Raspberry Pi fullnode distros including Umbrel, Raspiblitz, Start9, and more!",
   "wave": "wave3-retry",
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-22T07:39:32Z",
+  "pushed_at": "2026-10-23T07:43:45Z",
   "tier": "curated"
  },
  {
@@ -2886,7 +2886,7 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-22T08:07:02Z",
+  "pushed_at": "2026-10-22T18:59:10Z",
   "tier": "curated"
  },
  {
@@ -2897,13 +2897,13 @@
   "category": "smart-contract-libraries",
   "license_note": null,
   "license_spdx": "MIT",
-  "stars": 1176,
+  "stars": 1175,
   "description": "Upgradeable variant of OpenZeppelin Contracts, meant for use in upgradeable contracts. ",
   "wave": "wave3-retry",
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-21T21:56:06Z",
+  "pushed_at": "2026-10-22T19:34:54Z",
   "tier": "curated"
  },
  {
@@ -2920,7 +2920,7 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-22T08:34:58Z",
+  "pushed_at": "2026-10-23T05:50:05Z",
   "tier": "curated"
  },
  {
@@ -2937,7 +2937,7 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-21T16:01:12Z",
+  "pushed_at": "2026-10-22T11:51:38Z",
   "tier": "curated"
  },
  {
@@ -2948,7 +2948,7 @@
   "category": "defi",
   "license_note": null,
   "license_spdx": "GPL-2.0",
-  "stars": 359,
+  "stars": 360,
   "description": "Morpho's variable rate markets protocol",
   "wave": "wave3-retry",
   "topics": [],
@@ -3005,7 +3005,7 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-22T01:46:20Z",
+  "pushed_at": "2026-10-23T08:47:27Z",
   "tier": "curated"
  },
  {
@@ -3016,7 +3016,7 @@
   "category": "zk",
   "license_note": "Apache-2.0",
   "license_spdx": "Apache-2.0",
-  "stars": 73735,
+  "stars": 73734,
   "description": "The trust-minimized, zero-knowledge bridging protocol, designed for censorship resistance, extremely high security, and usage in decentralized finance.",
   "wave": "wave3-topup",
   "topics": [],
@@ -3050,13 +3050,13 @@
   "category": "ethereum-evm",
   "license_note": "MIT",
   "license_spdx": "MIT",
-  "stars": 5990,
+  "stars": 5989,
   "description": "Ethereum.org is a primary online resource for the Ethereum community.",
   "wave": "wave3-topup",
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-22T06:47:22Z",
+  "pushed_at": "2026-10-23T03:15:38Z",
   "tier": "curated"
  },
  {
@@ -3067,7 +3067,7 @@
   "category": "chains-protocols",
   "license_note": "Apache-2.0",
   "license_spdx": "Apache-2.0",
-  "stars": 5863,
+  "stars": 5864,
   "description": "\u27c1 Tendermint Core (BFT Consensus) in Go",
   "wave": "wave3-topup",
   "topics": [],
@@ -3090,7 +3090,7 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-21T17:03:17Z",
+  "pushed_at": "2026-10-22T10:40:47Z",
   "tier": "curated"
  },
  {
@@ -3186,7 +3186,7 @@
   "category": "chains-protocols",
   "license_note": "MIT",
   "license_spdx": "MIT",
-  "stars": 1808,
+  "stars": 1807,
   "description": "Build and host decentralized blogs and websites on your Mac",
   "wave": "wave3-topup",
   "topics": [],
@@ -3226,7 +3226,7 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-20T17:40:34Z",
+  "pushed_at": "2026-10-23T01:23:44Z",
   "tier": "curated"
  },
  {
@@ -3254,13 +3254,13 @@
   "category": "chains-protocols",
   "license_note": "GPL-3.0",
   "license_spdx": "GPL-3.0",
-  "stars": 1353,
+  "stars": 1354,
   "description": "Mysterium Network Node -  official implementation of distributed VPN network (dVPN) protocol",
   "wave": "wave3-topup",
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-20T23:55:00Z",
+  "pushed_at": "2026-10-22T10:23:12Z",
   "tier": "curated"
  },
  {
@@ -3271,7 +3271,7 @@
   "category": "bitcoin-lightning",
   "license_note": "MIT",
   "license_spdx": "MIT",
-  "stars": 1258,
+  "stars": 1259,
   "description": "RaspiBolt v3: Bitcoin & Lightning full node on a Raspberry Pi",
   "wave": "wave3-topup",
   "topics": [],
@@ -3339,13 +3339,13 @@
   "category": "ethereum-evm",
   "license_note": null,
   "license_spdx": "CC0-1.0",
-  "stars": 14040,
+  "stars": 14041,
   "description": "The Ethereum Improvement Proposal repository",
   "wave": "wave4-orgs",
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-22T00:27:07Z",
+  "pushed_at": "2026-10-22T22:15:35Z",
   "tier": "curated"
  },
  {
@@ -3356,7 +3356,7 @@
   "category": "p2p-storage",
   "license_note": null,
   "license_spdx": "MIT",
-  "stars": 6607,
+  "stars": 6608,
   "description": "An unobtrusive and user-friendly desktop application for IPFS on Windows, Mac and Linux. ",
   "wave": "wave4-orgs",
   "topics": [],
@@ -3373,7 +3373,7 @@
   "category": "dev-tooling",
   "license_note": null,
   "license_spdx": "MIT",
-  "stars": 5547,
+  "stars": 5546,
   "description": "A python interface for interacting with the Ethereum blockchain and ecosystem.",
   "wave": "wave4-orgs",
   "topics": [],
@@ -3390,13 +3390,13 @@
   "category": "clients-nodes",
   "license_note": null,
   "license_spdx": "LGPL-3.0",
-  "stars": 4174,
+  "stars": 4175,
   "description": "Java implementation of the Tron whitepaper",
   "wave": "wave4-orgs",
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-22T08:55:41Z",
+  "pushed_at": "2026-10-23T07:17:25Z",
   "tier": "curated"
  },
  {
@@ -3413,7 +3413,7 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-21T18:28:15Z",
+  "pushed_at": "2026-10-22T23:21:37Z",
   "tier": "curated"
  },
  {
@@ -3430,7 +3430,7 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-21T17:12:26Z",
+  "pushed_at": "2026-10-23T01:06:26Z",
   "tier": "curated"
  },
  {
@@ -3464,7 +3464,7 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-22T08:46:35Z",
+  "pushed_at": "2026-10-23T08:41:01Z",
   "tier": "curated"
  },
  {
@@ -3481,7 +3481,7 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-21T22:51:10Z",
+  "pushed_at": "2026-10-23T08:14:23Z",
   "tier": "curated"
  },
  {
@@ -3532,7 +3532,7 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-22T02:22:51Z",
+  "pushed_at": "2026-10-23T02:22:12Z",
   "tier": "curated"
  },
  {
@@ -3549,7 +3549,7 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-22T05:32:26Z",
+  "pushed_at": "2026-10-23T08:11:40Z",
   "tier": "curated"
  },
  {
@@ -3560,7 +3560,7 @@
   "category": "p2p-storage",
   "license_note": null,
   "license_spdx": "MIT",
-  "stars": 1636,
+  "stars": 1635,
   "description": "A frontend for an IPFS Kubo and IPFS Desktop",
   "wave": "wave4-orgs",
   "topics": [],
@@ -3577,7 +3577,7 @@
   "category": "security",
   "license_note": null,
   "license_spdx": "AGPL-3.0",
-  "stars": 1626,
+  "stars": 1627,
   "description": "A chronological and (hopefully) complete list of reentrancy attacks to date.",
   "wave": "wave4-orgs",
   "topics": [],
@@ -3611,7 +3611,7 @@
   "category": "bitcoin-lightning",
   "license_note": null,
   "license_spdx": "MIT",
-  "stars": 1269,
+  "stars": 1271,
   "description": "Explorer for Bitcoin and Liquid",
   "wave": "wave4-orgs",
   "topics": [],
@@ -3634,7 +3634,7 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-21T19:58:40Z",
+  "pushed_at": "2026-10-23T02:01:15Z",
   "tier": "curated"
  },
  {
@@ -3651,7 +3651,7 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-22T07:51:02Z",
+  "pushed_at": "2026-10-23T07:31:48Z",
   "tier": "curated"
  },
  {
@@ -3679,13 +3679,13 @@
   "category": "indexing",
   "license_note": null,
   "license_spdx": "MIT",
-  "stars": 1152,
+  "stars": 1153,
   "description": "The backend framework for crypto apps",
   "wave": "wave4-orgs",
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-16T20:09:04Z",
+  "pushed_at": "2026-10-22T18:41:43Z",
   "tier": "curated"
  },
  {
@@ -3696,7 +3696,7 @@
   "category": "ethereum-evm",
   "license_note": null,
   "license_spdx": "CC0-1.0",
-  "stars": 1141,
+  "stars": 1142,
   "description": "Collection of APIs provided by Ethereum execution layer clients ",
   "wave": "wave4-orgs",
   "topics": [],
@@ -3719,7 +3719,7 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-09T04:36:15Z",
+  "pushed_at": "2026-10-22T10:51:28Z",
   "tier": "curated"
  },
  {
@@ -3736,7 +3736,7 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-21T18:58:15Z",
+  "pushed_at": "2026-10-22T18:44:46Z",
   "tier": "curated"
  },
  {
@@ -3753,7 +3753,7 @@
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-05T09:33:02Z",
+  "pushed_at": "2026-10-23T08:44:09Z",
   "tier": "curated"
  },
  {
@@ -3764,13 +3764,13 @@
   "category": "p2p-storage",
   "license_note": null,
   "license_spdx": "MIT",
-  "stars": 5623,
+  "stars": 5622,
   "description": "The Rust Implementation of the libp2p networking stack. ",
   "wave": "wave4-orgs",
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-21T01:54:44Z",
+  "pushed_at": "2026-10-23T08:18:26Z",
   "tier": "curated"
  },
  {
@@ -3781,13 +3781,13 @@
   "category": "identity",
   "license_note": null,
   "license_spdx": "MIT",
-  "stars": 1611,
+  "stars": 1612,
   "description": "Nostr client for Android",
   "wave": "wave4-orgs",
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-22T05:30:06Z",
+  "pushed_at": "2026-10-23T03:50:30Z",
   "tier": "curated"
  },
  {
@@ -3798,13 +3798,13 @@
   "category": "ai-agents",
   "license_note": null,
   "license_spdx": "MIT",
-  "stars": 6633,
+  "stars": 6632,
   "description": "The agent-native LLM router for autonomous agents. Every frontier model behind one wallet, <1ms local routing, USDC payments on Base & Solana via x402.",
   "wave": "preexisting",
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-21T02:50:23Z",
+  "pushed_at": "2026-10-22T19:33:04Z",
   "tier": "curated"
  },
  {
@@ -3815,13 +3815,13 @@
   "category": "data-registries",
   "license_note": null,
   "license_spdx": "MIT",
-  "stars": 5407,
+  "stars": 5408,
   "description": "A comprehensive, up-to-date collection of information about several thousands (!) of crypto tokens.",
   "wave": "preexisting",
   "topics": [],
   "status": "forked",
   "archived": false,
-  "pushed_at": "2026-10-21T20:51:16Z",
+  "pushed_at": "2026-10-23T04:04:29Z",
   "tier": "curated"
  },
  {
@@ -4014,7 +4014,7 @@
   "category": "l2-rollups",
   "license_note": null,
   "license_spdx": "Apache-2.0",
-  "stars": 4920,
+  "stars": 4918,
   "description": "zkSync: trustless scaling and privacy engine for Ethereum",
   "wave": "extended-2026-10-04",
   "topics": [
