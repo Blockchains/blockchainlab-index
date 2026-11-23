@@ -260,10 +260,10 @@
  },
  "anchor": {
   "status": "ok",
-  "commit": "541295db1958e7809cbb56e08615d2fb9bb7cea1",
-  "files": 1830,
+  "commit": "98846e3bb753a2e5b701d58d2655f76c8f41a01e",
+  "files": 1869,
   "contracts": 18,
-  "secs": 19.7
+  "secs": 21.0
  },
  "lnd": {
   "status": "ok",
@@ -750,10 +750,10 @@
  },
  "program-examples": {
   "status": "ok",
-  "commit": "de090195e4de698e150572c4f886c333323a64a5",
-  "files": 2349,
+  "commit": "b8008ebc18d6523f3d4559f0a034766f13e72ddb",
+  "files": 1333,
   "contracts": 47,
-  "secs": 5.0
+  "secs": 0.8
  },
  "lodestar": {
   "status": "ok",
